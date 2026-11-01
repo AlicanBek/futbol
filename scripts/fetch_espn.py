@@ -117,6 +117,7 @@ def fetch_matches(key: str, slug: str, months: list[str], teams: dict) -> list[d
                 "lg": key,
                 "date": e["date"],
                 "timeKnown": c.get("timeValid") is not False,
+                "venue": (c.get("venue") or {}).get("fullName", ""),
                 "h": home["team"]["id"],
                 "a": away["team"]["id"],
                 "state": st.get("state", "pre"),

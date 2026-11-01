@@ -143,7 +143,7 @@ function viewGS() {
     const live = next.state === "in";
     hero = `<section class="hero"><div class="k">Sıradaki maç · ${c.emoji} ${c.name}</div>
       <div class="teams">${esc(hn)} – ${esc(an)}</div>
-      <div class="meta">${dayLong(next.date)}${ch.tr ? " · " + esc(ch.tr) : ""}</div>
+      <div class="meta">${dayLong(next.date)}${next.venue ? " · 📍 " + esc(next.venue) : ""}${ch.tr ? " · 📺 " + esc(ch.tr) : ""}</div>
       ${next.timeKnown ? `<div class="times"><div><b>${lis(next.date).hm}</b><span>Lizbon</span></div><div><b>${ist(next.date).hm}</b><span>İstanbul</span></div></div>` : `<div class="meta">Saat açıklanmadı</div>`}
       ${live ? `<div class="live">● Maç oynanıyor ${scoreHtml(next)}</div>` : next.timeKnown ? `<div class="countdown" data-t="${next.date}"></div>` : ""}</section>`;
   }
@@ -156,7 +156,7 @@ function viewGS() {
   return `${hero}<div class="stats">${stats}</div>
     <div class="label">Önümüzdeki 2 hafta</div>${soon.map((m) => detailCard(m, GS)).join("") || `<div class="empty">Bu dönemde GS maçı yok</div>`}
     <div class="label">Sonraki maçlar</div>${roughList(later, GS)}
-    ${news ? `<div class="label">Gündem</div><div class="news">${news}</div>` : ""}`;
+    <div class="label">GS gündemi</div>${news ? `<div class="news">${news}</div>` : `<div class="empty">Henüz haber yok. Sakatlık, ceza ve transfer haberleri her gün 09:00'da güncellenir.</div>`}`;
 }
 
 function viewMatches() {
@@ -250,8 +250,8 @@ function tick() {
     let s = Math.max(0, (new Date(el.dataset.t).getTime() - now()) / 1000);
     const d = Math.floor(s / 86400); s -= d * 86400;
     const h = Math.floor(s / 3600); s -= h * 3600;
-    const m = Math.floor(s / 60);
-    el.innerHTML = `<div><b>${d}</b><span>gün</span></div><div><b>${h}</b><span>saat</span></div><div><b>${m}</b><span>dakika</span></div>`;
+    const m = Math.floor(s / 60); s = Math.floor(s - m * 60);
+    el.innerHTML = `<div><b>${d}</b><span>gün</span></div><div><b>${h}</b><span>saat</span></div><div><b>${m}</b><span>dakika</span></div><div><b>${String(s).padStart(2, "0")}</b><span>saniye</span></div>`;
   });
 }
 
@@ -268,7 +268,7 @@ function render() {
   main.querySelectorAll("tr[data-href]").forEach((tr) => tr.onclick = () => (location.hash = tr.dataset.href));
   tick();
   clearInterval(timer);
-  timer = setInterval(tick, 20000);
+  timer = setInterval(tick, 1000);
 }
 
 window.addEventListener("hashchange", () => { render(); window.scrollTo(0, 0); });
