@@ -273,8 +273,13 @@ function render() {
 
 window.addEventListener("hashchange", () => { render(); window.scrollTo(0, 0); });
 
+const get = (u) => fetch(u, { cache: "no-cache" }).then((r) => (r.ok ? r.json() : Promise.reject(r.status)));
+
+function buildAll() {
+  ALL = [...D.matches.map((m) => ({ ...m, dateKnown: true })), ...cupMatches()].sort((x, y) => x.date.localeCompare(y.date));
+}
+
 async function load() {
-  const get = (u) => fetch(u, { cache: "no-cache" }).then((r) => (r.ok ? r.json() : Promise.reject(r.status)));
   try {
     D = await get("data/espn.json");
   } catch (e) {
@@ -284,9 +289,91 @@ async function load() {
   X = await get("data/extras.json").catch(() => ({}));
   for (const [id, t] of Object.entries(D.teams)) if (BIG[t.name]) BIG_IDS[t.name] = id;
   BIG_IDS = Object.fromEntries(Object.keys(BIG).filter((k) => BIG_IDS[k]).map((k) => [k, BIG_IDS[k]]));
-  ALL = [...D.matches.map((m) => ({ ...m, dateKnown: true })), ...cupMatches()].sort((x, y) => x.date.localeCompare(y.date));
+  buildAll();
   render();
 }
 
+// ---- Canlı yenileme (aşağı çekince) ---------------------------------------
+// Günlük dosyayı beklemeden skorları, saatleri ve puan tablolarını doğrudan ESPN'den tazeler.
+
+const ESPN = "https://site.api.espn.com/apis";
+const SLUG = { tsl: "tur.1", ucl: "uefa.champions", uel: "uefa.europa", uecl: "uefa.europa.conf" };
+const ZONES = {
+  "Champions League": "ŞL lig aşaması", "Champions League qualifying": "ŞL eleme", "Europa League qualifying": "AL eleme",
+  "Conference League qualifying": "KL eleme", "Relegated": "Düşme hattı", "Qualifies for round of 16": "Son 16",
+  "Knockout phase playoffs - seeded": "Play-off (seri başı)", "Knockout phase playoffs - unseeded": "Play-off", "Eliminated": "Elenir",
+};
+const ym = (t) => { const d = new Date(t); return `${d.getUTCFullYear()}${String(d.getUTCMonth() + 1).padStart(2, "0")}`; };
+
+function applyStandings(lg, d) {
+  D.leagues[lg].standings = d.children[0].standings.entries.map((e) => {
+    const s = Object.fromEntries(e.stats.map((x) => [x.name, x.displayValue]));
+    const note = e.note || {};
+    return { team: e.team.id, rank: +s.rank, gp: +s.gamesPlayed, w: +s.wins, d: +s.ties, l: +s.losses, gf: +s.pointsFor, ga: +s.pointsAgainst,
+      gd: s.pointDifferential, pts: +s.points, zone: ZONES[note.description] || note.description || "", zoneColor: note.color || "" };
+  }).sort((a, b) => a.rank - b.rank);
+}
+
+function applyEvents(d) {
+  const byId = Object.fromEntries(D.matches.map((m) => [m.id, m]));
+  for (const e of d.events || []) {
+    const m = byId[e.id];
+    if (!m) continue;
+    const c = e.competitions[0], st = c.status.type.state;
+    const side = (ha) => c.competitors.find((t) => t.homeAway === ha);
+    const sc = (t) => (typeof t.score === "object" ? t.score?.displayValue : t.score);
+    Object.assign(m, { date: e.date, timeKnown: c.timeValid !== false, venue: c.venue?.fullName || m.venue, state: st,
+      hs: st === "pre" ? null : sc(side("home")), as: st === "pre" ? null : sc(side("away")) });
+  }
+}
+
+async function liveRefresh() {
+  const months = [...new Set([ym(Date.now() - 3 * 864e5), ym(Date.now()), ym(windowEnd())])];
+  const jobs = [get("data/extras.json").then((x) => (X = x)).catch(() => {})];
+  let ok = 0;
+  for (const [lg, slug] of Object.entries(SLUG)) {
+    jobs.push(get(`${ESPN}/v2/sports/soccer/${slug}/standings`).then((d) => { applyStandings(lg, d); ok++; }).catch(() => {}));
+    for (const mo of months) jobs.push(get(`${ESPN}/site/v2/sports/soccer/${slug}/scoreboard?dates=${mo}&limit=300`).then((d) => { applyEvents(d); ok++; }).catch(() => {}));
+  }
+  await Promise.all(jobs);
+  if (!ok) return false;
+  D.updated = new Date().toISOString().slice(0, 16) + "Z";
+  buildAll();
+  render();
+  return true;
+}
+
+function setupPullToRefresh() {
+  const ptr = document.createElement("div");
+  ptr.className = "ptr";
+  ptr.innerHTML = "<span>↓ Yenilemek için çek</span>";
+  document.body.appendChild(ptr);
+  const label = ptr.firstChild, THRESHOLD = 70;
+  let startY = null, dist = 0, busy = false;
+  const show = (y, text) => { ptr.style.transform = `translateY(${y}px)`; if (text) label.textContent = text; };
+  const hide = () => { ptr.classList.add("anim"); show(-60); setTimeout(() => ptr.classList.remove("anim"), 250); };
+
+  window.addEventListener("touchstart", (e) => { if (!busy && window.scrollY <= 0 && D) { startY = e.touches[0].clientY; dist = 0; } }, { passive: true });
+  window.addEventListener("touchmove", (e) => {
+    if (startY === null) return;
+    const dy = e.touches[0].clientY - startY;
+    if (dy <= 0 || window.scrollY > 0) { dist = 0; show(-60); return; }
+    dist = Math.min(dy * 0.5, 110);
+    show(dist - 50, dist > THRESHOLD ? "↑ Bırak, yenile" : "↓ Yenilemek için çek");
+  }, { passive: true });
+  window.addEventListener("touchend", async () => {
+    if (startY === null) return;
+    startY = null;
+    if (dist <= THRESHOLD) return hide();
+    busy = true;
+    ptr.classList.add("anim");
+    show(16, "Yenileniyor…");
+    const done = await liveRefresh();
+    show(16, done ? "Güncellendi ✓" : "Yenilenemedi, bağlantını kontrol et");
+    setTimeout(() => { hide(); busy = false; }, 1200);
+  });
+}
+
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+setupPullToRefresh();
 load();
