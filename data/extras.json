@@ -1,6 +1,35 @@
 {
-  "updated": "",
-  "channels": {},
+  "updated": "2026-11-01T14:16Z",
+  "channels": {
+    "401888263": { "tr": "beIN SPORTS 1", "pt": "" },
+    "401888262": { "tr": "beIN SPORTS 1", "pt": "" },
+    "401915311": { "tr": "TRT 1", "pt": "" },
+    "401915382": { "tr": "TRT 1", "pt": "" },
+    "401915825": { "tr": "TRT 1", "pt": "" },
+    "401915522": { "tr": "TRT 1", "pt": "" },
+    "401888372": { "tr": "beIN SPORTS", "pt": "" }
+  },
   "cup": [],
-  "gs_news": []
+  "gs_news": [
+    {
+      "category": "Sakatlık",
+      "text": "Victor Osimhen, Konyaspor maçında ilk yarıda kısa süreli sakatlık yaşadı ve maç sonu tribüne sekerek gitti; kulüpten henüz resmi açıklama yapılmadı.",
+      "source_url": "https://www.haberler.com/spor/osimhene-ne-oldu-galatasaraylilari-korkutan-20382538-haberi/"
+    },
+    {
+      "category": "Ceza",
+      "text": "Abdülkerim Bardakcı cezası nedeniyle Konyaspor deplasmanında forma giyemedi, yerine stoperde Singo oynadı.",
+      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-akillar-stuttgart-macinda-okan-buruktan-rotasyon-karari-7690449"
+    },
+    {
+      "category": "Transfer",
+      "text": "Galatasaray'ın ocak dönemi için Köln'den Said El Mala ve Brighton'dan Yasin Ayari'yi takibe aldığı iddia ediliyor.",
+      "source_url": "https://www.takvim.com.tr/spor/galatasaray/2026/10/30/galatasaraydan-yasin-ayari-ve-said-el-mala-hamlesi"
+    },
+    {
+      "category": "Transfer",
+      "text": "Kulübün Rusya pazarında CSKA Moskova'dan Kislyak ve Glebov ile Zenit'ten Nuraly Alip'i izlediği, Sane ve Ugochukwu'nun ise ara dönemde ayrılabileceği konuşuluyor.",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/01/galatasaray-transfere-rotayi-rusyaya-kirdi-3-isim-birden"
+    }
+  ]
 }
