@@ -1,0 +1,40 @@
+name: Veriyi güncelle
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # her gün 05:00 UTC (Lizbon kışın 05:00, yazın 06:00)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: ESPN verisini çek
+        run: python scripts/fetch_espn.py
+
+      - name: Değiştiyse kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/espn.json
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok"
+            exit 0
+          fi
+          git commit -m "Veri güncellemesi"
+          git pull --rebase origin main
+          git push
