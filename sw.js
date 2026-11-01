@@ -1,5 +1,5 @@
 // Uygulama kabuğu önbellekte; veri her açılışta ağdan, ağ yoksa son kayıttan.
-const VERSION = "v2";
+const VERSION = "v3";
 const SHELL = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 
 self.addEventListener("install", (e) => {
@@ -16,7 +16,8 @@ self.addEventListener("fetch", (e) => {
   const networkFirst = url.origin === location.origin && (url.pathname.includes("/data/") || SHELL.some((p) => url.pathname.endsWith(p.replace("./", "/"))));
   if (networkFirst) {
     e.respondWith(
-      fetch(e.request).then((r) => {
+      // no-cache: tarayıcının HTTP önbelleğini atlayıp sunucuya sorar, yeni sürüm hemen gelir
+      fetch(e.request, { cache: "no-cache" }).then((r) => {
         const copy = r.clone();
         caches.open(VERSION).then((c) => c.put(e.request, copy));
         return r;
