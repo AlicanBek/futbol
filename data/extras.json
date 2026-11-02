@@ -1,35 +1,123 @@
 {
-  "updated": "2026-11-02T09:14Z",
+  "updated": "2026-11-02T18:23Z",
   "channels": {
-    "401888263": { "tr": "beIN SPORTS 1", "pt": "" },
-    "401888262": { "tr": "beIN SPORTS 1", "pt": "" },
-    "401915311": { "tr": "TRT 1", "pt": "DAZN" },
-    "401915310": { "tr": "tabii Spor", "pt": "" },
-    "401915386": { "tr": "tabii Spor", "pt": "" },
-    "401915387": { "tr": "tabii Spor", "pt": "" },
-    "401915384": { "tr": "tabii Spor", "pt": "" },
-    "401915307": { "tr": "tabii Spor", "pt": "" },
-    "401915385": { "tr": "tabii Spor", "pt": "" },
-    "401915308": { "tr": "tabii Spor", "pt": "" },
-    "401915309": { "tr": "tabii Spor", "pt": "" },
-    "401915383": { "tr": "tabii Spor", "pt": "" },
-    "401915382": { "tr": "TRT 1", "pt": "DAZN" },
-    "401915304": { "tr": "tabii Spor", "pt": "" },
-    "401915301": { "tr": "tabii Spor", "pt": "" },
-    "401915305": { "tr": "tabii Spor", "pt": "" },
-    "401915303": { "tr": "tabii Spor", "pt": "" },
-    "401915306": { "tr": "tabii Spor", "pt": "" },
-    "401915381": { "tr": "tabii Spor", "pt": "" },
-    "401915302": { "tr": "tabii Spor", "pt": "" },
-    "401915825": { "tr": "TRT 1", "pt": "" },
-    "401915522": { "tr": "TRT 1", "pt": "" },
-    "401888371": { "tr": "beIN SPORTS 1", "pt": "" },
-    "401888372": { "tr": "beIN SPORTS 1", "pt": "" },
-    "401888254": { "tr": "beIN SPORTS 1", "pt": "" },
-    "401888251": { "tr": "beIN SPORTS 1", "pt": "" }
+    "401888263": {
+      "tr": "beIN SPORTS 1",
+      "pt": ""
+    },
+    "401888262": {
+      "tr": "beIN SPORTS 1",
+      "pt": ""
+    },
+    "401915311": {
+      "tr": "TRT 1",
+      "pt": "DAZN"
+    },
+    "401915310": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915386": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915387": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915384": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915307": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915385": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915308": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915309": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915383": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915382": {
+      "tr": "TRT 1",
+      "pt": "DAZN"
+    },
+    "401915304": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915301": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915305": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915303": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915306": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915381": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915302": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915825": {
+      "tr": "TRT 1",
+      "pt": ""
+    },
+    "401915522": {
+      "tr": "TRT 1",
+      "pt": ""
+    },
+    "401888371": {
+      "tr": "beIN SPORTS 1",
+      "pt": ""
+    },
+    "401888372": {
+      "tr": "beIN SPORTS 1",
+      "pt": ""
+    },
+    "401888254": {
+      "tr": "beIN SPORTS 1",
+      "pt": ""
+    },
+    "401888251": {
+      "tr": "beIN SPORTS 1",
+      "pt": ""
+    }
   },
   "cup": [],
   "gs_news": [
+    {
+      "category": "Yönetim",
+      "text": "İkinci Başkan Metin Öztürk, 27 Ekim'deki yönetim kurulu toplantısında yaşananları gerekçe göstererek yönetim kurulundan ve bağlı şirketlerdeki görevlerinden istifa etti.",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/galatasaray-2-baskani-metin-ozturk-istifa-etti-43362372"
+    },
+    {
+      "category": "Yönetim",
+      "text": "Sportif A.Ş. Başkan Vekili Abdullah Kavukcu da yönetimden istifa etti; Dursun Özbek başkanlığındaki yönetim 2 Kasım akşamı 19:00'da olağanüstü toplanıyor, erken seçimin şimdilik gündemde olmadığı yazılıyor.",
+      "source_url": "https://www.sporx.com/futbol/superlig/galatasaray/galatasaray-da-gozler-bu-toplantida-SXHBQ1181433SXQ"
+    },
     {
       "category": "Sakatlık",
       "text": "Galatasaray'da Stuttgart maçı öncesi sakat ya da cezalı oyuncu bulunmuyor, takım tam kadro hazırlanıyor.",
@@ -51,9 +139,9 @@
       "source_url": "https://www.takvim.com.tr/spor/galatasaray/2026/10/30/galatasaraydan-yasin-ayari-ve-said-el-mala-hamlesi"
     },
     {
-      "category": "Transfer",
-      "text": "Vasco da Gama'da kiralık oynayan Carlos Cuesta'nın, satın alma opsiyonu kullanılmazsa ocakta Galatasaray'a dönmesi bekleniyor.",
-      "source_url": "https://www.mynet.com/galatasaray-da-carlos-cuesta-gercegi-ortaya-cikti-525418-myspor"
+      "category": "Kulüp",
+      "text": "Divan Kurulu'nun kasım ayı olağan toplantısı 11 Kasım'da yapılacak, gündem açıklandı.",
+      "source_url": "https://gsdivan.com/11-kasim-2026-divan-toplanti-gundemi/"
     }
   ]
 }
