@@ -1,6 +1,7 @@
 :root {
   --bg: #efede8; --card: #fff; --ink: #1c1c1c; --muted: #888; --line: #ece9e2; --soft: #f6f5f2;
   --gs-red: #a6192e; --gs-yellow: #f6b51e; --dark: #161616;
+  --hero-bg: linear-gradient(160deg, #141414 0%, #161012 60%, #3d0a13 100%);
   --sl: #7a6a3a; --sl-bg: #fdf4dc; --ucl: #3d4a7a; --ucl-bg: #eef1fa;
   --uel: #a15c07; --uel-bg: #fef0d9; --uecl: #1f7a4d; --uecl-bg: #e5f4ec; --cup: #a6192e; --cup-bg: #fde8e8;
 }
@@ -24,16 +25,29 @@ h1 { margin: 6px 4px 0; font-size: 26px; font-weight: 800; }
 .loading { text-align: center; color: var(--muted); padding: 80px 0; }
 
 /* Sıradaki maç */
-.hero { background: var(--dark); color: #fff; border-radius: 18px; padding: 18px 18px 16px; position: relative; overflow: hidden; }
+.hero { background: var(--hero-bg); color: #fff; border-radius: 18px; padding: 18px 18px 16px; position: relative; overflow: hidden; }
 .hero::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 5px; background: linear-gradient(90deg, var(--gs-yellow) 50%, var(--gs-red) 50%); }
 .hero .k { font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gs-yellow); font-weight: 700; }
 .hero .teams { font-size: 23px; font-weight: 800; margin-top: 6px; }
 .hero .meta { color: #bdbdbd; font-size: 14px; margin-top: 6px; }
 .hero .times { display: flex; gap: 16px; margin-top: 10px; }
 .hero .times b { font-size: 20px; } .hero .times span { color: #9a9a9a; font-size: 12px; margin-left: 4px; }
-.countdown { display: flex; gap: 8px; margin-top: 14px; }
-.countdown div { background: #262626; border-radius: 10px; padding: 8px 0; flex: 1; text-align: center; }
-.countdown b { display: block; font-size: 20px; } .countdown span { font-size: 11px; color: #9a9a9a; }
+.countdown { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; padding: 7px 12px; border-radius: 8px; background: rgba(255,255,255,.08); }
+.countdown .cl { font-size: 10px; font-weight: 700; letter-spacing: .4px; text-transform: uppercase; color: rgba(255,255,255,.6); }
+.countdown b { font-size: 15px; font-weight: 800; font-variant-numeric: tabular-nums; letter-spacing: .3px; }
+/* Canlı maç kartı */
+.hero .k .clock { float: right; letter-spacing: 0; text-transform: none; color: #fff; background: rgba(255,255,255,.12); border-radius: 999px; padding: 1px 8px; font-size: 12px; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #ff4d4f; margin-right: 6px; vertical-align: 1px; animation: pulse 1.4s infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+.board { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px; margin-top: 14px; }
+.board .side { display: flex; flex-direction: column; align-items: center; gap: 6px; font-size: 14px; font-weight: 700; text-align: center; min-width: 0; }
+.board .side span { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.board .side img { width: 40px; height: 40px; object-fit: contain; }
+.board .sc { font-size: 38px; font-weight: 800; font-variant-numeric: tabular-nums; }
+.board .sc i { font-style: normal; color: rgba(255,255,255,.4); margin: 0 8px; }
+.evs { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,.12); font-size: 12px; color: #ddd; }
+.evs .ev { margin-bottom: 3px; } .evs > div:last-child { text-align: right; }
+.evs b { color: #fff; }
 .hero .live { margin-top: 12px; display: inline-block; background: var(--gs-red); border-radius: 999px; padding: 4px 10px; font-size: 13px; font-weight: 700; }
 
 /* Durum kutuları */
@@ -43,6 +57,7 @@ h1 { margin: 6px 4px 0; font-size: 26px; font-weight: 800; }
 .stat .v { font-size: 22px; font-weight: 800; margin-top: 2px; }
 .stat .v small { font-size: 14px; font-weight: 600; color: #555; }
 .stat .g { font-size: 12px; margin-top: 2px; }
+.stat.dark { color: #fff; background: var(--hero-bg); } .stat.dark .v small { color: rgba(255,255,255,.7); }
 
 /* Detaylı maç kartı */
 .card { background: var(--card); border-radius: 16px; padding: 14px 16px; margin-bottom: 10px; }
@@ -59,7 +74,7 @@ h1 { margin: 6px 4px 0; font-size: 26px; font-weight: 800; }
 .tz div + div { border-left: 1px solid var(--line); }
 .tz span { display: block; font-size: 9px; font-weight: 700; letter-spacing: .3px; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
 .tz b { display: block; font-size: 14px; font-weight: 800; margin-top: 0; font-variant-numeric: tabular-nums; }
-.hero .tz { background: #262626; margin-top: 10px; } .hero .tz div + div { border-left-color: #3a3a3a; }
+.hero .tz { background: rgba(255,255,255,.08); margin-top: 10px; } .hero .tz div + div { border-left-color: rgba(255,255,255,.12); }
 .hero .tz span { color: #9a9a9a; } .hero .tz b { font-size: 16px; }
 .slot { padding: 6px 0 2px; } .slot .tz { margin-top: 0; } .slot .tba { margin: 0 6px; }
 .tba { display: inline-block; background: var(--uel-bg); color: var(--uel); font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 999px; margin-top: 6px; }
@@ -79,7 +94,9 @@ h1 { margin: 6px 4px 0; font-size: 26px; font-weight: 800; }
 .row .opp small { display: block; font-size: 12px; font-weight: 500; color: var(--muted); }
 
 /* Açılır kapanır bölüm: kapalıyken beyaz hap */
-.fold > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 8px; margin: 22px 0 10px;
+.fold { margin-top: 8px; }
+.card + .fold, .empty + .fold { margin-top: 14px; }
+.fold > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 8px; margin: 0;
   background: var(--card); border-radius: 999px; padding: 12px 18px; font-size: 15px; font-weight: 700; color: var(--ink); }
 .fold > summary::-webkit-details-marker { display: none; }
 .fold > summary span { font-size: 12px; font-weight: 600; background: var(--soft); color: #555; border-radius: 999px; padding: 2px 9px; }
@@ -87,7 +104,7 @@ h1 { margin: 6px 4px 0; font-size: 26px; font-weight: 800; }
 .fold[open] > summary::after { transform: rotate(-90deg); }
 /* Açıkken başlık ve liste tek kart olur */
 .fold[open] > summary { border-radius: 16px 16px 0 0; margin-bottom: 0; border-bottom: 1px solid var(--line); }
-.fold[open] > .list, .fold[open] > .empty { border-radius: 0 0 16px 16px; }
+.fold[open] > .list, .fold[open] > .empty, .fold[open] > .news, .fold[open] > .tcard { border-radius: 0 0 16px 16px; margin-top: 0; }
 
 /* Oyuncu istatistikleri */
 .pt { table-layout: fixed; }

@@ -9,10 +9,10 @@ const WINDOW_DAYS = 14;
 const GS = "432";
 
 const COMP = {
-  tsl:  { emoji: "🇹🇷", name: "Süper Lig", abbr: "TSL", color: "var(--sl)", bg: "var(--sl-bg)" },
-  ucl:  { emoji: "⭐", name: "Şampiyonlar Ligi", abbr: "ŞL", color: "var(--ucl)", bg: "var(--ucl-bg)" },
-  uel:  { emoji: "🟠", name: "Avrupa Ligi", abbr: "AL", color: "var(--uel)", bg: "var(--uel-bg)" },
-  uecl: { emoji: "🟢", name: "Konferans Ligi", abbr: "KL", color: "var(--uecl)", bg: "var(--uecl-bg)" },
+  tsl:  { emoji: "🇹🇷", name: "Süper Lig", abbr: "TSL", color: "var(--sl)", bg: "var(--sl-bg)", dark: ["#2a2316", "#f2cf7a"] },
+  ucl:  { emoji: "⭐", name: "Şampiyonlar Ligi", abbr: "ŞL", color: "var(--ucl)", bg: "var(--ucl-bg)", dark: ["#0f1c46", "#b8c6f5"] },
+  uel:  { emoji: "🟠", name: "Avrupa Ligi", abbr: "AL", color: "var(--uel)", bg: "var(--uel-bg)", dark: ["#3a2309", "#f5bd72"] },
+  uecl: { emoji: "🟢", name: "Konferans Ligi", abbr: "KL", color: "var(--uecl)", bg: "var(--uecl-bg)", dark: ["#0f3325", "#93dcb6"] },
   cup:  { emoji: "🏆", name: "Türkiye Kupası", abbr: "Kupa", color: "var(--cup)", bg: "var(--cup-bg)" },
 };
 const TABLE_ORDER = ["tsl", "ucl", "uel", "uecl"];
@@ -147,32 +147,37 @@ function standingOf(lg, id) { return (D.leagues[lg]?.standings || []).find((r) =
 function viewGS() {
   const ms = teamMatches(GS).filter(upcoming);
   const next = ms.find((m) => m.dateKnown !== false);
+  const hm = heroMatch();
   let hero = `<section class="hero"><div class="k">Sıradaki maç</div><div class="teams">Sezonda maç kalmadı</div></section>`;
-  if (next) {
+  if (hm && (hm.state !== "pre" || LIVE[hm.id])) hero = liveCard(hm);
+  else if (next) {
     const c = COMP[next.lg], [hn, an] = names(next), ch = chan(next);
-    const live = next.state === "in";
     hero = `<section class="hero"><div class="k">Sıradaki maç · ${c.emoji} ${c.name}</div>
       <div class="teams">${esc(hn)} – ${esc(an)}</div>
       <div class="meta">${dayLong(next.date)}${next.venue ? " · 📍 " + esc(next.venue) : ""}${ch.tr ? " · 📺 " + esc(ch.tr) : ""}</div>
       ${next.timeKnown ? times3(next.date) : `<div class="meta">Saat açıklanmadı</div>`}
-      ${live ? `<div class="live">● Maç oynanıyor ${scoreHtml(next)}</div>` : next.timeKnown ? `<div class="countdown" data-t="${next.date}"></div>` : ""}</section>`;
+      ${next.timeKnown ? `<div class="countdown" data-t="${next.date}"></div>` : ""}</section>`;
   }
   const stats = TABLE_ORDER.map((lg) => [lg, standingOf(lg, GS)]).filter(([, r]) => r).map(([lg, r]) =>
-    `<a class="stat" style="background:${COMP[lg].bg}" href="#tablolar/${lg}"><div class="c" style="color:${COMP[lg].color}">${COMP[lg].emoji} ${COMP[lg].name}</div>
-     <div class="v">${r.rank}. <small>· ${r.pts} puan</small></div><div class="g" style="color:${COMP[lg].color}">Tablo →</div></a>`).join("");
+    `<a class="stat dark" href="#tablolar/${lg}"><div class="c" style="color:${COMP[lg].dark[1]}">${COMP[lg].emoji} ${COMP[lg].name}</div>
+     <div class="v">${r.rank}. <small>· ${r.pts} puan</small></div><div class="g" style="color:${COMP[lg].dark[1]}">Tablo →</div></a>`).join("");
   const soon = ms.filter(inWindow), later = ms.filter((m) => !inWindow(m) && m.dateKnown !== false);
   const news = (X.gs_news || []).map((n) => { const [bg, fg] = NEWS_STYLE[n.category] || ["#eee", "#555"];
     return `<div class="item"><span class="tag" style="background:${bg};color:${fg}">${esc(n.category)}</span><span>${esc(n.text)}</span></div>`; }).join("");
   return `${hero}<div class="stats">${stats}</div>
     <div class="label">Önümüzdeki 2 hafta</div>${soon.map((m) => detailCard(m, GS)).join("") || `<div class="empty">Bu dönemde GS maçı yok</div>`}
-    <details class="fold" data-key="gs-later"${foldOpen("gs-later") ? " open" : ""}><summary>Sonraki maçlar <span>${later.length} maç</span></summary>${roughList(later, GS)}</details>
-    <div class="label">GS gündemi</div>${news ? `<div class="news">${news}</div>` : `<div class="empty">Henüz haber yok. Sakatlık, ceza, transfer, yönetim ve kulüp haberleri her gün 09:00'da güncellenir.</div>`}
+    ${fold("gs-later", "Sonraki maçlar", `${later.length} maç`, roughList(later, GS))}
+    ${fold("gs-news", "GS gündemi", `${(X.gs_news || []).length} haber`, news ? `<div class="news">${news}</div>` : `<div class="empty">Henüz haber yok. Sakatlık, ceza, transfer, yönetim ve kulüp haberleri her gün 09:00'da güncellenir.</div>`)}
     ${playersTable()}`;
 }
 
-// Açılır bölümlerin açık/kapalı hali telefonda hatırlanır
-function foldOpen(key) { try { return localStorage.getItem("fold:" + key) === "1"; } catch { return false; } }
-function foldSave(key, open) { try { localStorage.setItem("fold:" + key, open ? "1" : "0"); } catch {} }
+// Açılır bölümler her açılışta kapalı başlar; sekmeler arası geçişte açık/kapalı hali korunur
+const FOLDS = {};
+const foldOpen = (key) => !!FOLDS[key];
+const foldSave = (key, open) => { FOLDS[key] = open; };
+// Kapalıyken beyaz hap, açıkken başlık ve içerik tek kart
+const fold = (key, title, count, body) =>
+  `<details class="fold" data-key="${key}"${foldOpen(key) ? " open" : ""}><summary>${title} <span>${count}</span></summary>${body}</details>`;
 
 const POS = { G: "Kaleci", D: "Defans", M: "Orta saha", F: "Forvet" };
 const SHOW_PLAYERS = 10;
@@ -192,9 +197,9 @@ function playersTable() {
   const cols = `<colgroup><col><col class="cn"><col class="cn"><col class="cn"><col class="cn"><col class="cn"></colgroup>`;
   const more = ps.length > SHOW_PLAYERS
     ? `<details class="more"><summary>Diğer ${ps.length - SHOW_PLAYERS} oyuncu</summary><table class="pt">${cols}<tbody>${ps.slice(SHOW_PLAYERS).map(row).join("")}</tbody></table></details>` : "";
-  return `<div class="label">Oyuncu istatistikleri</div>
-    <div class="tcard"><table class="pt">${cols}${head}<tbody>${ps.slice(0, SHOW_PLAYERS).map(row).join("")}</tbody></table>${more}
-    <div class="legend">Lig + ${COMP[euKey].name}. Türkiye Kupası dahil değil.</div></div>`;
+  return fold("gs-players", "Oyuncu istatistikleri", `${ps.length} oyuncu`,
+    `<div class="tcard"><table class="pt">${cols}${head}<tbody>${ps.slice(0, SHOW_PLAYERS).map(row).join("")}</tbody></table>${more}
+    <div class="legend">Lig + ${COMP[euKey].name}. Türkiye Kupası dahil değil.</div></div>`);
 }
 
 function viewMatches() {
@@ -230,7 +235,7 @@ function viewMatches() {
     const badge = /TRT/i.test(ch) ? `<span class="trt">${esc(ch)}</span>` : ch ? `<span class="tb">${esc(ch)}</span>` : "";
     list += `<div class="u${gs ? " gs" : ""}${tk ? " tk" : ""}"><div class="um"><span class="hn">${nm(m.h)}</span>${logo(m.h)}<span class="dash">${m.state !== "pre" && m.hs != null ? `${esc(m.hs)}-${esc(m.as)}` : "–"}</span>${logo(m.a)}<span class="an">${nm(m.a)}</span></div><div class="uc">${badge}</div></div>`;
   }
-  return `<h1>Maçlar</h1><div class="sub">${range}</div>
+  return `<h1>Diğer takımlar</h1><div class="sub">${range}</div>
     <div class="label">Türk takımları</div>${cards}
     <div class="label">⭐ Şampiyonlar Ligi</div>
     ${list ? `<div class="ucl">${list}</div>` : `<div class="empty">Bu dönemde ŞL maçı yok</div>`}`;
@@ -292,8 +297,65 @@ function tick() {
     const d = Math.floor(s / 86400); s -= d * 86400;
     const h = Math.floor(s / 3600); s -= h * 3600;
     const m = Math.floor(s / 60); s = Math.floor(s - m * 60);
-    el.innerHTML = `<div><b>${d}</b><span>gün</span></div><div><b>${h}</b><span>saat</span></div><div><b>${m}</b><span>dakika</span></div><div><b>${String(s).padStart(2, "0")}</b><span>saniye</span></div>`;
+    const two = (n) => String(n).padStart(2, "0");
+    el.innerHTML = `<span class="cl">Maça kalan</span><b>${d ? `${d} gün ` : ""}${two(h)}:${two(m)}:${two(s)}</b>`;
   });
+}
+
+// ---- Canlı maç kartı -------------------------------------------------------
+// GS maçı başladığında en üstteki kart canlı skora döner; maç bitince 2 saat "Maç sonu" olarak kalır.
+
+const LIVE = {};  // maç id -> { clock, goals: [{ min, name, side, kind }] }
+const KICKOFF_LEAD = 60e3, AFTER_FINAL = 4 * 36e5;
+
+function heroMatch() {
+  const ms = teamMatches(GS).filter((m) => m.lg !== "cup" && m.timeKnown);
+  const t = now();
+  return ms.find((m) => m.state === "in")
+    || ms.find((m) => m.state === "pre" && new Date(m.date).getTime() - KICKOFF_LEAD <= t && t - new Date(m.date).getTime() < AFTER_FINAL)
+    || ms.find((m) => m.state === "post" && t - new Date(m.date).getTime() < AFTER_FINAL);
+}
+
+async function pollLive() {
+  if (!D || document.visibilityState !== "visible") return;
+  const m = heroMatch();
+  if (!m || (m.state === "post" && LIVE[m.id]?.final)) return;
+  try {
+    const d = await get(`${ESPN}/site/v2/sports/soccer/${SLUG[m.lg]}/summary?event=${m.id}`);
+    const c = d.header.competitions[0], st = c.status;
+    const side = (ha) => c.competitors.find((x) => x.homeAway === ha);
+    const homeId = side("home").team.id;
+    const goals = (d.keyEvents || []).filter((e) => e.scoringPlay || /red-card/.test(e.type?.type || "")).map((e) => ({
+      min: e.clock?.displayValue || "",
+      name: e.participants?.[0]?.athlete?.displayName || "",
+      side: e.team?.id === homeId ? "h" : "a",
+      kind: e.scoringPlay ? (/own/i.test(e.type?.type || "") ? "og" : "goal") : "red",
+    }));
+    const state = st.type.state;
+    const clock = state === "in" ? (st.type.shortDetail === "HT" ? "Devre arası" : st.displayClock || st.type.shortDetail) : "";
+    for (const x of [m, D.matches.find((y) => y.id === m.id)]) if (x) Object.assign(x, { state, hs: side("home").score, as: side("away").score });
+    const prev = JSON.stringify(LIVE[m.id] || {});
+    LIVE[m.id] = { clock, goals, final: state === "post" };
+    if (JSON.stringify(LIVE[m.id]) !== prev && (location.hash || "#gs").startsWith("#gs")) render();
+  } catch (e) { /* bağlantı yoksa bir sonraki denemede */ }
+}
+
+function liveCard(m) {
+  const c = COMP[m.lg], L = LIVE[m.id] || {}, ch = chan(m);
+  const live = m.state === "in" || (m.state === "pre" && !L.final);
+  const status = m.state === "post" ? "Maç sonu" : (L.clock || "Başlıyor");
+  const ev = (e) => `<div class="ev ${e.side}">${e.kind === "red" ? "🟥" : "⚽"} <b>${esc(e.min)}</b> ${esc(e.name)}${e.kind === "og" ? " (k.k.)" : ""}</div>`;
+  const evs = L.goals || [];
+  return `<section class="hero">
+    <div class="k">${live ? `<span class="dot"></span>Canlı` : "Son maç"} · ${c.emoji} ${c.name}<span class="clock">${esc(status)}</span></div>
+    <div class="board">
+      <div class="side">${logo(m.h)}<span>${esc(tshort(m.h))}</span></div>
+      <div class="sc">${esc(m.hs ?? 0)}<i>–</i>${esc(m.as ?? 0)}</div>
+      <div class="side">${logo(m.a)}<span>${esc(tshort(m.a))}</span></div>
+    </div>
+    ${evs.length ? `<div class="evs"><div>${evs.filter((e) => e.side === "h").map(ev).join("")}</div><div>${evs.filter((e) => e.side === "a").map(ev).join("")}</div></div>` : ""}
+    <div class="meta">${m.venue ? "📍 " + esc(m.venue) : ""}${ch.tr ? `${m.venue ? " · " : ""}📺 ${esc(ch.tr)}` : ""}</div>
+  </section>`;
 }
 
 function render() {
@@ -333,6 +395,7 @@ async function load() {
   BIG_IDS = Object.fromEntries(Object.keys(BIG).filter((k) => BIG_IDS[k]).map((k) => [k, BIG_IDS[k]]));
   buildAll();
   render();
+  pollLive();
 }
 
 // ---- Canlı yenileme (aşağı çekince) ---------------------------------------
@@ -418,4 +481,5 @@ function setupPullToRefresh() {
 
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
 setupPullToRefresh();
+setInterval(pollLive, 30000);
 load();
