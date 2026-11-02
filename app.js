@@ -4,6 +4,7 @@
 
 const LIS = "Europe/Lisbon";
 const IST = "Europe/Istanbul";
+const CPH = "Europe/Copenhagen";  // Prag ile aynı saat; Londra da Lizbon ile aynı
 const WINDOW_DAYS = 14;
 const GS = "432";
 
@@ -28,7 +29,7 @@ const TR = {
   "Goztepe": "Göztepe", "Erzurum BB": "Erzurumspor", "Istanbul Basaksehir": "Başakşehir",
   "Caykur Rizespor": "Çaykur Rizespor", "Genclerbirligi": "Gençlerbirliği", "Eyupspor": "Eyüpspor",
   "VfB Stuttgart": "Stuttgart", "Feyenoord Rotterdam": "Feyenoord", "Internazionale": "Inter",
-  "Bayern Munich": "Bayern", "AEK Athens": "AEK Atina", "Slavia Prague": "Slavia Prag",
+  "Bayern Munich": "Bayern", "Club Brugge": "Brugge", "AEK Athens": "AEK Atina", "Slavia Prague": "Slavia Prag",
 };
 // Büyük üçlü: kulüp rengi ve şerit
 const BIG = {
@@ -65,6 +66,9 @@ function parts(iso, tz) {
 }
 const lis = (iso) => parts(iso, LIS);
 const ist = (iso) => parts(iso, IST);
+const cph = (iso) => parts(iso, CPH);
+// Üç saat dilimi yan yana: Lizbon/Londra, Kopenhag/Prag, İstanbul
+const times3 = (iso) => `<div class="t3"><div><b>${lis(iso).hm}</b><span>Lizbon/Londra</span></div><div><b>${cph(iso).hm}</b><span>Kopenhag/Prag</span></div><div><b>${ist(iso).hm}</b><span>İstanbul</span></div></div>`;
 const DAYS_SHORT = ["Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"];
 const dayShort = (iso) => { const p = lis(iso); return `${DAYS_SHORT[p.wd]} ${p.d} ${MONTHS[p.mo - 1].slice(0, 3)}`; };
 const dayLong = (iso) => { const p = lis(iso); return `${DAYS[p.wd]} ${p.d} ${MONTHS[p.mo - 1]}`; };
@@ -86,7 +90,7 @@ function chanHtml(m) {
 function names(m) { return m.lg === "cup" ? [m.home, m.away] : [tname(m.h), tname(m.a)]; }
 function timesHtml(m) {
   if (!m.timeKnown) return `<div class="tba">${m.dateKnown === false ? "Gün ve saat açıklanmadı" : "Saat açıklanmadı"}</div>`;
-  return `<div class="times2"><div><b>${lis(m.date).hm}</b><span>Lizbon</span></div><div><b>${ist(m.date).hm}</b><span>İstanbul</span></div></div>`;
+  return times3(m.date);
 }
 function scoreHtml(m) { return m.state !== "pre" && m.hs != null ? `<span class="score">${esc(m.hs)}-${esc(m.as)}</span>` : ""; }
 
@@ -149,7 +153,7 @@ function viewGS() {
     hero = `<section class="hero"><div class="k">Sıradaki maç · ${c.emoji} ${c.name}</div>
       <div class="teams">${esc(hn)} – ${esc(an)}</div>
       <div class="meta">${dayLong(next.date)}${next.venue ? " · 📍 " + esc(next.venue) : ""}${ch.tr ? " · 📺 " + esc(ch.tr) : ""}</div>
-      ${next.timeKnown ? `<div class="times"><div><b>${lis(next.date).hm}</b><span>Lizbon</span></div><div><b>${ist(next.date).hm}</b><span>İstanbul</span></div></div>` : `<div class="meta">Saat açıklanmadı</div>`}
+      ${next.timeKnown ? times3(next.date) : `<div class="meta">Saat açıklanmadı</div>`}
       ${live ? `<div class="live">● Maç oynanıyor ${scoreHtml(next)}</div>` : next.timeKnown ? `<div class="countdown" data-t="${next.date}"></div>` : ""}</section>`;
   }
   const stats = TABLE_ORDER.map((lg) => [lg, standingOf(lg, GS)]).filter(([, r]) => r).map(([lg, r]) =>
@@ -200,7 +204,7 @@ function viewMatches() {
     const rows = ms.map((m) => {
       const c = COMP[m.lg], [hn, an] = names(m), ch = chanHtml(m);
       const day = m.dateKnown === false ? esc(m.note || "Tarih belli değil") : dayShort(m.date);
-      const when = m.timeKnown ? `<div class="mx"><b>${lis(m.date).hm}</b> Lizbon &nbsp; <b>${ist(m.date).hm}</b> İstanbul</div>` : `<div class="tba">${m.dateKnown === false ? "Gün ve saat açıklanmadı" : "Saat açıklanmadı"}</div>`;
+      const when = m.timeKnown ? times3(m.date) : `<div class="tba">${m.dateKnown === false ? "Gün ve saat açıklanmadı" : "Saat açıklanmadı"}</div>`;
       return `<div class="m"><div class="mt">${day} · <span style="color:${c.color}">${c.emoji} ${c.name} ${esc(weekLabel(m, id))}</span> · ${m.h === id ? "🏠" : "✈️"}</div>
         <div class="mn">${m.h ? logo(m.h) : ""}${esc(hn)} – ${esc(an)}${m.a ? logo(m.a) : ""}${scoreHtml(m)}</div>${when}${ch ? `<div class="mf">${ch}</div>` : ""}</div>`;
     }).join("") || `<div class="m mt">Bu dönemde maçı yok</div>`;
@@ -219,12 +223,12 @@ function viewMatches() {
       const col = BIG[team(id).name]?.color || team(id).color; return col ? `<span style="color:${col}">${n}</span>` : n; };
     const ch = chan(m).tr || "";
     const badge = /TRT/i.test(ch) ? `<span class="trt">${esc(ch)}</span>` : ch ? `<span class="tb">${esc(ch)}</span>` : "";
-    list += `<div class="u${gs ? " gs" : ""}${tk ? " tk" : ""}"><div class="ut">${m.timeKnown ? `<b>${lis(m.date).hm}</b><span>${ist(m.date).hm}</span>` : `<span>Saat yok</span>`}</div>
+    list += `<div class="u${gs ? " gs" : ""}${tk ? " tk" : ""}"><div class="ut">${m.timeKnown ? `<b>${lis(m.date).hm}</b><span>${cph(m.date).hm}</span><span>${ist(m.date).hm}</span>` : `<span>Saat yok</span>`}</div>
       <div class="um"><span class="hn">${nm(m.h)}</span>${logo(m.h)}<span class="dash">${m.state !== "pre" && m.hs != null ? `${esc(m.hs)}-${esc(m.as)}` : "–"}</span>${logo(m.a)}<span class="an">${nm(m.a)}</span></div><div class="uc">${badge}</div></div>`;
   }
-  return `<h1>Maçlar</h1><div class="sub">${range} · saatler Lizbon ve İstanbul</div>
+  return `<h1>Maçlar</h1><div class="sub">${range}</div>
     <div class="label">Türk takımları</div>${cards}
-    <div class="label">⭐ Şampiyonlar Ligi</div><div class="sub" style="margin:-4px 4px 8px">Saatler Lizbon, altında gri olan İstanbul</div>
+    <div class="label">⭐ Şampiyonlar Ligi</div><div class="sub" style="margin:-4px 4px 8px">Saatler üstten alta: Lizbon/Londra, Kopenhag/Prag, İstanbul</div>
     ${list ? `<div class="ucl">${list}</div>` : `<div class="empty">Bu dönemde ŞL maçı yok</div>`}`;
 }
 
