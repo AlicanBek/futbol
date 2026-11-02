@@ -1,20 +1,39 @@
 {
-  "updated": "2026-11-01T14:16Z",
+  "updated": "2026-11-02T09:14Z",
   "channels": {
     "401888263": { "tr": "beIN SPORTS 1", "pt": "" },
     "401888262": { "tr": "beIN SPORTS 1", "pt": "" },
-    "401915311": { "tr": "TRT 1", "pt": "" },
-    "401915382": { "tr": "TRT 1", "pt": "" },
+    "401915311": { "tr": "TRT 1", "pt": "DAZN" },
+    "401915310": { "tr": "tabii Spor", "pt": "" },
+    "401915386": { "tr": "tabii Spor", "pt": "" },
+    "401915387": { "tr": "tabii Spor", "pt": "" },
+    "401915384": { "tr": "tabii Spor", "pt": "" },
+    "401915307": { "tr": "tabii Spor", "pt": "" },
+    "401915385": { "tr": "tabii Spor", "pt": "" },
+    "401915308": { "tr": "tabii Spor", "pt": "" },
+    "401915309": { "tr": "tabii Spor", "pt": "" },
+    "401915383": { "tr": "tabii Spor", "pt": "" },
+    "401915382": { "tr": "TRT 1", "pt": "DAZN" },
+    "401915304": { "tr": "tabii Spor", "pt": "" },
+    "401915301": { "tr": "tabii Spor", "pt": "" },
+    "401915305": { "tr": "tabii Spor", "pt": "" },
+    "401915303": { "tr": "tabii Spor", "pt": "" },
+    "401915306": { "tr": "tabii Spor", "pt": "" },
+    "401915381": { "tr": "tabii Spor", "pt": "" },
+    "401915302": { "tr": "tabii Spor", "pt": "" },
     "401915825": { "tr": "TRT 1", "pt": "" },
     "401915522": { "tr": "TRT 1", "pt": "" },
-    "401888372": { "tr": "beIN SPORTS", "pt": "" }
+    "401888371": { "tr": "beIN SPORTS 1", "pt": "" },
+    "401888372": { "tr": "beIN SPORTS 1", "pt": "" },
+    "401888254": { "tr": "beIN SPORTS 1", "pt": "" },
+    "401888251": { "tr": "beIN SPORTS 1", "pt": "" }
   },
   "cup": [],
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "Victor Osimhen, Konyaspor maçında ilk yarıda kısa süreli sakatlık yaşadı ve maç sonu tribüne sekerek gitti; kulüpten henüz resmi açıklama yapılmadı.",
-      "source_url": "https://www.haberler.com/spor/osimhene-ne-oldu-galatasaraylilari-korkutan-20382538-haberi/"
+      "text": "Galatasaray'da Stuttgart maçı öncesi sakat ya da cezalı oyuncu bulunmuyor, takım tam kadro hazırlanıyor.",
+      "source_url": "https://www.aksam.com.tr/spor/galatasaray-stuttgarti-agirlayacak-aslanda-eksik-yok/haber-1711089"
     },
     {
       "category": "Ceza",
@@ -23,13 +42,18 @@
     },
     {
       "category": "Transfer",
+      "text": "Kulübün Rusya pazarında CSKA Moskova'dan Kislyak ve Glebov ile Zenit'ten Nuraly Alip'i izlediği, Sane ve Ugochukwu'nun ise ara dönemde ayrılabileceği konuşuluyor.",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/01/galatasaray-transfere-rotayi-rusyaya-kirdi-3-isim-birden"
+    },
+    {
+      "category": "Transfer",
       "text": "Galatasaray'ın ocak dönemi için Köln'den Said El Mala ve Brighton'dan Yasin Ayari'yi takibe aldığı iddia ediliyor.",
       "source_url": "https://www.takvim.com.tr/spor/galatasaray/2026/10/30/galatasaraydan-yasin-ayari-ve-said-el-mala-hamlesi"
     },
     {
       "category": "Transfer",
-      "text": "Kulübün Rusya pazarında CSKA Moskova'dan Kislyak ve Glebov ile Zenit'ten Nuraly Alip'i izlediği, Sane ve Ugochukwu'nun ise ara dönemde ayrılabileceği konuşuluyor.",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/01/galatasaray-transfere-rotayi-rusyaya-kirdi-3-isim-birden"
+      "text": "Vasco da Gama'da kiralık oynayan Carlos Cuesta'nın, satın alma opsiyonu kullanılmazsa ocakta Galatasaray'a dönmesi bekleniyor.",
+      "source_url": "https://www.mynet.com/galatasaray-da-carlos-cuesta-gercegi-ortaya-cikti-525418-myspor"
     }
   ]
 }
