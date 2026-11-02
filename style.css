@@ -85,6 +85,9 @@ h1 { margin: 6px 4px 0; font-size: 26px; font-weight: 800; }
 .fold > summary span { font-size: 12px; font-weight: 600; background: var(--soft); color: #555; border-radius: 999px; padding: 2px 9px; }
 .fold > summary::after { content: "›"; margin-left: auto; font-size: 22px; line-height: 1; color: var(--muted); transform: rotate(90deg); transition: transform .2s; }
 .fold[open] > summary::after { transform: rotate(-90deg); }
+/* Açıkken başlık ve liste tek kart olur */
+.fold[open] > summary { border-radius: 16px 16px 0 0; margin-bottom: 0; border-bottom: 1px solid var(--line); }
+.fold[open] > .list, .fold[open] > .empty { border-radius: 0 0 16px 16px; }
 
 /* Oyuncu istatistikleri */
 .pt { table-layout: fixed; }
