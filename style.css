@@ -78,12 +78,12 @@ h1 { margin: 6px 4px 0; font-size: 26px; font-weight: 800; }
 
 .row .opp small { display: block; font-size: 12px; font-weight: 500; color: var(--muted); }
 
-/* Açılır kapanır bölüm */
-.fold > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 8px;
-  font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 22px 4px 8px; }
+/* Açılır kapanır bölüm: kapalıyken beyaz hap */
+.fold > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 8px; margin: 22px 0 10px;
+  background: var(--card); border-radius: 999px; padding: 12px 18px; font-size: 15px; font-weight: 700; color: var(--ink); }
 .fold > summary::-webkit-details-marker { display: none; }
-.fold > summary span { letter-spacing: 0; text-transform: none; font-weight: 600; background: #e2dfd7; color: #555; border-radius: 999px; padding: 2px 8px; }
-.fold > summary::after { content: "›"; margin-left: auto; font-size: 20px; line-height: 1; transform: rotate(90deg); transition: transform .2s; }
+.fold > summary span { font-size: 12px; font-weight: 600; background: var(--soft); color: #555; border-radius: 999px; padding: 2px 9px; }
+.fold > summary::after { content: "›"; margin-left: auto; font-size: 22px; line-height: 1; color: var(--muted); transform: rotate(90deg); transition: transform .2s; }
 .fold[open] > summary::after { transform: rotate(-90deg); }
 
 /* Oyuncu istatistikleri */
