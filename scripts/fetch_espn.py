@@ -139,6 +139,34 @@ def fetch_matches(key: str, slug: str, months: list[str], teams: dict) -> list[d
     return out
 
 
+GS = "432"
+PLAYER_STATS = {"appearances": "apps", "totalGoals": "goals", "goalAssists": "ast", "yellowCards": "yc", "redCards": "rc"}
+
+
+def fetch_players(team_id: str, leagues: dict) -> list[dict]:
+    """Takımın oyuncu istatistikleri, oynadığı her turnuva için ayrı (ör. tsl, ucl)."""
+    players: dict = {}
+    for key, slug in LEAGUES.items():
+        if not any(r["team"] == team_id for r in leagues[key]["standings"]):
+            continue
+        d = get(f"{BASE}/site/v2/sports/soccer/{slug}/teams/{team_id}/roster")
+        for a in d.get("athletes", []):
+            p = players.setdefault(a["id"], {
+                "id": a["id"],
+                "name": a.get("shortName") or a["displayName"],
+                "pos": (a.get("position") or {}).get("abbreviation", ""),
+                "num": a.get("jersey", ""),
+            })
+            raw = {}
+            for c in ((a.get("statistics") or {}).get("splits") or {}).get("categories", []):
+                for s in c.get("stats", []):
+                    raw[s["name"]] = s.get("value")
+            if raw:
+                p[key] = {short: int(raw.get(name) or 0) for name, short in PLAYER_STATS.items()}
+        time.sleep(0.3)
+    return list(players.values())
+
+
 def main() -> None:
     today = datetime.now(timezone.utc).date()
     months = season_months(today)
@@ -153,6 +181,7 @@ def main() -> None:
         "leagues": leagues,
         "teams": teams,
         "matches": sorted(matches, key=lambda m: m["date"]),
+        "players": fetch_players(GS, leagues),
     }
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

@@ -127,7 +127,9 @@ function roughList(ms, id) {
     if (mo !== month) { month = mo; out += `<div class="month">${mo}</div>`; }
     const opp = m.h === id ? m.a : m.h, c = COMP[m.lg];
     const oppName = m.lg === "cup" ? (m.h === id ? m.away : m.home) : tname(opp);
-    out += `<div class="row"><span class="ha">${m.h === id ? "🏠" : "✈️"}</span>${opp ? logo(opp) : ""}<span class="opp">${esc(oppName)}</span>
+    // Tarih sadece saati açıklanmış maçlarda kesin; diğerlerinde ESPN'in tarihi tahmini olduğu için yazılmaz
+    const when = m.timeKnown && m.dateKnown !== false ? `<small>${dayShort(m.date)}</small>` : "";
+    out += `<div class="row"><span class="ha">${m.h === id ? "🏠" : "✈️"}</span>${opp ? logo(opp) : ""}<span class="opp">${esc(oppName)}${when}</span>
       <span class="comp${m.lg === "tsl" ? "" : " eu"}">${c.emoji} ${c.abbr} · ${esc(weekLabel(m, id))}</span></div>`;
   }
   return out ? `<div class="list">${out}</div>` : `<div class="empty">Sezonda başka maç görünmüyor</div>`;
@@ -158,8 +160,36 @@ function viewGS() {
     return `<div class="item"><span class="tag" style="background:${bg};color:${fg}">${esc(n.category)}</span><span>${esc(n.text)}</span></div>`; }).join("");
   return `${hero}<div class="stats">${stats}</div>
     <div class="label">Önümüzdeki 2 hafta</div>${soon.map((m) => detailCard(m, GS)).join("") || `<div class="empty">Bu dönemde GS maçı yok</div>`}
-    <div class="label">Sonraki maçlar</div>${roughList(later, GS)}
-    <div class="label">GS gündemi</div>${news ? `<div class="news">${news}</div>` : `<div class="empty">Henüz haber yok. Sakatlık, ceza, transfer, yönetim ve kulüp haberleri her gün 09:00'da güncellenir.</div>`}`;
+    <details class="fold" data-key="gs-later"${foldOpen("gs-later") ? " open" : ""}><summary>Sonraki maçlar <span>${later.length} maç</span></summary>${roughList(later, GS)}</details>
+    <div class="label">GS gündemi</div>${news ? `<div class="news">${news}</div>` : `<div class="empty">Henüz haber yok. Sakatlık, ceza, transfer, yönetim ve kulüp haberleri her gün 09:00'da güncellenir.</div>`}
+    ${playersTable()}`;
+}
+
+// Açılır bölümlerin açık/kapalı hali telefonda hatırlanır
+function foldOpen(key) { try { return localStorage.getItem("fold:" + key) === "1"; } catch { return false; } }
+function foldSave(key, open) { try { localStorage.setItem("fold:" + key, open ? "1" : "0"); } catch {} }
+
+const POS = { G: "Kaleci", D: "Defans", M: "Orta saha", F: "Forvet" };
+const SHOW_PLAYERS = 10;
+
+function playersTable() {
+  const ps = (D.players || []).map((p) => {
+    const lg = p.tsl || {}, eu = p.ucl || p.uel || p.uecl || {};
+    return { ...p, apps: (lg.apps || 0) + (eu.apps || 0), lgG: lg.goals || 0, euG: eu.goals || 0, ast: (lg.ast || 0) + (eu.ast || 0) };
+  }).filter((p) => p.apps > 0)
+    .sort((a, b) => (b.lgG + b.euG) - (a.lgG + a.euG) || b.ast - a.ast || b.apps - a.apps);
+  if (!ps.length) return "";
+  const euKey = TABLE_ORDER.slice(1).find((k) => standingOf(k, GS)) || "ucl";
+  const row = (p) => `<tr><td class="t"><div class="pn">${esc(p.name)}<small>${POS[p.pos] || ""}${p.num ? " · " + esc(p.num) : ""}</small></div></td>
+    <td class="n">${p.apps}</td><td class="n">${p.lgG}</td><td class="n">${p.euG}</td><td class="p">${p.lgG + p.euG}</td><td class="n">${p.ast}</td></tr>`;
+  const head = `<thead><tr><th class="t" rowspan="2">Oyuncu</th><th class="n" rowspan="2">Maç</th><th colspan="3" class="grp">Gol</th><th class="n" rowspan="2">Ast</th></tr>
+    <tr><th class="n">Lig</th><th class="n">${COMP[euKey].abbr}</th><th class="p">Top</th></tr></thead>`;
+  const cols = `<colgroup><col><col class="cn"><col class="cn"><col class="cn"><col class="cn"><col class="cn"></colgroup>`;
+  const more = ps.length > SHOW_PLAYERS
+    ? `<details class="more"><summary>Diğer ${ps.length - SHOW_PLAYERS} oyuncu</summary><table class="pt">${cols}<tbody>${ps.slice(SHOW_PLAYERS).map(row).join("")}</tbody></table></details>` : "";
+  return `<div class="label">Oyuncu istatistikleri</div>
+    <div class="tcard"><table class="pt">${cols}${head}<tbody>${ps.slice(0, SHOW_PLAYERS).map(row).join("")}</tbody></table>${more}
+    <div class="legend">Lig + ${COMP[euKey].name}. Türkiye Kupası dahil değil.</div></div>`;
 }
 
 function viewMatches() {
@@ -269,6 +299,7 @@ function render() {
   main.innerHTML = html;
   document.querySelectorAll("nav a").forEach((n) => n.classList.toggle("on", n.dataset.tab === tab));
   main.querySelectorAll("tr[data-href]").forEach((tr) => tr.onclick = () => (location.hash = tr.dataset.href));
+  main.querySelectorAll("details.fold").forEach((d) => d.ontoggle = () => foldSave(d.dataset.key, d.open));
   tick();
   clearInterval(timer);
   timer = setInterval(tick, 1000);

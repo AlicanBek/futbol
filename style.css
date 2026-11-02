@@ -68,6 +68,27 @@ h1 { margin: 6px 4px 0; font-size: 26px; font-weight: 800; }
 .row .comp { font-size: 12px; color: var(--muted); white-space: nowrap; }
 .row .comp.eu { color: var(--ucl); font-weight: 700; }
 
+.row .opp small { display: block; font-size: 12px; font-weight: 500; color: var(--muted); }
+
+/* Açılır kapanır bölüm */
+.fold > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 8px;
+  font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 22px 4px 8px; }
+.fold > summary::-webkit-details-marker { display: none; }
+.fold > summary span { letter-spacing: 0; text-transform: none; font-weight: 600; background: #e2dfd7; color: #555; border-radius: 999px; padding: 2px 8px; }
+.fold > summary::after { content: "›"; margin-left: auto; font-size: 20px; line-height: 1; transform: rotate(90deg); transition: transform .2s; }
+.fold[open] > summary::after { transform: rotate(-90deg); }
+
+/* Oyuncu istatistikleri */
+.pt { table-layout: fixed; }
+.pt col.cn { width: 38px; }
+.pt th.grp { border-bottom: 1px solid var(--line); padding-bottom: 3px; }
+.pt td.t { padding-left: 8px; }
+.pn { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pn small { display: block; font-size: 11px; font-weight: 500; color: var(--muted); }
+.more > summary { list-style: none; cursor: pointer; text-align: center; font-size: 13px; font-weight: 600; color: var(--gs-red); padding: 10px 0 2px; border-top: 1px solid var(--line); }
+.more > summary::-webkit-details-marker { display: none; }
+.more[open] > summary { display: none; }
+
 /* Gündem */
 .news { background: var(--card); border-radius: 16px; padding: 6px 16px; }
 .news .item { display: flex; gap: 10px; padding: 10px 0; border-top: 1px solid var(--line); font-size: 14px; }
