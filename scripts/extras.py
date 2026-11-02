@@ -22,14 +22,14 @@ WINDOW_DAYS = 14
 
 OUR_TEAMS = {"Galatasaray": "Galatasaray", "Fenerbahce": "Fenerbahçe", "Besiktas": "Beşiktaş", "Trabzonspor": "Trabzonspor"}
 COMP = {"tsl": "Süper Lig", "ucl": "Şampiyonlar Ligi", "uel": "Avrupa Ligi", "uecl": "Konferans Ligi"}
-CATEGORIES = {"Sakatlık", "Ceza", "Transfer"}
+CATEGORIES = {"Sakatlık", "Ceza", "Transfer", "Yönetim", "Kulüp"}
 
 FORMAT = """{
   "updated": "YYYY-MM-DDTHH:MMZ",
   "channels": { "<maç id>": { "tr": "Türkiye kanalı", "pt": "Portekiz kanalı veya boş" } },
   "cup": [ { "date": "YYYY-MM-DD veya boş", "time_ist": "HH:MM veya boş", "date_note": "gün belli değilse kısa not",
              "round": "örn. Grup 2. maç", "home": "Takım", "away": "Takım", "tr": "kanal veya boş", "pt": "" } ],
-  "gs_news": [ { "category": "Sakatlık | Ceza | Transfer", "text": "tek cümle", "source_url": "https://..." } ]
+  "gs_news": [ { "category": "Sakatlık | Ceza | Transfer | Yönetim | Kulüp", "text": "tek cümle", "source_url": "https://..." } ]
 }"""
 
 
@@ -68,7 +68,7 @@ def task() -> None:
         "",
         "1. Aşağıdaki her maç için Türkiye yayıncısını \"tr\" alanına yaz. \"ours: evet\" olan maçlar için Portekiz yayıncısını da \"pt\" alanına yaz (yoksa boş). Anahtar olarak maç id'sini kullan.",
         "2. Galatasaray, Fenerbahçe, Beşiktaş ve Trabzonspor'un bu aralıktaki Türkiye Kupası maçlarını \"cup\" listesine yaz. Takım adlarını Türkçe yaz (Galatasaray, Fenerbahçe, Beşiktaş, Trabzonspor). Kupa maçı yoksa boş liste.",
-        "3. Galatasaray gündemi: son 7 günün sakatlık, ceza ve transfer haberleri. En fazla 5 madde, en önemlisi önce, her biri tek cümle. source_url gerçek bir makale linki olmalı (sitede gösterilmez, doğrulama için).",
+        "3. Galatasaray gündemi: son 7 günün haberleri. Kategoriler: Sakatlık, Ceza, Transfer, Yönetim (başkan, yönetim kurulu, seçim, resmi açıklamalar), Kulüp (finans, borç, sponsorluk, stadyum, tesis, altyapı, kulüp duyuruları). En fazla 7 madde, en önemlisi önce, her biri tek cümle. Söylentiyi kesinleşmiş gibi yazma. source_url gerçek bir makale linki olmalı (sitede gösterilmez, doğrulama için).",
         "4. \"updated\" alanına şu anki UTC zamanını yaz.",
         "",
         "Maçlar (id | turnuva | İstanbul saati | ev sahibi – deplasman | ours):",

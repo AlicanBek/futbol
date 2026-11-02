@@ -36,7 +36,10 @@ const BIG = {
   "Besiktas": { color: "#111111", stripe: ["#111111", "#d9d9d9"] },
   "Trabzonspor": { color: "#7a1e3a", stripe: ["#7a1e3a", "#5ba4d9"] },
 };
-const NEWS_STYLE = { "Sakatlık": ["#fde8e8", "#b42318"], "Ceza": ["#fef0d9", "#a15c07"], "Transfer": ["#e6effc", "#1e4fa3"] };
+const NEWS_STYLE = {
+  "Sakatlık": ["#fde8e8", "#b42318"], "Ceza": ["#fef0d9", "#a15c07"], "Transfer": ["#e6effc", "#1e4fa3"],
+  "Yönetim": ["#efe7fb", "#6b3fa0"], "Kulüp": ["#e5f4ec", "#1f7a4d"],
+};
 const MONTHS = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
 const DAYS = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
 
@@ -156,7 +159,7 @@ function viewGS() {
   return `${hero}<div class="stats">${stats}</div>
     <div class="label">Önümüzdeki 2 hafta</div>${soon.map((m) => detailCard(m, GS)).join("") || `<div class="empty">Bu dönemde GS maçı yok</div>`}
     <div class="label">Sonraki maçlar</div>${roughList(later, GS)}
-    <div class="label">GS gündemi</div>${news ? `<div class="news">${news}</div>` : `<div class="empty">Henüz haber yok. Sakatlık, ceza ve transfer haberleri her gün 09:00'da güncellenir.</div>`}`;
+    <div class="label">GS gündemi</div>${news ? `<div class="news">${news}</div>` : `<div class="empty">Henüz haber yok. Sakatlık, ceza, transfer, yönetim ve kulüp haberleri her gün 09:00'da güncellenir.</div>`}`;
 }
 
 function viewMatches() {
