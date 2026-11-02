@@ -68,7 +68,8 @@ const lis = (iso) => parts(iso, LIS);
 const ist = (iso) => parts(iso, IST);
 const cph = (iso) => parts(iso, CPH);
 // Üç saat dilimi yan yana: Lizbon/Londra, Kopenhag/Prag, İstanbul
-const times3 = (iso) => `<div class="t3"><div><b>${lis(iso).hm}</b><span>Lizbon/Londra</span></div><div><b>${cph(iso).hm}</b><span>Kopenhag/Prag</span></div><div><b>${ist(iso).hm}</b><span>İstanbul</span></div></div>`;
+// Her yerde aynı saat şeridi: üstte şehir, altında saat
+const times3 = (iso) => `<div class="tz"><div><span>Lizbon/Londra</span><b>${lis(iso).hm}</b></div><div><span>Kopenhag/Prag</span><b>${cph(iso).hm}</b></div><div><span>İstanbul</span><b>${ist(iso).hm}</b></div></div>`;
 const DAYS_SHORT = ["Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"];
 const dayShort = (iso) => { const p = lis(iso); return `${DAYS_SHORT[p.wd]} ${p.d} ${MONTHS[p.mo - 1].slice(0, 3)}`; };
 const dayLong = (iso) => { const p = lis(iso); return `${DAYS[p.wd]} ${p.d} ${MONTHS[p.mo - 1]}`; };
@@ -215,20 +216,23 @@ function viewMatches() {
   const ucl = ALL.filter((m) => m.lg === "ucl" && inWindow(m));
   let day = null, list = "";
   const bigSet = new Set(Object.values(BIG_IDS));
+  let slot = null;
   for (const m of ucl) {
     const dl = dayLong(m.date);
-    if (dl !== day) { day = dl; list += `<div class="dayh">${dl}</div>`; }
+    if (dl !== day) { day = dl; slot = null; list += `<div class="dayh">${dl}</div>`; }
+    // Aynı başlama saatindeki maçlar tek saat şeridinin altında toplanır
+    const sl = m.timeKnown ? m.date : "tba";
+    if (sl !== slot) { slot = sl; list += m.timeKnown ? `<div class="slot">${times3(m.date)}</div>` : `<div class="slot"><div class="tba">Saat açıklanmadı</div></div>`; }
     const gs = m.h === GS || m.a === GS, tk = !gs && (bigSet.has(m.h) || bigSet.has(m.a));
     const nm = (id) => { const n = esc(tshort(id)); if (!tk) return n;
       const col = BIG[team(id).name]?.color || team(id).color; return col ? `<span style="color:${col}">${n}</span>` : n; };
     const ch = chan(m).tr || "";
     const badge = /TRT/i.test(ch) ? `<span class="trt">${esc(ch)}</span>` : ch ? `<span class="tb">${esc(ch)}</span>` : "";
-    list += `<div class="u${gs ? " gs" : ""}${tk ? " tk" : ""}"><div class="ut">${m.timeKnown ? `<b>${lis(m.date).hm}</b><span>${cph(m.date).hm}</span><span>${ist(m.date).hm}</span>` : `<span>Saat yok</span>`}</div>
-      <div class="um"><span class="hn">${nm(m.h)}</span>${logo(m.h)}<span class="dash">${m.state !== "pre" && m.hs != null ? `${esc(m.hs)}-${esc(m.as)}` : "–"}</span>${logo(m.a)}<span class="an">${nm(m.a)}</span></div><div class="uc">${badge}</div></div>`;
+    list += `<div class="u${gs ? " gs" : ""}${tk ? " tk" : ""}"><div class="um"><span class="hn">${nm(m.h)}</span>${logo(m.h)}<span class="dash">${m.state !== "pre" && m.hs != null ? `${esc(m.hs)}-${esc(m.as)}` : "–"}</span>${logo(m.a)}<span class="an">${nm(m.a)}</span></div><div class="uc">${badge}</div></div>`;
   }
   return `<h1>Maçlar</h1><div class="sub">${range}</div>
     <div class="label">Türk takımları</div>${cards}
-    <div class="label">⭐ Şampiyonlar Ligi</div><div class="sub" style="margin:-4px 4px 8px">Saatler üstten alta: Lizbon/Londra, Kopenhag/Prag, İstanbul</div>
+    <div class="label">⭐ Şampiyonlar Ligi</div>
     ${list ? `<div class="ucl">${list}</div>` : `<div class="empty">Bu dönemde ŞL maçı yok</div>`}`;
 }
 
