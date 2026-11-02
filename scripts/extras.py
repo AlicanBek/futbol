@@ -27,8 +27,9 @@ CATEGORIES = {"Sakatlık", "Ceza", "Transfer", "Yönetim", "Kulüp"}
 FORMAT = """{
   "updated": "YYYY-MM-DDTHH:MMZ",
   "channels": { "<maç id>": { "tr": "Türkiye kanalı", "pt": "Portekiz kanalı veya boş" } },
-  "cup": [ { "date": "YYYY-MM-DD veya boş", "time_ist": "HH:MM veya boş", "date_note": "gün belli değilse kısa not",
-             "round": "örn. Grup 2. maç", "home": "Takım", "away": "Takım", "tr": "kanal veya boş", "pt": "" } ],
+  "cup": [ { "date": "YYYY-MM-DD veya boş", "time_ist": "HH:MM veya boş", "date_note": "gün belli değilse kısa not, örn. 15-17 Ara",
+             "window_start": "gün belli değilse turun ilk günü YYYY-MM-DD (sıralama için), belliyse boş",
+             "round": "örn. 5. tur", "home": "Takım", "away": "Takım", "tr": "kanal veya boş", "pt": "" } ],
   "gs_news": [ { "category": "Sakatlık | Ceza | Transfer | Yönetim | Kulüp", "text": "tek cümle", "source_url": "https://..." } ]
 }"""
 
@@ -67,7 +68,7 @@ def task() -> None:
         "- Mevcut data/extras.json'da doğru olduğu belli olan kanal bilgilerini koru, yenilerini ekle.",
         "",
         "1. Aşağıdaki her maç için Türkiye yayıncısını \"tr\" alanına yaz. \"ours: evet\" olan maçlar için Portekiz yayıncısını da \"pt\" alanına yaz (yoksa boş). Anahtar olarak maç id'sini kullan.",
-        "2. Galatasaray, Fenerbahçe, Beşiktaş ve Trabzonspor'un bu aralıktaki Türkiye Kupası maçlarını \"cup\" listesine yaz. Takım adlarını Türkçe yaz (Galatasaray, Fenerbahçe, Beşiktaş, Trabzonspor). Kupa maçı yoksa boş liste.",
+        "2. Galatasaray, Fenerbahçe, Beşiktaş ve Trabzonspor'un sezon sonuna kadar oynayacağı, rakibi belli olan tüm Türkiye Kupası maçlarını \"cup\" listesine yaz (sadece önümüzdeki 2 hafta değil). Kuranın çekilmediği, rakibi belli olmayan maçları yazma. Günü belli değilse date boş kalsın, date_note ve window_start doldurulsun. Kanal bilgisi sadece önümüzdeki 2 haftadaki kupa maçları için gerekli. Takım adlarını Türkçe yaz (Galatasaray, Fenerbahçe, Beşiktaş, Trabzonspor, Amedspor, Göztepe gibi). Oynanmış kupa maçlarını listeden çıkar. Kupa maçı yoksa boş liste.",
         "3. Galatasaray gündemi: son 7 günün haberleri. Kategoriler: Sakatlık, Ceza, Transfer, Yönetim (başkan, yönetim kurulu, seçim, resmi açıklamalar), Kulüp (finans, borç, sponsorluk, stadyum, tesis, altyapı, kulüp duyuruları). En fazla 7 madde, en önemlisi önce, her biri tek cümle. Söylentiyi kesinleşmiş gibi yazma. source_url gerçek bir makale linki olmalı (sitede gösterilmez, doğrulama için).",
         "4. \"updated\" alanına şu anki UTC zamanını yaz.",
         "",
@@ -100,11 +101,13 @@ def validate() -> int:
         if not isinstance(c, dict) or not all(isinstance(c.get(f, ""), str) for f in ("tr", "pt")):
             errs.append(f"channels[{mid}]: tr/pt metin olmalı")
     for i, c in enumerate(x.get("cup") or []):
-        for f in ("date", "time_ist", "date_note", "round", "home", "away", "tr", "pt"):
+        for f in ("date", "time_ist", "date_note", "window_start", "round", "home", "away", "tr", "pt"):
             if not isinstance(c.get(f, ""), str):
                 errs.append(f"cup[{i}].{f} metin olmalı")
         if c.get("date") and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", c["date"]):
             errs.append(f"cup[{i}].date YYYY-MM-DD olmalı")
+        if c.get("window_start") and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", c["window_start"]):
+            errs.append(f"cup[{i}].window_start YYYY-MM-DD olmalı")
         if c.get("time_ist") and not re.fullmatch(r"\d{2}:\d{2}", c["time_ist"]):
             errs.append(f"cup[{i}].time_ist HH:MM olmalı")
         if not c.get("home") or not c.get("away"):

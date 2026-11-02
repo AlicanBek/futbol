@@ -98,17 +98,21 @@ function scoreHtml(m) { return m.state !== "pre" && m.hs != null ? `<span class=
 const now = () => Date.now();
 const windowEnd = () => now() + WINDOW_DAYS * 864e5;
 const upcoming = (m) => m.state !== "post" && new Date(m.date).getTime() > now() - 3 * 36e5;
-const inWindow = (m) => upcoming(m) && (m.dateKnown === false || new Date(m.date).getTime() <= windowEnd());
+// Günü belli olmayan kupa maçları turun ilk gününe (window_start) göre yerleşir
+const inWindow = (m) => upcoming(m) && ((m.dateKnown === false && !m.approx) || new Date(m.date).getTime() <= windowEnd());
 
 // Türkiye Kupası maçlarını (extras) ESPN maçlarıyla aynı şekle getir
 function cupMatches() {
   return (X.cup || []).map((c, i) => {
     const dateKnown = !!c.date;
     const timeKnown = dateKnown && !!c.time_ist;
-    const iso = dateKnown ? new Date(`${c.date}T${timeKnown ? c.time_ist : "12:00"}:00+03:00`).toISOString() : new Date(now() + 864e5).toISOString();
-    const ours = { [tname(GS)]: GS, ...Object.fromEntries(Object.values(BIG_IDS).map((id) => [tname(id), id])) };
-    const h = ours[c.home] || null, a = ours[c.away] || null;
-    return { id: `cup-${i}`, lg: "cup", date: iso, dateKnown, timeKnown, state: "pre", home: c.home, away: c.away, h, a, round: c.round || "", tr: c.tr, pt: c.pt, note: c.date_note };
+    const day = c.date || c.window_start;
+    const iso = day ? new Date(`${day}T${timeKnown ? c.time_ist : "12:00"}:00+03:00`).toISOString() : new Date(now() + 864e5).toISOString();
+    // Kupa rakibini Süper Lig takımlarından tanıyıp logosunu göstermek için ada göre eşle
+    const byName = Object.fromEntries((D.leagues.tsl?.standings || []).map((r) => [tname(r.team), r.team]));
+    const h = byName[c.home] || null, a = byName[c.away] || null;
+    return { id: `cup-${i}`, lg: "cup", date: iso, dateKnown, timeKnown, approx: !dateKnown && !!c.window_start, state: "pre",
+      home: c.home, away: c.away, h, a, round: c.round || "", tr: c.tr, pt: c.pt, note: c.date_note };
   });
 }
 const teamMatches = (id) => ALL.filter((m) => m.h === id || m.a === id);
@@ -133,7 +137,7 @@ function roughList(ms, id) {
     const opp = m.h === id ? m.a : m.h, c = COMP[m.lg];
     const oppName = m.lg === "cup" ? (m.h === id ? m.away : m.home) : tname(opp);
     // Tarih sadece saati açıklanmış maçlarda kesin; diğerlerinde ESPN'in tarihi tahmini olduğu için yazılmaz
-    const when = m.timeKnown && m.dateKnown !== false ? `<small>${dayShort(m.date)}</small>` : "";
+    const when = m.timeKnown && m.dateKnown !== false ? `<small>${dayShort(m.date)}</small>` : m.approx && m.note ? `<small>${esc(m.note)}</small>` : "";
     out += `<div class="row"><span class="ha">${m.h === id ? "🏠" : "✈️"}</span>${opp ? logo(opp) : ""}<span class="opp">${esc(oppName)}${when}</span>
       <span class="comp${m.lg === "tsl" ? "" : " eu"}">${c.emoji} ${c.abbr} · ${esc(weekLabel(m, id))}</span></div>`;
   }
@@ -161,7 +165,7 @@ function viewGS() {
   const stats = TABLE_ORDER.map((lg) => [lg, standingOf(lg, GS)]).filter(([, r]) => r).map(([lg, r]) =>
     `<a class="stat dark" href="#tablolar/${lg}"><div class="c" style="color:${COMP[lg].dark[1]}">${COMP[lg].emoji} ${COMP[lg].name}</div>
      <div class="v">${r.rank}. <small>· ${r.pts} puan</small></div><div class="g" style="color:${COMP[lg].dark[1]}">Tablo →</div></a>`).join("");
-  const soon = ms.filter(inWindow), later = ms.filter((m) => !inWindow(m) && m.dateKnown !== false);
+  const soon = ms.filter(inWindow), later = ms.filter((m) => !inWindow(m) && (m.dateKnown !== false || m.approx));
   const news = (X.gs_news || []).map((n) => { const [bg, fg] = NEWS_STYLE[n.category] || ["#eee", "#555"];
     return `<div class="item"><span class="tag" style="background:${bg};color:${fg}">${esc(n.category)}</span><span>${esc(n.text)}</span></div>`; }).join("");
   return `${hero}<div class="stats">${stats}</div>
@@ -273,7 +277,7 @@ function viewTeam(lg, id) {
     const res = me > op ? ["G", "#2e9e5b"] : me < op ? ["M", "#e5484d"] : ["B", "#9a9a9a"];
     return `<span class="f" style="background:${res[1]}" title="${esc(tname(m.h === id ? m.a : m.h))} ${me}-${op}">${res[0]}</span>`; }).join("");
   const ms = teamMatches(id).filter(upcoming);
-  const soon = ms.filter(inWindow), later = ms.filter((m) => !inWindow(m) && m.dateKnown !== false);
+  const soon = ms.filter(inWindow), later = ms.filter((m) => !inWindow(m) && (m.dateKnown !== false || m.approx));
   return `<a class="back" href="#tablolar/${lg}">‹ Tablolar</a>
     <section class="head">${logo(id)}<h1>${esc(tname(id))}</h1>${chips}
       <div class="nums"><div><b>${r.gp}</b>O</div><div><b>${r.w}</b>G</div><div><b>${r.d}</b>B</div><div><b>${r.l}</b>M</div><div><b>${r.gf}:${r.ga}</b>Gol</div><div><b>${esc(r.gd)}</b>AV</div></div>
@@ -383,7 +387,29 @@ function buildAll() {
   ALL = [...D.matches.map((m) => ({ ...m, dateKnown: true })), ...cupMatches()].sort((x, y) => x.date.localeCompare(y.date));
 }
 
+// ---- Yeni sürüm kontrolü --------------------------------------------------
+// Telefonda uygulama arka plandan dönünce sayfa yeniden yüklenmez; kod değiştiyse kendimiz yeniliyoruz.
+
+let SHELL_TAG = null;
+async function shellTag() {
+  const rs = await Promise.all(["app.js", "style.css"].map((u) => fetch(u, { method: "HEAD", cache: "no-store" })));
+  return rs.map((r) => r.headers.get("etag") || r.headers.get("last-modified") || "").join("|");
+}
+async function checkUpdate() {
+  try {
+    const t = await shellTag();
+    if (SHELL_TAG && t && t !== SHELL_TAG) { location.reload(); return true; }
+    if (!SHELL_TAG) SHELL_TAG = t;
+  } catch (e) { /* çevrimdışı */ }
+  return false;
+}
+document.addEventListener("visibilitychange", async () => {
+  if (document.visibilityState !== "visible" || !D) return;
+  if (!(await checkUpdate())) pollLive();
+});
+
 async function load() {
+  checkUpdate();
   try {
     D = await get("data/espn.json");
   } catch (e) {
@@ -473,6 +499,7 @@ function setupPullToRefresh() {
     busy = true;
     ptr.classList.add("anim");
     show(16, "Yenileniyor…");
+    if (await checkUpdate()) return show(16, "Yeni sürüm yükleniyor…");
     const done = await liveRefresh();
     show(16, done ? "Güncellendi ✓" : "Yenilenemedi, bağlantını kontrol et");
     setTimeout(() => { hide(); busy = false; }, 1200);
