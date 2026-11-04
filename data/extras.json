@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T09:13Z",
+  "updated": "2026-11-04T09:10Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -110,6 +110,11 @@
   "gs_news": [
     {
       "category": "Yönetim",
+      "text": "Başkan Dursun Özbek istifaların ardından görevine devam kararı aldı, erken seçime gidilmeyecek; Mehmet Cibara ikinci başkanlığa, Eray Yazgan başkan yardımcılığına getirildi.",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/galatasaraya-erken-secim-olacak-mi-fiziki-saldirida-bulundu-olmus-annesine-kufur-etti-43363991"
+    },
+    {
+      "category": "Yönetim",
       "text": "İkinci Başkan Metin Öztürk, 27 Ekim'deki yönetim kurulu toplantısında yaşananları gerekçe göstererek yönetim kurulundan ve bağlı şirketlerdeki görevlerinden istifa etti.",
       "source_url": "https://www.hurriyet.com.tr/sporarena/galatasaray-2-baskani-metin-ozturk-istifa-etti-43362372"
     },
@@ -122,11 +127,6 @@
       "category": "Sakatlık",
       "text": "Galatasaray'da Stuttgart maçı öncesi sakat ya da cezalı oyuncu bulunmuyor, takım tam kadro hazırlanıyor.",
       "source_url": "https://www.aksam.com.tr/spor/galatasaray-stuttgarti-agirlayacak-aslanda-eksik-yok/haber-1711089"
-    },
-    {
-      "category": "Ceza",
-      "text": "Abdülkerim Bardakcı cezası nedeniyle Konyaspor deplasmanında forma giyemedi, yerine stoperde Singo oynadı.",
-      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-akillar-stuttgart-macinda-okan-buruktan-rotasyon-karari-7690449"
     },
     {
       "category": "Transfer",
