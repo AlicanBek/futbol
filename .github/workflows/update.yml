@@ -2,7 +2,7 @@ name: Veriyi güncelle
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # her gün 05:00 UTC (Lizbon kışın 05:00, yazın 06:00)
+    - cron: "0 */6 * * *"   # 6 saatte bir; GitHub zamanlanmış işleri saatlerce geciktirebiliyor
   workflow_dispatch:
 
 permissions:

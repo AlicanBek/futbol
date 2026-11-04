@@ -166,13 +166,26 @@ function viewGS() {
     `<a class="stat dark" href="#tablolar/${lg}"><div class="c" style="color:${COMP[lg].dark[1]}">${COMP[lg].emoji} ${COMP[lg].name}</div>
      <div class="v">${r.rank}. <small>· ${r.pts} puan</small></div><div class="g" style="color:${COMP[lg].dark[1]}">Tablo →</div></a>`).join("");
   const soon = ms.filter(inWindow), later = ms.filter((m) => !inWindow(m) && (m.dateKnown !== false || m.approx));
-  const news = (X.gs_news || []).map((n) => { const [bg, fg] = NEWS_STYLE[n.category] || ["#eee", "#555"];
-    return `<div class="item"><span class="tag" style="background:${bg};color:${fg}">${esc(n.category)}</span><span>${esc(n.text)}</span></div>`; }).join("");
+  const items = freshNews();
+  const news = items.map((n) => { const [bg, fg] = NEWS_STYLE[n.category] || ["#eee", "#555"];
+    return `<div class="item"><span class="tag" style="background:${bg};color:${fg}">${esc(n.category)}</span><span>${esc(n.text)}${n.date ? `<small class="nd">${newsDay(n.date)}</small>` : ""}</span></div>`; }).join("");
   return `${hero}<div class="stats">${stats}</div>
     <div class="label">Önümüzdeki 2 hafta</div>${soon.map((m) => detailCard(m, GS)).join("") || `<div class="empty">Bu dönemde GS maçı yok</div>`}
     ${fold("gs-later", "Sonraki maçlar", `${later.length} maç`, roughList(later, GS))}
-    ${fold("gs-news", "GS gündemi", `${(X.gs_news || []).length} haber`, news ? `<div class="news">${news}</div>` : `<div class="empty">Henüz haber yok. Sakatlık, ceza, transfer, yönetim ve kulüp haberleri her gün 09:00'da güncellenir.</div>`)}
+    ${fold("gs-news", "GS gündemi", `${items.length} haber`, news ? `<div class="news">${news}</div>` : `<div class="empty">Henüz haber yok. Sakatlık, ceza, transfer, yönetim ve kulüp haberleri her gün 09:00'da güncellenir.</div>`)}
     ${playersTable()}`;
+}
+
+// Gündem: 7 günden eski haberler gösterilmez, her haberin yanında günü yazar
+const NEWS_DAYS = 7;
+const dayDiff = (ymd) => { const t = lis(new Date().toISOString()); return Math.round((Date.UTC(t.y, t.mo - 1, t.d) - Date.parse(ymd + "T00:00:00Z")) / 864e5); };
+const freshNews = () => (X.gs_news || []).filter((n) => !n.date || dayDiff(n.date) <= NEWS_DAYS);
+function newsDay(ymd) {
+  const n = dayDiff(ymd);
+  if (n <= 0) return "Bugün";
+  if (n === 1) return "Dün";
+  const [, mo, d] = ymd.split("-").map(Number);
+  return `${d} ${MONTHS[mo - 1].slice(0, 3)}`;
 }
 
 // Açılır bölümler her açılışta kapalı başlar; sekmeler arası geçişte açık/kapalı hali korunur
@@ -422,6 +435,8 @@ async function load() {
   buildAll();
   render();
   pollLive();
+  // Günlük dosya saatler öncesinden kalmış olabilir; skor ve tabloları açılışta sessizce ESPN'den tazele
+  liveRefresh();
 }
 
 // ---- Canlı yenileme (aşağı çekince) ---------------------------------------

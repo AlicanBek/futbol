@@ -30,7 +30,7 @@ FORMAT = """{
   "cup": [ { "date": "YYYY-MM-DD veya boş", "time_ist": "HH:MM veya boş", "date_note": "gün belli değilse kısa not, örn. 15-17 Ara",
              "window_start": "gün belli değilse turun ilk günü YYYY-MM-DD (sıralama için), belliyse boş",
              "round": "örn. 5. tur", "home": "Takım", "away": "Takım", "tr": "kanal veya boş", "pt": "" } ],
-  "gs_news": [ { "category": "Sakatlık | Ceza | Transfer | Yönetim | Kulüp", "text": "tek cümle", "source_url": "https://..." } ]
+  "gs_news": [ { "category": "Sakatlık | Ceza | Transfer | Yönetim | Kulüp", "text": "tek cümle", "date": "haberin yayın günü YYYY-MM-DD", "source_url": "https://..." } ]
 }"""
 
 
@@ -69,7 +69,7 @@ def task() -> None:
         "",
         "1. Aşağıdaki her maç için Türkiye yayıncısını \"tr\" alanına yaz. \"ours: evet\" olan maçlar için Portekiz yayıncısını da \"pt\" alanına yaz (yoksa boş). Anahtar olarak maç id'sini kullan.",
         "2. Galatasaray, Fenerbahçe, Beşiktaş ve Trabzonspor'un sezon sonuna kadar oynayacağı, rakibi belli olan tüm Türkiye Kupası maçlarını \"cup\" listesine yaz (sadece önümüzdeki 2 hafta değil). Kuranın çekilmediği, rakibi belli olmayan maçları yazma. Günü belli değilse date boş kalsın, date_note ve window_start doldurulsun. Kanal bilgisi sadece önümüzdeki 2 haftadaki kupa maçları için gerekli. Takım adlarını Türkçe yaz (Galatasaray, Fenerbahçe, Beşiktaş, Trabzonspor, Amedspor, Göztepe gibi). Oynanmış kupa maçlarını listeden çıkar. Kupa maçı yoksa boş liste.",
-        "3. Galatasaray gündemi: son 7 günün haberleri. Kategoriler: Sakatlık, Ceza, Transfer, Yönetim (başkan, yönetim kurulu, seçim, resmi açıklamalar), Kulüp (finans, borç, sponsorluk, stadyum, tesis, altyapı, kulüp duyuruları). En fazla 7 madde, en önemlisi önce, her biri tek cümle. Söylentiyi kesinleşmiş gibi yazma. source_url gerçek bir makale linki olmalı (sitede gösterilmez, doğrulama için).",
+        "3. Galatasaray gündemi: listeyi her gün baştan kur, mevcut dosyadaki haberleri kopyalama. En az 5 ayrı arama yap (son dakika, transfer, sakatlık/ceza, yönetim/başkan, kulüp/finans) ve önce son 48 saatin haberlerine bak. Kategoriler: Sakatlık, Ceza, Transfer, Yönetim (başkan, yönetim kurulu, seçim, resmi açıklamalar), Kulüp (finans, borç, sponsorluk, stadyum, tesis, altyapı, kulüp duyuruları). En fazla 7 madde, en yeni ve en önemli önce, her biri tek cümle. 7 günden eski haber yazma. Oynanmış bir maçtan önceki 'maç öncesi' haberlerini (kadro durumu, oynayamayacak oyuncular) maç oynandıysa yazma. Gelişen bir konuda sadece en güncel durumu yaz, eski aşamaları ayrı madde yapma. Söylentiyi kesinleşmiş gibi yazma. Her maddenin date alanı haberin yayın günü olsun. source_url gerçek bir makale linki olmalı (sitede gösterilmez, doğrulama için).",
         "4. \"updated\" alanına şu anki UTC zamanını yaz.",
         "",
         "Maçlar (id | turnuva | İstanbul saati | ev sahibi – deplasman | ours):",
@@ -112,7 +112,13 @@ def validate() -> int:
             errs.append(f"cup[{i}].time_ist HH:MM olmalı")
         if not c.get("home") or not c.get("away"):
             errs.append(f"cup[{i}]: home ve away dolu olmalı")
+    today = datetime.now(IST).date()
     for i, n in enumerate(x.get("gs_news") or []):
+        d = str(n.get("date", ""))
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", d):
+            errs.append(f"gs_news[{i}].date YYYY-MM-DD olmalı")
+        elif (today - datetime.strptime(d, "%Y-%m-%d").date()).days > 7:
+            errs.append(f"gs_news[{i}]: {d} tarihli haber 7 günden eski")
         if n.get("category") not in CATEGORIES:
             errs.append(f"gs_news[{i}].category {sorted(CATEGORIES)} olmalı")
         if not n.get("text"):
