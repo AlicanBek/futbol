@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T09:51Z",
+  "updated": "2026-11-05T09:16Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -109,40 +109,46 @@
   "cup": [],
   "gs_news": [
     {
-      "category": "Yönetim",
-      "date": "2026-11-03",
-      "text": "Başkan Dursun Özbek istifaların ardından göreve devam kararı aldı, erken seçim gündemde değil; Mehmet Cibara ikinci başkanlığa, Eray Yazgan başkan yardımcılığına getirildi.",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/galatasaraya-erken-secim-olacak-mi-fiziki-saldirida-bulundu-olmus-annesine-kufur-etti-43363991"
-    },
-    {
-      "category": "Yönetim",
-      "date": "2026-11-02",
-      "text": "Metin Öztürk ve Abdullah Kavukcu'nun istifaları olağanüstü yönetim kurulu toplantısında kabul edildi; Öztürk, 27 Ekim'deki toplantıda yaşananları gerekçe göstermişti.",
-      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-metin-ozturk-ve-abdullah-kavukcunun-istifalari-kabul-edildi-dursun-ozbek-kirginim-7693027"
+      "category": "Kulüp",
+      "text": "Kemerburgaz'daki antrenman sahasının zemin sorunu için Dursun Özbek'in zemini yenileyen İngiliz firmanın yetkilileriyle görüşeceği bildirildi.",
+      "date": "2026-11-05",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasarayda-zemin-alarmi-dursun-ozbek-harekete-geciyor-2643456"
     },
     {
       "category": "Transfer",
-      "date": "2026-11-03",
-      "text": "Bild'e göre Galatasaray, Leipzig'den kiralık aldığı ve bu sezon sadece 21 dakika oynayan Bitshiabu'nun 28 milyon euroluk satın alma opsiyonunu kullanmayacak.",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/03/transfer-haberi-galatasarayda-buyuk-hayal-kirikligi-sezon-sonunda-yollar-ayriliyor"
+      "text": "NTV Spor'un haberine göre kulüp, Batrakov ile yeni sözleşme yaparak 55 milyon euroluk serbest kalma bedelini yükseltmeye hazırlanıyor.",
+      "date": "2026-11-04",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/04/transfer-haberi-galatasarayda-batrakov-gelismesi-serbest-kalma-bedeli"
     },
     {
       "category": "Transfer",
-      "date": "2026-11-01",
-      "text": "Kulislere göre Galatasaray CSKA Moskova'dan Kislyak ve Glebov ile Zenit'ten Alip'i izliyor; Sane ve Ugochukwu'nun devre arasında ayrılma ihtimali konuşuluyor.",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/01/galatasaray-transfere-rotayi-rusyaya-kirdi-3-isim-birden"
-    },
-    {
-      "category": "Transfer",
-      "date": "2026-10-30",
-      "text": "Galatasaray'ın ocak dönemi için Köln'den Said El Mala ve Brighton'dan Yasin Ayari'yi takibe aldığı iddia ediliyor.",
-      "source_url": "https://www.takvim.com.tr/spor/galatasaray/2026/10/30/galatasaraydan-yasin-ayari-ve-said-el-mala-hamlesi"
+      "text": "İtalyan basınına göre Galatasaray, Fiorentina'daki Christ Oulai için devre arasında 22 milyon euroluk teklif yapmaya hazır.",
+      "date": "2026-11-04",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/04/galatasaraydan-devler-ligi-zaferi-sonrasi-transfer-bombasi-iste-cimbomun-yeni-yildizi"
     },
     {
       "category": "Kulüp",
-      "date": "2026-11-02",
-      "text": "Divan Kurulu'nun kasım ayı olağan toplantısı 11 Kasım'da yapılacak, gündem açıklandı.",
-      "source_url": "https://gsdivan.com/11-kasim-2026-divan-toplanti-gundemi/"
+      "text": "Stuttgart galibiyetiyle UEFA'dan 2,1 milyon euro daha kazanan Galatasaray'ın Şampiyonlar Ligi galibiyet primi 4,2 milyon euroya ulaştı.",
+      "date": "2026-11-03",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/03/galatasaraydan-stuttgart-galibiyetiyle-dev-gelir-iste-devler-liginde-kasaya-giren-toplam-para"
+    },
+    {
+      "category": "Yönetim",
+      "text": "Başkan Dursun Özbek istifaların ardından göreve devam kararı aldı; Mehmet Cibara ikinci başkanlığa, Eray Yazgan başkan yardımcılığına getirildi.",
+      "date": "2026-11-03",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/galatasaraya-erken-secim-olacak-mi-fiziki-saldirida-bulundu-olmus-annesine-kufur-etti-43363991"
+    },
+    {
+      "category": "Transfer",
+      "text": "Bild'e göre Galatasaray, Leipzig'den kiralık aldığı Bitshiabu'nun 28 milyon euroluk satın alma opsiyonunu kullanmayacak.",
+      "date": "2026-11-03",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/03/transfer-haberi-galatasarayda-buyuk-hayal-kirikligi-sezon-sonunda-yollar-ayriliyor"
+    },
+    {
+      "category": "Ceza",
+      "text": "Tahkim Kurulu, derbideki olaylar nedeniyle Abdülkerim Bardakcı'ya verilen 2 resmi maç men ve 67 bin TL para cezasını onadı.",
+      "date": "2026-10-30",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/10/30/tahkim-kurulundan-abdulkerim-bardakci-icin-karar-cikti"
     }
   ]
 }
