@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 */6 * * *"   # 6 saatte bir; GitHub zamanlanmış işleri saatlerce geciktirebiliyor
   workflow_dispatch:
+  # GitHub zamanlanmış işleri bazen saatlerce geciktirip atlıyor; sabah görevinin
+  # extras.json push'u da ESPN verisini tazelesin
+  push:
+    branches: [main]
+    paths: [data/extras.json]
 
 permissions:
   contents: write

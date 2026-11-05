@@ -173,7 +173,8 @@ function viewGS() {
     <div class="label">Önümüzdeki 2 hafta</div>${soon.map((m) => detailCard(m, GS)).join("") || `<div class="empty">Bu dönemde GS maçı yok</div>`}
     ${fold("gs-later", "Sonraki maçlar", `${later.length} maç`, roughList(later, GS))}
     ${fold("gs-news", "GS gündemi", `${items.length} haber`, news ? `<div class="news">${news}</div>` : `<div class="empty">Henüz haber yok. Sakatlık, ceza, transfer, yönetim ve kulüp haberleri her gün 09:00'da güncellenir.</div>`)}
-    ${playersTable()}`;
+    ${playersTable()}
+    <div class="updline">Veriler: ${updatedLabel()} · Yenilemek için sayfayı aşağı çek</div>`;
 }
 
 // Gündem: 7 günden eski haberler gösterilmez, her haberin yanında günü yazar
@@ -418,7 +419,10 @@ async function checkUpdate() {
 }
 document.addEventListener("visibilitychange", async () => {
   if (document.visibilityState !== "visible" || !D) return;
-  if (!(await checkUpdate())) pollLive();
+  if (await checkUpdate()) return;
+  pollLive();
+  // Uygulama arka planda saatlerce kaldıysa veriyi de tazele
+  if (now() - Date.parse(D.updated) > 10 * 60e3) liveRefresh();
 });
 
 async function load() {
@@ -514,10 +518,8 @@ function setupPullToRefresh() {
     busy = true;
     ptr.classList.add("anim");
     show(16, "Yenileniyor…");
-    if (await checkUpdate()) return show(16, "Yeni sürüm yükleniyor…");
-    const done = await liveRefresh();
-    show(16, done ? "Güncellendi ✓" : "Yenilenemedi, bağlantını kontrol et");
-    setTimeout(() => { hide(); busy = false; }, 1200);
+    // Tarayıcıdaki "yenile" gibi: sayfa baştan yüklenir, açılışta da veriler ESPN'den tazelenir
+    location.reload();
   });
 }
 
