@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T09:16Z",
+  "updated": "2026-11-06T09:03Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -109,46 +109,40 @@
   "cup": [],
   "gs_news": [
     {
-      "category": "Kulüp",
-      "text": "Kemerburgaz'daki antrenman sahasının zemin sorunu için Dursun Özbek'in zemini yenileyen İngiliz firmanın yetkilileriyle görüşeceği bildirildi.",
-      "date": "2026-11-05",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasarayda-zemin-alarmi-dursun-ozbek-harekete-geciyor-2643456"
+      "category": "Ceza",
+      "text": "PFDK, Konyaspor maçındaki taraftar olayları ve tezahüratlar nedeniyle Galatasaray'a toplam 780 bin TL para cezası verdi.",
+      "date": "2026-11-06",
+      "source_url": "https://www.fotomac.com.tr/superlig/2026/11/06/pfdkdan-besiktas-ve-galatasaraya-ceza"
     },
     {
       "category": "Transfer",
-      "text": "NTV Spor'un haberine göre kulüp, Batrakov ile yeni sözleşme yaparak 55 milyon euroluk serbest kalma bedelini yükseltmeye hazırlanıyor.",
+      "text": "Brezilya basınına göre Galatasaray, devre arası forvet arayışında Tottenham'dan Richarlison için avantajlı konumda.",
+      "date": "2026-11-06",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/06/galatasaraydan-golcu-operasyonu-brezilya-basinindan-flas-transfer-iddiasi"
+    },
+    {
+      "category": "Transfer",
+      "text": "Haberlere göre Roma, Gabriel Sara'yı takibe aldı; Galatasaray'ın ocakta yaklaşık 35 milyon euro bonservis isteyeceği belirtiliyor.",
+      "date": "2026-11-05",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/avrupa-devleri-galatasarayin-yildizi-icin-geliyor-bonservis-bedeli-belirlendi-43367320"
+    },
+    {
+      "category": "Yönetim",
+      "text": "Galatasaray yönetimi, Stuttgart ve Sporting maçlarındaki hakem kararları nedeniyle UEFA ile resmi görüşme yapma kararı aldı.",
+      "date": "2026-11-04",
+      "source_url": "https://www.sporx.com/galatasaray-harekete-geciyor-uefa-ile-gorusme-SXHBQ1181717SXQ"
+    },
+    {
+      "category": "Transfer",
+      "text": "Kulübün Batrakov ile yeni sözleşme yaparak serbest kalma bedelini yükseltmeye hazırlandığı bildirildi.",
       "date": "2026-11-04",
       "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/04/transfer-haberi-galatasarayda-batrakov-gelismesi-serbest-kalma-bedeli"
     },
     {
       "category": "Transfer",
-      "text": "İtalyan basınına göre Galatasaray, Fiorentina'daki Christ Oulai için devre arasında 22 milyon euroluk teklif yapmaya hazır.",
+      "text": "İtalyan basınına göre Galatasaray, Fiorentina'daki Christ Oulai için 22 milyon euroluk teklif yapmaya hazır.",
       "date": "2026-11-04",
       "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/04/galatasaraydan-devler-ligi-zaferi-sonrasi-transfer-bombasi-iste-cimbomun-yeni-yildizi"
-    },
-    {
-      "category": "Kulüp",
-      "text": "Stuttgart galibiyetiyle UEFA'dan 2,1 milyon euro daha kazanan Galatasaray'ın Şampiyonlar Ligi galibiyet primi 4,2 milyon euroya ulaştı.",
-      "date": "2026-11-03",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/03/galatasaraydan-stuttgart-galibiyetiyle-dev-gelir-iste-devler-liginde-kasaya-giren-toplam-para"
-    },
-    {
-      "category": "Yönetim",
-      "text": "Başkan Dursun Özbek istifaların ardından göreve devam kararı aldı; Mehmet Cibara ikinci başkanlığa, Eray Yazgan başkan yardımcılığına getirildi.",
-      "date": "2026-11-03",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/galatasaraya-erken-secim-olacak-mi-fiziki-saldirida-bulundu-olmus-annesine-kufur-etti-43363991"
-    },
-    {
-      "category": "Transfer",
-      "text": "Bild'e göre Galatasaray, Leipzig'den kiralık aldığı Bitshiabu'nun 28 milyon euroluk satın alma opsiyonunu kullanmayacak.",
-      "date": "2026-11-03",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/03/transfer-haberi-galatasarayda-buyuk-hayal-kirikligi-sezon-sonunda-yollar-ayriliyor"
-    },
-    {
-      "category": "Ceza",
-      "text": "Tahkim Kurulu, derbideki olaylar nedeniyle Abdülkerim Bardakcı'ya verilen 2 resmi maç men ve 67 bin TL para cezasını onadı.",
-      "date": "2026-10-30",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/10/30/tahkim-kurulundan-abdulkerim-bardakci-icin-karar-cikti"
     }
   ]
 }
