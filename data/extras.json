@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T09:03Z",
+  "updated": "2026-11-07T09:25Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -109,40 +109,46 @@
   "cup": [],
   "gs_news": [
     {
+      "category": "Sakatlık",
+      "text": "Stuttgart maçında sol dizinde serbest fragman tespit edilen Victor Osimhen artroskopik diz ameliyatı olacak; A Spor'a göre 24 Kasım'daki Aston Villa maçına yetiştirilmesi planlanıyor.",
+      "date": "2026-11-06",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/06/galatasaraydan-victor-osimhen-icin-sakatlik-aciklamasi-ameliyat-olacagi-duyuruldu"
+    },
+    {
+      "category": "Transfer",
+      "text": "Haberlere göre MLS'ten üç kulüp Leroy Sane ile ilgileniyor ve devre arasında resmi teklif yapmaları bekleniyor.",
+      "date": "2026-11-07",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/07/transfer-haberi-galatasarayda-sok-ayrilik-iddiasi-resmi-gorusme-yapildi-ve"
+    },
+    {
       "category": "Ceza",
-      "text": "PFDK, Konyaspor maçındaki taraftar olayları ve tezahüratlar nedeniyle Galatasaray'a toplam 780 bin TL para cezası verdi.",
+      "text": "PFDK, Konyaspor deplasmanındaki saha olayları ve çirkin tezahüratlar nedeniyle Galatasaray'a toplam 780 bin TL para cezası verdi.",
       "date": "2026-11-06",
-      "source_url": "https://www.fotomac.com.tr/superlig/2026/11/06/pfdkdan-besiktas-ve-galatasaraya-ceza"
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/06/pfdkdan-besiktas-ve-galatasaraya-para-cezasi"
     },
     {
       "category": "Transfer",
-      "text": "Brezilya basınına göre Galatasaray, devre arası forvet arayışında Tottenham'dan Richarlison için avantajlı konumda.",
+      "text": "Batrakov'un menajeri, yeni sözleşme ve serbest kalma bedeli iddialarına rağmen Galatasaray yönetimiyle henüz görüşme yapmadıklarını söyledi.",
       "date": "2026-11-06",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/06/galatasaraydan-golcu-operasyonu-brezilya-basinindan-flas-transfer-iddiasi"
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/06/batrakovun-menajerinden-galatasaray-aciklamasi-100-milyon-euro"
+    },
+    {
+      "category": "Kulüp",
+      "text": "Fotomaç'a göre RAMS Park'ın zemini 1,5 ayda yeniden bozuldu ve oyuncular durumdan hoşnutsuzluklarını dile getirdi.",
+      "date": "2026-11-06",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/06/galatasarayda-stuttgart-zaferi-sonrasi-kriz-yildiz-isimler-isyan-etti"
     },
     {
       "category": "Transfer",
-      "text": "Haberlere göre Roma, Gabriel Sara'yı takibe aldı; Galatasaray'ın ocakta yaklaşık 35 milyon euro bonservis isteyeceği belirtiliyor.",
-      "date": "2026-11-05",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/avrupa-devleri-galatasarayin-yildizi-icin-geliyor-bonservis-bedeli-belirlendi-43367320"
-    },
-    {
-      "category": "Yönetim",
-      "text": "Galatasaray yönetimi, Stuttgart ve Sporting maçlarındaki hakem kararları nedeniyle UEFA ile resmi görüşme yapma kararı aldı.",
-      "date": "2026-11-04",
-      "source_url": "https://www.sporx.com/galatasaray-harekete-geciyor-uefa-ile-gorusme-SXHBQ1181717SXQ"
+      "text": "İtalyan basınına göre Fiorentina, ara transferde Lucas Torreira için Galatasaray ile temas kurmayı planlıyor.",
+      "date": "2026-11-06",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/06/eski-takimindan-lucas-torreiraya-kanca-transfere-sicak-bakiyor"
     },
     {
       "category": "Transfer",
-      "text": "Kulübün Batrakov ile yeni sözleşme yaparak serbest kalma bedelini yükseltmeye hazırlandığı bildirildi.",
-      "date": "2026-11-04",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/04/transfer-haberi-galatasarayda-batrakov-gelismesi-serbest-kalma-bedeli"
-    },
-    {
-      "category": "Transfer",
-      "text": "İtalyan basınına göre Galatasaray, Fiorentina'daki Christ Oulai için 22 milyon euroluk teklif yapmaya hazır.",
-      "date": "2026-11-04",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/04/galatasaraydan-devler-ligi-zaferi-sonrasi-transfer-bombasi-iste-cimbomun-yeni-yildizi"
+      "text": "Gabriel Sara'nın Crystal Palace, Aston Villa, Newcastle ve Everton gibi Premier Lig kulüplerinin radarında olduğu öne sürüldü.",
+      "date": "2026-11-06",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/06/galatasaraydan-gabriel-sara-icin-dev-bonservis-beklentisi-premier-lige-transfer-kapida"
     }
   ]
 }
