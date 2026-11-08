@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T09:57Z",
+  "updated": "2026-11-08T21:14Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -112,51 +112,59 @@
     "401888244": {
       "tr": "",
       "pt": ""
+    },
+    "401888246": {
+      "tr": "",
+      "pt": ""
+    },
+    "401888249": {
+      "tr": "",
+      "pt": ""
     }
   },
   "cup": [],
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "Galatasaray, sol dizinden sakatlanan Victor Osimhen'in ameliyat edildiğini resmi açıklamayla duyurdu.",
-      "date": "2026-11-07",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaraydan-osimhen-icin-bir-aciklama-daha-operasyon-gecirmistir-2643699"
-    },
-    {
-      "category": "Sakatlık",
-      "text": "Rafael Leao, Amedspor maçında sakatlanarak oyuna devam edemedi ve maç sonunda durumuyla ilgili açıklama yaptı.",
-      "date": "2026-11-07",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasarayda-sakatlik-soku-leao-mac-sonu-durumunu-acikladi-2643756"
+      "text": "Galatasaray, Amedspor maçında sakatlanan Rafael Leao'nun MR'ında sağ arka adalede ileri derecede zorlanma ve kanama tespit edildiğini açıkladı, dönüş tarihi verilmedi.",
+      "date": "2026-11-08",
+      "source_url": "https://aa.com.tr/tr/spor/galatasaraydan-leaonun-saglik-durumu-hakkinda-aciklama/4115818"
     },
     {
       "category": "Kulüp",
-      "text": "Fanatik'e göre RAMS Park'ın bozulan zemini için milli maç arasında yenileme çalışması yapılacak.",
+      "text": "Galatasaray'ın efsane futbolcularından Cevad Prekazi hayatını kaybetti.",
+      "date": "2026-11-08",
+      "source_url": "https://www.aa.com.tr/tr/spor/cevad-prekazi-hayatini-kaybetti/4116339"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Dizinden sakatlanan Victor Osimhen ameliyat edildi.",
       "date": "2026-11-07",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasarayda-rams-park-operasyonu-milli-arada-harekete-gecilecek-2643685"
+      "source_url": "https://www.cnnturk.com/spor/futbol/galatasarayda-osimhen-operasyon-gecirdi-3490187"
     },
     {
-      "category": "Transfer",
-      "text": "Haberlere göre MLS'ten kulüpler Leroy Sane ile ilgileniyor, ancak resmi bir teklif açıklanmadı.",
+      "category": "Kulüp",
+      "text": "Galatasaray, sorun yaşanan RAMS Park zeminini değiştirmeye hazırlanıyor.",
       "date": "2026-11-07",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/07/transfer-haberi-galatasarayda-sok-ayrilik-iddiasi-resmi-gorusme-yapildi-ve"
-    },
-    {
-      "category": "Ceza",
-      "text": "PFDK, Konyaspor deplasmanındaki olaylar nedeniyle Galatasaray'a para cezası verdi.",
-      "date": "2026-11-06",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/06/pfdkdan-besiktas-ve-galatasaraya-para-cezasi"
+      "source_url": "https://www.cnnturk.com/spor/futbol/galatasarayda-stat-zeminini-degistiriyor-gelin-duzeltin-3490161"
     },
     {
       "category": "Transfer",
-      "text": "Batrakov'un menajeri, 100 milyon euroluk serbest kalma bedeli iddiaları hakkında yorum yapmadı.",
-      "date": "2026-11-06",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/06/batrakovun-menajerinden-galatasaray-aciklamasi-100-milyon-euro"
+      "text": "Basında Leroy Sane'nin ayrılabileceğine dair iddialar yer alıyor, kulüpten resmi bir açıklama yok.",
+      "date": "2026-11-07",
+      "source_url": "https://www.cnnturk.com/spor/futbol/galatasarayda-leroy-sane-icin-ayrilik-senaryosu-3490140"
     },
     {
       "category": "Transfer",
-      "text": "İtalyan basınına göre eski kulübü Fiorentina, ara transferde Lucas Torreira'yı yeniden kadrosuna katmak istiyor.",
-      "date": "2026-11-06",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/06/eski-takimindan-lucas-torreiraya-kanca-transfere-sicak-bakiyor"
+      "text": "Fanatik'e göre Galatasaray, Batrakov ile serbest kalma maddesi ve maaş için yeni sözleşme görüşmesi yapacak.",
+      "date": "2026-11-05",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasaray-batrakov-ile-masaya-oturacak-serbest-kalma-maddesi-degisiyor-maasa-zam-da-yolda-2643485"
+    },
+    {
+      "category": "Yönetim",
+      "text": "İkinci Başkan Metin Öztürk ve yönetim kurulu üyesi Abdullah Kavukcu'nun istifalarının ardından yönetim kurulu toplandı.",
+      "date": "2026-11-03",
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/03/galatasarayda-yonetim-toplandi"
     }
   ]
 }
