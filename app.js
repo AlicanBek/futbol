@@ -144,6 +144,37 @@ function roughList(ms, id) {
   return out ? `<div class="list">${out}</div>` : `<div class="empty">Sezonda başka maç görünmüyor</div>`;
 }
 
+// ---- Geçmiş maçlar ---------------------------------------------------------
+// Oynanmış maçlar (lig + Avrupa), eskiden yeniye
+const pastMatches = (id) => teamMatches(id).filter((m) => m.state === "post" && m.hs != null && m.as != null);
+function resultOf(m, id) {
+  const home = m.h === id, me = +(home ? m.hs : m.as), op = +(home ? m.as : m.hs);
+  return { me, op, r: me > op ? "w" : me < op ? "l" : "d" };
+}
+// Son 5 maç: soldan sağa eskiden yeniye, her kutuda rakip logosu ve skor
+function formStrip(id) {
+  const ms = pastMatches(id).slice(-5);
+  if (!ms.length) return "";
+  return `<div class="formbox"><div class="fl">Form <small>son ${ms.length} maç</small></div><div class="fs">${ms.map((m) => {
+    const opp = m.h === id ? m.a : m.h, { me, op, r } = resultOf(m, id);
+    return `<div class="fm ${r}" title="${esc(tname(opp))} ${me}-${op}">${logo(opp) || `<i>${esc(tshort(opp).slice(0, 3))}</i>`}<b>${me}-${op}</b><small>${m.h === id ? "🏠" : "✈️"} ${COMP[m.lg].emoji}</small></div>`;
+  }).join("")}</div></div>`;
+}
+// Sezonun tüm oynanmış maçları, yeniden eskiye
+function pastList(id) {
+  const ms = pastMatches(id).reverse();
+  if (!ms.length) return `<div class="empty">Henüz oynanmış maç yok</div>`;
+  let month = null, out = "";
+  for (const m of ms) {
+    const mo = monthOf(m.date);
+    if (mo !== month) { month = mo; out += `<div class="month">${mo}</div>`; }
+    const opp = m.h === id ? m.a : m.h, c = COMP[m.lg], { me, op, r } = resultOf(m, id);
+    out += `<div class="row"><span class="ha">${m.h === id ? "🏠" : "✈️"}</span>${logo(opp)}<span class="opp">${esc(tname(opp))}<small>${dayShort(m.date)} · ${c.emoji} ${c.abbr} · ${esc(weekLabel(m, id))}</small></span>
+      <span class="res ${r}">${me}-${op}</span></div>`;
+  }
+  return `<div class="list">${out}</div>`;
+}
+
 function standingOf(lg, id) { return (D.leagues[lg]?.standings || []).find((r) => r.team === id); }
 
 // ---- Ekranlar -------------------------------------------------------------
@@ -169,8 +200,10 @@ function viewGS() {
   const items = freshNews();
   const news = items.map((n) => { const [bg, fg] = NEWS_STYLE[n.category] || ["#eee", "#555"];
     return `<div class="item"><span class="tag" style="background:${bg};color:${fg}">${esc(n.category)}</span><span>${esc(n.text)}${n.date ? `<small class="nd">${newsDay(n.date)}</small>` : ""}</span></div>`; }).join("");
-  return `${hero}<div class="stats">${stats}</div>
+  const form = formStrip(GS);
+  return `${hero}<div class="stats">${stats}</div>${form ? `<div class="formcard">${form}</div>` : ""}
     <div class="label">Önümüzdeki 2 hafta</div>${soon.map((m) => detailCard(m, GS)).join("") || `<div class="empty">Bu dönemde GS maçı yok</div>`}
+    ${fold("gs-past", "Son maçlar", `${pastMatches(GS).length} maç`, pastList(GS))}
     ${fold("gs-later", "Sonraki maçlar", `${later.length} maç`, roughList(later, GS))}
     ${fold("gs-news", "GS gündemi", `${items.length} haber`, news ? `<div class="news">${news}</div>` : `<div class="empty">Henüz haber yok. Sakatlık, ceza, transfer, yönetim ve kulüp haberleri her gün 09:00'da güncellenir.</div>`)}
     ${playersTable()}
@@ -198,12 +231,23 @@ const fold = (key, title, count, body) =>
   `<details class="fold" data-key="${key}"${foldOpen(key) ? " open" : ""}><summary>${title} <span>${count}</span></summary>${body}</details>`;
 
 const POS = { G: "Kaleci", D: "Defans", M: "Orta saha", F: "Forvet" };
+// ESPN'in isim düzeltmeleri (oyuncu id → [kısa ad, tam ad, mevki]); Türkçe harfler ve ESPN'in yanlış yazdıkları
+const PLAYER_FIX = {
+  "268478": ["G. Sara", "Gabriel Sara", "M"],
+  "217267": ["G. Güvenç", "Günay Güvenç"], "222922": ["U. Çakır", "Uğurcan Çakır"],
+  "324895": ["J. Yılmaz", "Jankat Yılmaz"], "415732": ["A. Yılmaz", "Arda Yılmaz"],
+  "193149": ["A. Bardakçı", "Abdülkerim Bardakçı"], "287678": ["E. Elmalı", "Eren Elmalı"],
+  "301345": ["K. Karataş", "Kazımcan Karataş"], "131424": ["İ. Gündoğan", "İlkay Gündoğan"],
+  "346757": ["E. Aydın", "Eyüp Aydın"], "322538": ["B. Yılmaz", "Barış Alper Yılmaz"],
+  "407331": ["A. Yüzgeç", "Ada Yüzgeç"],
+};
 const SHOW_PLAYERS = 10;
 
 function playersTable() {
   const ps = (D.players || []).map((p) => {
     const lg = p.tsl || {}, eu = p.ucl || p.uel || p.uecl || {};
-    return { ...p, apps: (lg.apps || 0) + (eu.apps || 0), lgG: lg.goals || 0, euG: eu.goals || 0, ast: (lg.ast || 0) + (eu.ast || 0) };
+    const fx = PLAYER_FIX[p.id] || [];
+    return { ...p, name: fx[0] || p.name, pos: fx[2] || p.pos, apps: (lg.apps || 0) + (eu.apps || 0), lgG: lg.goals || 0, euG: eu.goals || 0, ast: (lg.ast || 0) + (eu.ast || 0) };
   }).filter((p) => p.apps > 0)
     .sort((a, b) => (b.lgG + b.euG) - (a.lgG + a.euG) || b.ast - a.ast || b.apps - a.apps);
   if (!ps.length) return "";
@@ -286,17 +330,14 @@ function viewTeam(lg, id) {
   if (!r) return `<a class="back" href="#tablolar/${lg}">‹ Tablolar</a><div class="empty">Takım bulunamadı</div>`;
   const chips = leagues.map((k) => { const s = standingOf(k, id);
     return `<a class="pos" href="#tablolar/${k}" style="background:${COMP[k].bg};color:${COMP[k].color}">${COMP[k].emoji} ${COMP[k].name} · ${s.rank}. · ${s.pts} puan</a>`; }).join("");
-  const done = ALL.filter((m) => m.lg === lg && m.state === "post" && (m.h === id || m.a === id)).slice(-5);
-  const form = done.map((m) => { const me = +m[sideOf(m, id) === "h" ? "hs" : "as"], op = +m[sideOf(m, id) === "h" ? "as" : "hs"];
-    const res = me > op ? ["G", "#2e9e5b"] : me < op ? ["M", "#e5484d"] : ["B", "#9a9a9a"];
-    return `<span class="f" style="background:${res[1]}" title="${esc(tname(m.h === id ? m.a : m.h))} ${me}-${op}">${res[0]}</span>`; }).join("");
   const ms = teamMatches(id).filter(upcoming);
   const soon = ms.filter(inWindow), later = ms.filter((m) => !inWindow(m) && (m.dateKnown !== false || m.approx));
   return `<a class="back" href="#tablolar/${lg}">‹ Tablolar</a>
     <section class="head">${logo(id)}<h1>${esc(tname(id))}</h1>${chips}
       <div class="nums"><div><b>${r.gp}</b>O</div><div><b>${r.w}</b>G</div><div><b>${r.d}</b>B</div><div><b>${r.l}</b>M</div><div><b>${r.gf}:${r.ga}</b>Gol</div><div><b>${esc(r.gd)}</b>AV</div></div>
-      ${form ? `<div class="form">Son 5 ${form}</div>` : ""}</section>
+      ${formStrip(id)}</section>
     <div class="label">Önümüzdeki 2 hafta</div>${soon.map((m) => detailCard(m, id)).join("") || `<div class="empty">Bu dönemde maçı yok</div>`}
+    ${fold(`past-${id}`, "Son maçlar", `${pastMatches(id).length} maç`, pastList(id))}
     <div class="label">Sonraki maçlar</div>${roughList(later, id)}`;
 }
 
@@ -345,7 +386,7 @@ async function pollLive() {
     const homeId = side("home").team.id;
     const goals = (d.keyEvents || []).filter((e) => e.scoringPlay || /red-card/.test(e.type?.type || "")).map((e) => ({
       min: e.clock?.displayValue || "",
-      name: e.participants?.[0]?.athlete?.displayName || "",
+      name: PLAYER_FIX[e.participants?.[0]?.athlete?.id]?.[1] || e.participants?.[0]?.athlete?.displayName || "",
       side: e.team?.id === homeId ? "h" : "a",
       kind: e.scoringPlay ? (/own/i.test(e.type?.type || "") ? "og" : "goal") : "red",
     }));

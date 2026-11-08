@@ -189,8 +189,22 @@ tbody tr { cursor: pointer; }
 .pos { display: inline-block; font-weight: 700; font-size: 13px; border-radius: 999px; padding: 4px 12px; margin: 6px 3px 0; }
 .nums { display: flex; justify-content: space-around; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
 .nums div { font-size: 11px; color: var(--muted); font-weight: 700; } .nums b { display: block; font-size: 18px; color: var(--ink); }
-.form { display: flex; gap: 6px; justify-content: center; align-items: center; margin-top: 12px; font-size: 12px; color: var(--muted); }
-.f { width: 22px; height: 22px; border-radius: 6px; color: #fff; font-size: 11px; font-weight: 800; display: grid; place-items: center; }
+/* Form: son 5 maç, rakip logosu + skor, renk sonuçtan */
+.formcard { background: var(--card); border-radius: 16px; padding: 12px 14px; margin-top: 10px; }
+.head .formbox { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.fl { font-size: 12px; font-weight: 700; color: var(--muted); text-align: left; margin-bottom: 8px; }
+.fl small { font-weight: 500; }
+.fs { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.fm { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 8px 2px 6px; border-radius: 10px; border-bottom: 3px solid; }
+.fm img, .head .fm img { width: 24px; height: 24px; object-fit: contain; }
+.fm i { font-style: normal; font-size: 11px; font-weight: 800; height: 24px; line-height: 24px; color: var(--muted); }
+.fm b { font-size: 14px; font-variant-numeric: tabular-nums; }
+.fm small { font-size: 10px; line-height: 1; }
+.fm.w { background: #e6f5ec; border-color: #2e9e5b; } .fm.w b { color: #1f7a45; }
+.fm.d { background: #efefef; border-color: #9a9a9a; } .fm.d b { color: #555; }
+.fm.l { background: #fde8e8; border-color: #e5484d; } .fm.l b { color: #c4282d; }
+.res { font-weight: 800; font-size: 13px; padding: 3px 8px; border-radius: 7px; font-variant-numeric: tabular-nums; flex: none; }
+.res.w { background: #e6f5ec; color: #1f7a45; } .res.d { background: #efefef; color: #555; } .res.l { background: #fde8e8; color: #c4282d; }
 
 /* Alt sekmeler */
 nav { position: fixed; left: 0; right: 0; bottom: 0; z-index: 3; background: rgba(255,255,255,.94); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
