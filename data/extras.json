@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T15:16Z",
+  "updated": "2026-11-09T21:14Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -125,16 +125,22 @@
   "cup": [],
   "gs_news": [
     {
+      "category": "Sakatlık",
+      "text": "Arka adalesinde ileri derecede zorlanma ve kanama tespit edilen Rafael Leao'nun 30 Kasım'daki Beşiktaş derbisine kadar oynaması beklenmiyor, ameliyat olan Osimhen'in ise 24 Kasım'daki Aston Villa maçına yetiştirilmesi hedefleniyor.",
+      "date": "2026-11-09",
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/09/galatasarayda-sakatlik-kabusu"
+    },
+    {
       "category": "Transfer",
       "text": "Batrakov'un menajeri, önümüzdeki iki hafta içinde Galatasaray yönetimiyle görüşeceğini ve serbest kalma maddesinin bu toplantıda ele alınabileceğini söyledi.",
       "date": "2026-11-09",
       "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/09/galatasarayda-aleksey-batrakov-icin-yeni-sozlesme-gundemde-menajerinden-aciklama"
     },
     {
-      "category": "Sakatlık",
-      "text": "Galatasaray, Amedspor maçında sakatlanan Rafael Leao'nun sağ arka adalesinde ileri derecede zorlanma ve kanama tespit edildiğini açıkladı.",
-      "date": "2026-11-08",
-      "source_url": "https://aa.com.tr/tr/spor/galatasaraydan-leaonun-saglik-durumu-hakkinda-aciklama/4115818"
+      "category": "Transfer",
+      "text": "Alman basını, Galatasaray'ın beklentiyi karşılamayan Leroy Sane ile yollarını ayırmayı düşündüğünü iddia etti.",
+      "date": "2026-11-09",
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/09/galatasaraydan-sane-karari-bu-sezon-yoklari-oynuyor"
     },
     {
       "category": "Kulüp",
@@ -147,12 +153,6 @@
       "text": "Galatasaray'ın efsane futbolcularından Cevad Prekazi hayatını kaybetti.",
       "date": "2026-11-08",
       "source_url": "https://www.aa.com.tr/tr/spor/cevad-prekazi-hayatini-kaybetti/4116339"
-    },
-    {
-      "category": "Sakatlık",
-      "text": "Sol dizinden sakatlanan Victor Osimhen başarılı bir ameliyat geçirdi, Okan Buruk dönüş için kesin bir tarih olmadığını söyledi.",
-      "date": "2026-11-07",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/osimhen-ameliyat-gecirdi-donus-maci-belli-oldu-43369064"
     },
     {
       "category": "Ceza",
