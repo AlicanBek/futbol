@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T21:14Z",
+  "updated": "2026-11-09T09:15Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -106,27 +106,33 @@
       "pt": ""
     },
     "401888245": {
-      "tr": "",
+      "tr": "beIN SPORTS 1",
       "pt": ""
     },
     "401888244": {
-      "tr": "",
+      "tr": "beIN SPORTS 1",
       "pt": ""
     },
     "401888246": {
-      "tr": "",
+      "tr": "beIN SPORTS 1",
       "pt": ""
     },
     "401888249": {
-      "tr": "",
+      "tr": "beIN SPORTS 1",
       "pt": ""
     }
   },
   "cup": [],
   "gs_news": [
     {
+      "category": "Transfer",
+      "text": "Batrakov'un temsilcisi, Galatasaray'ın oyuncunun sözleşme şartlarını yeniden değerlendirebileceğini söyledi.",
+      "date": "2026-11-09",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/09/galatasarayda-aleksey-batrakov-icin-yeni-sozlesme-gundemde-menajerinden-aciklama"
+    },
+    {
       "category": "Sakatlık",
-      "text": "Galatasaray, Amedspor maçında sakatlanan Rafael Leao'nun MR'ında sağ arka adalede ileri derecede zorlanma ve kanama tespit edildiğini açıkladı, dönüş tarihi verilmedi.",
+      "text": "Galatasaray, Amedspor maçında sakatlanan Rafael Leao'nun sağ arka adalesinde ileri derecede zorlanma ve kanama tespit edildiğini açıkladı.",
       "date": "2026-11-08",
       "source_url": "https://aa.com.tr/tr/spor/galatasaraydan-leaonun-saglik-durumu-hakkinda-aciklama/4115818"
     },
@@ -137,28 +143,22 @@
       "source_url": "https://www.aa.com.tr/tr/spor/cevad-prekazi-hayatini-kaybetti/4116339"
     },
     {
-      "category": "Sakatlık",
-      "text": "Dizinden sakatlanan Victor Osimhen ameliyat edildi.",
-      "date": "2026-11-07",
-      "source_url": "https://www.cnnturk.com/spor/futbol/galatasarayda-osimhen-operasyon-gecirdi-3490187"
-    },
-    {
       "category": "Kulüp",
-      "text": "Galatasaray, sorun yaşanan RAMS Park zeminini değiştirmeye hazırlanıyor.",
+      "text": "Galatasaray, sorun yaşanan RAMS Park zemini için bir İngiliz firmasıyla anlaştı, onarım milli arada yapılacak.",
+      "date": "2026-11-08",
+      "source_url": "https://ajansspor.com/haber/galatasarayda-zemin-sorunu-icin-ingiliz-firmayla-anlasildi-738149"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Sol dizinden sakatlanan Victor Osimhen başarılı bir ameliyat geçirdi, basına göre hedef 24 Kasım'daki Aston Villa maçı.",
       "date": "2026-11-07",
-      "source_url": "https://www.cnnturk.com/spor/futbol/galatasarayda-stat-zeminini-degistiriyor-gelin-duzeltin-3490161"
+      "source_url": "https://www.hurriyet.com.tr/sporarena/osimhen-ameliyat-gecirdi-donus-maci-belli-oldu-43369064"
     },
     {
       "category": "Transfer",
-      "text": "Basında Leroy Sane'nin ayrılabileceğine dair iddialar yer alıyor, kulüpten resmi bir açıklama yok.",
+      "text": "Basında Leroy Sane'nin ocakta ayrılabileceği ve MLS kulüplerinin ilgilendiği iddia ediliyor, kulüpten resmi açıklama yok.",
       "date": "2026-11-07",
-      "source_url": "https://www.cnnturk.com/spor/futbol/galatasarayda-leroy-sane-icin-ayrilik-senaryosu-3490140"
-    },
-    {
-      "category": "Transfer",
-      "text": "Fanatik'e göre Galatasaray, Batrakov ile serbest kalma maddesi ve maaş için yeni sözleşme görüşmesi yapacak.",
-      "date": "2026-11-05",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasaray-batrakov-ile-masaya-oturacak-serbest-kalma-maddesi-degisiyor-maasa-zam-da-yolda-2643485"
+      "source_url": "https://www.takvim.com.tr/spor/galatasaray/2026/11/07/galatasaray-leroy-sane-ile-gorustu-ayrilik-kapida"
     },
     {
       "category": "Yönetim",
