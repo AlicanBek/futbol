@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T09:15Z",
+  "updated": "2026-11-09T15:16Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -126,7 +126,7 @@
   "gs_news": [
     {
       "category": "Transfer",
-      "text": "Batrakov'un temsilcisi, Galatasaray'ın oyuncunun sözleşme şartlarını yeniden değerlendirebileceğini söyledi.",
+      "text": "Batrakov'un menajeri, önümüzdeki iki hafta içinde Galatasaray yönetimiyle görüşeceğini ve serbest kalma maddesinin bu toplantıda ele alınabileceğini söyledi.",
       "date": "2026-11-09",
       "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/09/galatasarayda-aleksey-batrakov-icin-yeni-sozlesme-gundemde-menajerinden-aciklama"
     },
@@ -138,27 +138,27 @@
     },
     {
       "category": "Kulüp",
-      "text": "Galatasaray'ın efsane futbolcularından Cevad Prekazi hayatını kaybetti.",
-      "date": "2026-11-08",
-      "source_url": "https://www.aa.com.tr/tr/spor/cevad-prekazi-hayatini-kaybetti/4116339"
-    },
-    {
-      "category": "Kulüp",
       "text": "Galatasaray, sorun yaşanan RAMS Park zemini için bir İngiliz firmasıyla anlaştı, onarım milli arada yapılacak.",
       "date": "2026-11-08",
       "source_url": "https://ajansspor.com/haber/galatasarayda-zemin-sorunu-icin-ingiliz-firmayla-anlasildi-738149"
     },
     {
+      "category": "Kulüp",
+      "text": "Galatasaray'ın efsane futbolcularından Cevad Prekazi hayatını kaybetti.",
+      "date": "2026-11-08",
+      "source_url": "https://www.aa.com.tr/tr/spor/cevad-prekazi-hayatini-kaybetti/4116339"
+    },
+    {
       "category": "Sakatlık",
-      "text": "Sol dizinden sakatlanan Victor Osimhen başarılı bir ameliyat geçirdi, basına göre hedef 24 Kasım'daki Aston Villa maçı.",
+      "text": "Sol dizinden sakatlanan Victor Osimhen başarılı bir ameliyat geçirdi, Okan Buruk dönüş için kesin bir tarih olmadığını söyledi.",
       "date": "2026-11-07",
       "source_url": "https://www.hurriyet.com.tr/sporarena/osimhen-ameliyat-gecirdi-donus-maci-belli-oldu-43369064"
     },
     {
-      "category": "Transfer",
-      "text": "Basında Leroy Sane'nin ocakta ayrılabileceği ve MLS kulüplerinin ilgilendiği iddia ediliyor, kulüpten resmi açıklama yok.",
-      "date": "2026-11-07",
-      "source_url": "https://www.takvim.com.tr/spor/galatasaray/2026/11/07/galatasaray-leroy-sane-ile-gorustu-ayrilik-kapida"
+      "category": "Ceza",
+      "text": "PFDK, Konyaspor deplasmanındaki taraftar olayları ve küfürlü tezahüratlar nedeniyle Galatasaray'a toplam 780 bin TL para cezası verdi.",
+      "date": "2026-11-06",
+      "source_url": "https://www.fotomac.com.tr/superlig/2026/11/06/pfdkdan-besiktas-ve-galatasaraya-ceza"
     },
     {
       "category": "Yönetim",
