@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T15:14Z",
+  "updated": "2026-11-10T21:26Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -120,43 +120,79 @@
     "401888249": {
       "tr": "beIN SPORTS 1",
       "pt": ""
+    },
+    "401915300": {
+      "tr": "TRT 1",
+      "pt": "DAZN"
+    },
+    "401915380": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915295": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915296": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915294": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915379": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915299": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915298": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915297": {
+      "tr": "tabii Spor",
+      "pt": ""
     }
   },
   "cup": [],
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "Sol dizinden artroskopik ameliyat olan Osimhen'in yaklaşık 5 hafta sahalardan uzak kalması ve Samsunspor, Aston Villa ile Beşiktaş maçlarını kaçırması beklenirken, arka adalesinde zorlanma ve kanama tespit edilen Leao'nun 5-6 hafta forma giyememesi öngörülüyor.",
+      "text": "Kulübün açıklamasına göre sol dizinden artroskopik ameliyat olan Osimhen ile sağ arka üst adale grubunda ileri derecede zorlanma ve kanama tespit edilen Leao, basına göre Samsunspor ve Aston Villa maçlarında forma giyemeyecek.",
       "date": "2026-11-10",
       "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/10/galatasaraya-osimhen-ve-leao-soku-sahalara-donus-tarihleri"
     },
     {
       "category": "Kulüp",
-      "text": "RAMS Park'taki zemin sorunu için çalışmalar başladı, saha milli ara boyunca her gün bakım görecek ve Samsunspor maçına kadar toparlanması hedefleniyor.",
+      "text": "Bozulan RAMS Park zemini milli ara boyunca yoğun bakıma alındı ve haberlere göre yüklenici firmanın hibrit uygulamayı ücretsiz yenilemesi bekleniyor.",
       "date": "2026-11-10",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/10/galatasarayda-zemin-calismalari-icin-kollar-sivandi"
+      "source_url": "https://www.fanatik.com.tr/galatasaray/rams-parkin-zeminine-ne-oldu-galatasarayda-mesai-yogun-iste-gercekler-2644030"
     },
     {
       "category": "Transfer",
-      "text": "Galatasaray'ın, menajerine göre 55 milyon euroluk serbest kalma maddesi bulunan Aleksey Batrakov için yeni ve daha korumalı bir sözleşme planladığı bildirildi.",
+      "text": "Sky Almanya'ya göre Galatasaray'ın takip ettiği Bilal El Khannouss için Stuttgart'ın bonservis beklentisi bonuslarla 40 milyon euroya indi, ancak kulübün somut bir adımı yok.",
       "date": "2026-11-10",
-      "source_url": "https://hurriyet.com.tr/sporarena/galatasaraydan-batrakova-dev-koruma-43372063"
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaraya-bundesligadan-orta-saha-40-milyon-euro-2644092"
     },
     {
       "category": "Transfer",
-      "text": "Fotomaç'a göre Galatasaray, yazın Fiorentina'ya transfer olan Christ Inao Oulai için yeniden harekete geçti ve ilk temasın kurulduğu iddia ediliyor.",
+      "text": "Sky Almanya, uygun bir teklif gelmesi halinde Leroy Sane'nin ocak ayında Galatasaray'dan ayrılmasının artık ihtimal dışı olmadığını yazdı.",
       "date": "2026-11-10",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/10/galatasarayda-transferde-sicak-gelisme-christ-inao-oulai"
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-leroy-sane-galatasarayla-ipleri-kopardi-ayrilik-sarti-belli-oldu-2644016"
     },
     {
       "category": "Transfer",
-      "text": "Sky Almanya'ya göre Galatasaray'ın ilgilendiği Bilal El Khannouss için Stuttgart'ın bonservis beklentisi bonuslarla birlikte 40 milyon euroya indi.",
-      "date": "2026-11-10",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/10/galatasarayin-istedigi-bilal-el-khannoussun-bonservisi-dustu-iste-yeni-fiyati"
+      "text": "Aleksey Batrakov'un menajeri, yeni sözleşme gündemi için iki hafta içinde İstanbul'a gelip Galatasaray yönetimiyle görüşeceğini açıkladı.",
+      "date": "2026-11-09",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-batrakovun-menajeri-istanbula-geliyor-galatasaray-yonetimiyle-gorusecegiz-2643914"
     },
     {
       "category": "Kulüp",
-      "text": "Galatasaray'ın efsane futbolcularından Cevad Prekazi hayatını kaybetti.",
+      "text": "Galatasaray'ın efsane futbolcularından Cevad Prekazi 69 yaşında hayatını kaybetti.",
       "date": "2026-11-08",
       "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/08/galatasaray-efsanesi-cevad-prekazi-hayatini-kaybetti"
     },
