@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T21:26Z",
+  "updated": "2026-11-11T09:14Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -161,8 +161,14 @@
   "cup": [],
   "gs_news": [
     {
+      "category": "Transfer",
+      "text": "Milliyet'in haberine göre Galatasaray, sezon başında kiralanan ve henüz ilk 11'de forma giymeyen Lesley Ugochukwu ile ara transfer döneminde yollarını ayırmaya hazırlanıyor.",
+      "date": "2026-11-11",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasarayda-ayrilik-bileti-kesildi-ara-transferde-operasyon-basliyor-2644116"
+    },
+    {
       "category": "Sakatlık",
-      "text": "Kulübün açıklamasına göre sol dizinden artroskopik ameliyat olan Osimhen ile sağ arka üst adale grubunda ileri derecede zorlanma ve kanama tespit edilen Leao, basına göre Samsunspor ve Aston Villa maçlarında forma giyemeyecek.",
+      "text": "Sol dizinden ameliyat olan Osimhen ile sağ arka üst adalesinde ileri derecede zorlanma ve kanama tespit edilen Leao'nun, basına göre Samsunspor ve Aston Villa maçlarında forma giymesi beklenmiyor.",
       "date": "2026-11-10",
       "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/10/galatasaraya-osimhen-ve-leao-soku-sahalara-donus-tarihleri"
     },
@@ -171,12 +177,6 @@
       "text": "Bozulan RAMS Park zemini milli ara boyunca yoğun bakıma alındı ve haberlere göre yüklenici firmanın hibrit uygulamayı ücretsiz yenilemesi bekleniyor.",
       "date": "2026-11-10",
       "source_url": "https://www.fanatik.com.tr/galatasaray/rams-parkin-zeminine-ne-oldu-galatasarayda-mesai-yogun-iste-gercekler-2644030"
-    },
-    {
-      "category": "Transfer",
-      "text": "Sky Almanya'ya göre Galatasaray'ın takip ettiği Bilal El Khannouss için Stuttgart'ın bonservis beklentisi bonuslarla 40 milyon euroya indi, ancak kulübün somut bir adımı yok.",
-      "date": "2026-11-10",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaraya-bundesligadan-orta-saha-40-milyon-euro-2644092"
     },
     {
       "category": "Transfer",
@@ -198,9 +198,9 @@
     },
     {
       "category": "Ceza",
-      "text": "PFDK, Konyaspor deplasmanındaki taraftar olayları ve küfürlü tezahüratlar nedeniyle Galatasaray'a toplam 780 bin TL para cezası verdi.",
+      "text": "PFDK, Konyaspor deplasmanındaki saha olayları ve çirkin tezahüratlar nedeniyle Galatasaray'a toplam 780 bin TL para cezası verdi ve bir sonraki deplasman maçı için misafir tribünün üç bloğunda bilet satışını engelledi.",
       "date": "2026-11-06",
-      "source_url": "https://www.fotomac.com.tr/superlig/2026/11/06/pfdkdan-besiktas-ve-galatasaraya-ceza"
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/06/pfdkdan-besiktas-ve-galatasaraya-para-cezasi"
     }
   ]
 }
