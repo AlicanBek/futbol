@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T15:17Z",
+  "updated": "2026-11-11T21:23Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -156,51 +156,87 @@
     "401915297": {
       "tr": "tabii Spor",
       "pt": ""
+    },
+    "401915378": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915293": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915291": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915292": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915376": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915377": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915374": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915373": {
+      "tr": "tabii Spor",
+      "pt": ""
+    },
+    "401915375": {
+      "tr": "TRT 1",
+      "pt": ""
     }
   },
   "cup": [],
   "gs_news": [
     {
-      "category": "Kulüp",
-      "text": "RAMS Park zeminindeki sorun Kasım ayı Divan Kurulu toplantısına taşındı ve bir divan üyesi zemin düzelene kadar iç saha maçlarının başka bir statta oynanmasını önerdi.",
+      "category": "Yönetim",
+      "text": "Başkan yardımcısı Mehmet Saruhan Cibara, Kasım ayı Divan Kurulu toplantısında Leao ve Osimhen'in sakatlıklarının zeminle ilgisi olmadığını söyledi ve yönetimdeki tartışma iddialarına da yanıt verdi.",
       "date": "2026-11-11",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/11/galatasarayda-zemin-krizi-divan-kuruluna-tasindi-maclarin-baska-statta-oynanmasi-onerildi"
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/11/galatasaraydan-leao-ve-osimhen-aciklamasi-sakatliklarinin-zeminle-alakasi-yokmus"
     },
     {
       "category": "Sakatlık",
-      "text": "Kulübün açıklamasına göre Osimhen sol dizinden artroskopik ameliyat oldu, Leao'nun sağ arka üst adalesinde ileri derecede zorlanma ve kanama tespit edildi; basına göre ikisi de Samsunspor ve Aston Villa maçlarında forma giymeyecek.",
+      "text": "Kulübün açıklamasına göre Osimhen sol dizinden artroskopik ameliyat oldu, Leao'nun sağ arka üst adalesinde ileri derecede zorlanma tespit edildi; basına göre ikisi de Samsunspor ve Aston Villa maçlarında oynamayacak.",
       "date": "2026-11-10",
       "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/10/galatasaraya-osimhen-ve-leao-soku-sahalara-donus-tarihleri"
     },
     {
+      "category": "Kulüp",
+      "text": "RAMS Park zemini Divan Kurulu'nda gündeme geldi ve bir yönetim kurulu üyesi zemin düzelene kadar iç saha maçlarının başka bir statta oynanmasını önerdi; bu yönde bir karar açıklanmadı.",
+      "date": "2026-11-11",
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/11/galatasarayda-zemin-krizi-baska-statta-oynayabiliriz"
+    },
+    {
       "category": "Transfer",
-      "text": "Fotomaç'ın haberine göre Galatasaray, sezon başında kiralanan Lesley Ugochukwu ile ocak ayında yollarını ayırmaya hazırlanıyor.",
+      "text": "Sky Almanya'nın haberine göre Stuttgart, Galatasaray'ın ilgilendiği Bilal El Khannouss için istediği bedeli bonuslar dahil 40 milyon euroya indirdi.",
+      "date": "2026-11-11",
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/11/galatasarayda-bilal-el-khannouss-geri-sayimi-transferin-kapisi-aralandi"
+    },
+    {
+      "category": "Transfer",
+      "text": "Fotomaç'ın haberine göre Galatasaray, Burnley'den kiraladığı ve henüz hiçbir maça ilk 11'de başlamayan Lesley Ugochukwu ile ocakta yollarını ayırmaya hazırlanıyor.",
       "date": "2026-11-11",
       "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/11/galatasarayda-ayrilik-karari-ilk-11de-basladigi-mac-yok"
     },
     {
       "category": "Transfer",
-      "text": "Fotomaç'ın haberine göre Galatasaray, Leroy Sane'nin ocakta ayrılmasına sıcak bakıyor ve yerine Noa Lang'i değerlendiriyor.",
-      "date": "2026-11-11",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/11/transfer-haberi-galatasarayda-sane-ile-yollar-ayriliyor-iste-yerine-gelecek-yildiz"
-    },
-    {
-      "category": "Transfer",
       "text": "Basında çıkan iddiaya göre Galatasaray, Fiorentina'nın 20 yaşındaki orta sahası Christ Oulai için yaklaşık 20 milyon euroluk teklif hazırlıyor.",
       "date": "2026-11-11",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/11/transfer-haberi-galatasaray-oulaiden-vazgecmiyor-iste-teklif-edilecek-bonservis-ucreti"
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/11/galatasaraydan-oulai-operasyonu-teklif-edilecek-rakam-ortaya-cikti"
     },
     {
       "category": "Sakatlık",
-      "text": "Vasco da Gama'ya kiralık giden Carlos Cuesta'nın sakatlığı nedeniyle Galatasaray'a dönüşünün gecikebileceği ve ameliyat olabileceği yazıldı.",
+      "text": "Brezilya basınına göre Vasco da Gama'ya kiralık giden Carlos Cuesta'nın sakatlığı uzayabilir ve oyuncunun ameliyat olması gündemde.",
       "date": "2026-11-11",
       "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/11/galatasarayda-carlos-cuesta-krizi-tam-geri-donecek-derken"
-    },
-    {
-      "category": "Transfer",
-      "text": "Aleksey Batrakov'un menajeri, Premier Lig ilgisinin şimdilik spekülasyon olduğunu ve oyuncunun yeni kulübünde henüz üç ayı doldurduğunu söyledi.",
-      "date": "2026-11-10",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/10/batrakovun-menajerinden-flas-transfer-aciklamasi-premier-lig"
     }
   ]
 }
