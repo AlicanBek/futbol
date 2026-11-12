@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T16:04Z",
+  "updated": "2026-11-12T22:35Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -197,46 +197,34 @@
   "cup": [],
   "gs_news": [
     {
-      "category": "Sakatlık",
-      "text": "Fotomaç'a göre ameliyat olan Osimhen'in tedavisi sürüyor, Leao ise tedavisine Portekiz'de başlayacak ve iki oyuncunun da Kasım ayında forma giymesi beklenmiyor.",
+      "category": "Transfer",
+      "text": "İtalyan basınına göre Napoli ve Roma, sözleşmesi 2029'a kadar süren Gabriel Sara ile ilgileniyor, ancak henüz resmi bir teklif yapılmadı.",
       "date": "2026-11-12",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/12/seferberlik-zamani"
+      "source_url": "https://sondakika.com/spor/haber-galatasarayin-yildizina-talip-yagiyor-sonuncusu-20420653"
     },
     {
       "category": "Transfer",
-      "text": "TRT Spor'un haberine göre Galatasaray, toplam 145 dakika süre alan kiralık oyuncular Ugochukwu ve Bitshiabu'nun sözleşmelerini devre arasında feshetmek istiyor.",
+      "text": "Juventus'a yakın danışman Nicola Penta, İtalyan kulübünün ocakta Osimhen için 30-40 milyon euro peşinatlı bir teklif yapabileceğini iddia etti.",
       "date": "2026-11-12",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/12/galatasarayda-cifte-veda-145-dakikaya-50-milyon-euro"
-    },
-    {
-      "category": "Transfer",
-      "text": "TEAMtalk'a dayanan habere göre Aston Villa, Newcastle ve Everton, Gabriel Sara ile ilgileniyor ve Galatasaray'ın 40 milyon euro civarındaki tekliflere açık olduğu öne sürülüyor.",
-      "date": "2026-11-12",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/12/adadan-gabriel-saraya-3-talip-iste-galatasarayin-istedigi-bonservis-bedeli"
-    },
-    {
-      "category": "Transfer",
-      "text": "İtalyan basınına göre Napoli'de forma şansı bulamayan Noa Lang için ocakta Galatasaray ile Genoa'nın en güçlü talipler olduğu iddia ediliyor.",
-      "date": "2026-11-12",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/12/transferde-flas-iddia-noa-lang-ve-galatasaray"
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/12/juventusta-hedef-victor-osimhen-iste-italyan-devinin-transfer-plani"
     },
     {
       "category": "Yönetim",
-      "text": "Başkan yardımcısı Mehmet Cibara, Divan Kurulu'nda Osimhen ve Leao'nun sakatlıklarının zeminle ilgisi olmadığını, RAMS Park zemin çalışmalarının ise 17 Aralık civarına kadar sürebileceğini söyledi.",
+      "text": "Yönetici Mehmet Cibara, Osimhen ve Leao'nun sakatlıklarının zeminle ilgisi olmadığını, RAMS Park'taki zemin çalışmalarının ise muhtemelen 17 Aralık'a kadar süreceğini söyledi.",
       "date": "2026-11-11",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaray-ikinci-baskani-mehmet-cibaradan-zemin-ve-osimhen-aciklamasi-alakali-degil-kronik-bir-sakatlik-2644205"
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/11/galatasaraydan-leao-ve-osimhen-aciklamasi-sakatliklarinin-zeminle-alakasi-yokmus"
     },
     {
       "category": "Kulüp",
-      "text": "Divan Kurulu toplantısında bir divan üyesi, RAMS Park zemini düzelene kadar iç saha maçlarının başka bir statta oynanmasını önerdi, ancak bu yönde bir karar alınmadı.",
+      "text": "Galatasaray, RAMS Park zemininde gübreleme ve çim dikimiyle bakım çalışması başlattı ve zemini milli aradan sonraki Samsunspor maçına yetiştirmeyi planlıyor.",
       "date": "2026-11-11",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/11/galatasarayda-zemin-krizi-divan-kuruluna-tasindi-maclarin-baska-statta-oynanmasi-onerildi"
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaray-rams-park-zemininde-bakim-calismalarina-basladi-2644219"
     },
     {
-      "category": "Ceza",
-      "text": "PFDK, 30 Ekim'deki Konyaspor maçındaki saha olayları nedeniyle Galatasaray'a para cezası verdi.",
-      "date": "2026-11-06",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/06/pfdkdan-besiktas-ve-galatasaraya-para-cezasi"
+      "category": "Kulüp",
+      "text": "Kasım ayı Divan Kurulu toplantısında bir üye, zemin düzelene kadar iç saha maçlarının başka bir statta oynanmasını önerdi, ancak bu yönde bir karar alınmadı.",
+      "date": "2026-11-11",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/11/galatasarayda-zemin-krizi-divan-kuruluna-tasindi-maclarin-baska-statta-oynanmasi-onerildi"
     }
   ]
 }
