@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T22:35Z",
+  "updated": "2026-11-13T09:04Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -192,6 +192,14 @@
     "401915375": {
       "tr": "TRT 1",
       "pt": ""
+    },
+    "401915506": {
+      "tr": "",
+      "pt": ""
+    },
+    "401915803": {
+      "tr": "",
+      "pt": ""
     }
   },
   "cup": [],
@@ -204,7 +212,7 @@
     },
     {
       "category": "Transfer",
-      "text": "Juventus'a yakın danışman Nicola Penta, İtalyan kulübünün ocakta Osimhen için 30-40 milyon euro peşinatlı bir teklif yapabileceğini iddia etti.",
+      "text": "Juventus'a yakın danışman Nicola Penta, İtalyan kulübünün ocakta Osimhen için teklif yapabileceğini iddia etti; kulüpten bir doğrulama yok.",
       "date": "2026-11-12",
       "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/12/juventusta-hedef-victor-osimhen-iste-italyan-devinin-transfer-plani"
     },
@@ -215,16 +223,28 @@
       "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/11/galatasaraydan-leao-ve-osimhen-aciklamasi-sakatliklarinin-zeminle-alakasi-yokmus"
     },
     {
-      "category": "Kulüp",
-      "text": "Galatasaray, RAMS Park zemininde gübreleme ve çim dikimiyle bakım çalışması başlattı ve zemini milli aradan sonraki Samsunspor maçına yetiştirmeyi planlıyor.",
-      "date": "2026-11-11",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaray-rams-park-zemininde-bakim-calismalarina-basladi-2644219"
+      "category": "Transfer",
+      "text": "Milliyet'e göre Galatasaray, Fiorentina'nın orta saha oyuncusu Christ Inao Oulai ile ilk teması kurdu, ancak kulüpten resmi bir açıklama yok.",
+      "date": "2026-11-10",
+      "source_url": "https://www.cnnturk.com/spor/futbol/galatasarayde-hedef-yeniden-oulai-3491643"
     },
     {
-      "category": "Kulüp",
-      "text": "Kasım ayı Divan Kurulu toplantısında bir üye, zemin düzelene kadar iç saha maçlarının başka bir statta oynanmasını önerdi, ancak bu yönde bir karar alınmadı.",
-      "date": "2026-11-11",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/11/galatasarayda-zemin-krizi-divan-kuruluna-tasindi-maclarin-baska-statta-oynanmasi-onerildi"
+      "category": "Transfer",
+      "text": "Sky Almanya'nın haberine göre Galatasaray, tatmin edici bir teklif gelirse sözleşmesi 2028'e kadar süren Leroy Sane'nin ocakta ayrılmasına kapıyı kapatmıyor.",
+      "date": "2026-11-10",
+      "source_url": "https://www.cnnturk.com/spor/futbol/galatasaraydan-leroy-sane-karari-iste-ayrilik-sarti-3491257"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Kulübün açıklamasına göre Rafael Leao'nun MR'ında sağ arka üst kas grubunda ciddi zorlanma ve kanama tespit edildi ve oyuncunun yaklaşık bir ay sahalardan uzak kalması bekleniyor.",
+      "date": "2026-11-09",
+      "source_url": "https://www.cnnturk.com/spor/futbol/galatasarayda-rafael-leaonun-donusu-uzun-surecek-3490762"
+    },
+    {
+      "category": "Transfer",
+      "text": "Batrakov'un menajeri Vladimir Kuzmichev, iki hafta içinde İstanbul'a gelip Galatasaray yönetimiyle görüşeceğini söyledi.",
+      "date": "2026-11-09",
+      "source_url": "https://www.cnnturk.com/spor/futbol/batrakovun-menajeri-istanbula-geliyor-galatasaray-yonetimiyle-gorusecek-3490905"
     }
   ]
 }
