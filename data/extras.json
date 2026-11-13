@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T15:14Z",
+  "updated": "2026-11-13T21:13Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -212,39 +212,39 @@
     },
     {
       "category": "Transfer",
-      "text": "Fotomaç'a göre Galatasaray yönetimi, Aleksey Batrakov'un menajerini İstanbul'a davet etti ve oyuncunun serbest kalma maddesinin güncellenmesi gündemde, ancak kulüpten resmi bir açıklama yok.",
+      "text": "Fotomaç'a göre yönetim, Aleksey Batrakov'un menajerini İstanbul'a davet etti; kulüpten bu konuda resmi bir açıklama yok.",
       "date": "2026-11-13",
       "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/13/galatasaraydan-batrakov-karari-menajeri-istanbula-geliyor"
     },
     {
       "category": "Transfer",
-      "text": "İtalyan basınına göre Napoli ve Roma, sözleşmesi 2029'a kadar süren Gabriel Sara ile ilgileniyor, ancak henüz resmi bir teklif yapılmadı.",
-      "date": "2026-11-12",
-      "source_url": "https://sondakika.com/spor/haber-galatasarayin-yildizina-talip-yagiyor-sonuncusu-20420653"
+      "text": "Bild muhabirine göre futbolu bırakmayı düşünmeyen İlkay Gündoğan'ın sezon sonunda yeni bir kulüp araması bekleniyor, devre arasında ayrılık ise gündemde değil.",
+      "date": "2026-11-13",
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/13/galatasarayda-ilkay-gundogan-icin-karar-cikti-sozlesmesi"
     },
     {
       "category": "Transfer",
-      "text": "Juventus'a yakın danışman Nicola Penta, İtalyan kulübünün ocakta Osimhen için teklif yapabileceğini iddia etti; kulüpten bir doğrulama yok.",
-      "date": "2026-11-12",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/12/juventusta-hedef-victor-osimhen-iste-italyan-devinin-transfer-plani"
+      "text": "Fotomaç'a göre sözleşmesi sezon sonunda bitecek olan Kazımcan Karataş ayrılık kararını yönetime iletti ve birçok Süper Lig kulübü oyuncuyla ilgileniyor.",
+      "date": "2026-11-13",
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/13/galatasarayda-ayrilik-karari-yonetime-bildirdi"
     },
     {
-      "category": "Yönetim",
-      "text": "Yönetici Mehmet Cibara, Osimhen ve Leao'nun sakatlıklarının zeminle ilgisi olmadığını, RAMS Park'taki zemin çalışmalarının ise muhtemelen 17 Aralık'a kadar süreceğini söyledi.",
+      "category": "Kulüp",
+      "text": "Yönetici Mehmet Cibara, RAMS Park'taki zemin çalışmalarının muhtemelen 17 Aralık'a kadar süreceğini ve Osimhen ile Leao'nun sakatlıklarının zeminle ilgisi olmadığını söyledi.",
       "date": "2026-11-11",
       "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/11/galatasaraydan-leao-ve-osimhen-aciklamasi-sakatliklarinin-zeminle-alakasi-yokmus"
     },
     {
-      "category": "Transfer",
-      "text": "İtalyan basınındaki haberlere göre Galatasaray, Fiorentina'da forma şansı bulamayan Christ Inao Oulai için 22 milyon euroluk teklif hazırlığında, ancak kulüpten resmi bir açıklama yok.",
-      "date": "2026-11-11",
-      "source_url": "https://www.cnnturk.com/spor/futbol/eski-trabzonsporlu-galatasarayin-radarinda-iste-masadaki-teklif-3491721"
+      "category": "Sakatlık",
+      "text": "Kulübün açıklamasına göre Rafael Leao'nun sağ arka üst kas grubunda ciddi zorlanma ve kanama tespit edildi ve oyuncunun yaklaşık bir ay sahalardan uzak kalması bekleniyor.",
+      "date": "2026-11-09",
+      "source_url": "https://www.cnnturk.com/spor/futbol/galatasarayda-rafael-leaonun-donusu-uzun-surecek-3490762"
     },
     {
       "category": "Sakatlık",
-      "text": "Kulübün açıklamasına göre Rafael Leao'nun MR'ında sağ arka üst kas grubunda ciddi zorlanma ve kanama tespit edildi ve oyuncunun yaklaşık bir ay sahalardan uzak kalması bekleniyor.",
-      "date": "2026-11-09",
-      "source_url": "https://www.cnnturk.com/spor/futbol/galatasarayda-rafael-leaonun-donusu-uzun-surecek-3490762"
+      "text": "Galatasaray, Stuttgart maçında sol dizinden sakatlanan Victor Osimhen'in artroskopik ameliyatının başarılı geçtiğini açıkladı, dönüş için resmi bir süre verilmedi.",
+      "date": "2026-11-07",
+      "source_url": "https://www.sabah.com.tr/spor/futbol/2026/11/07/galatasaray-acikladi-victor-osimhen-ameliyat-oldu"
     }
   ]
 }
