@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T14:18Z",
+  "updated": "2026-11-15T14:21Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -205,6 +205,24 @@
   "cup": [],
   "gs_news": [
     {
+      "category": "Transfer",
+      "text": "Sabah'ın haberine göre Galatasaray, Gabriel Sara'nın ayrılması halinde devre arasında Juventus'tan Teun Koopmeiners'ı kiralamayı hedefliyor; kulüpten resmi açıklama yok.",
+      "date": "2026-11-15",
+      "source_url": "https://www.sporx.com/futbol/superlig/galatasaray/galatasaray-in-orta-sahada-ilk-hedefi-koopmeiners-SXHBQ1182887SXQ"
+    },
+    {
+      "category": "Transfer",
+      "text": "Fotomaç'a göre kiralık oyuncu Lesley Ugochukwu ile ocakta yollar ayrılacak ve oyuncuya yaklaşık 2,5 milyon Euro tazminat ödenecek; kulüp henüz doğrulamadı.",
+      "date": "2026-11-15",
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/15/galatasarayda-ilk-yolcu-belli-oldu-iste-odenecek-tazminat-bedeli"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Sakatlıkları süren Victor Osimhen ve Rafael Leao'nun 21 Kasım'daki Samsunspor maçında forma giymesi beklenmiyor.",
+      "date": "2026-11-13",
+      "source_url": "https://www.gzt.com/spor/galatasaray-samsunspor-maci-hazirliklarini-surdurdu-osimhen-ve-leao-samsunspor-macinda-oynamayacak-4278417"
+    },
+    {
       "category": "Yönetim",
       "text": "Galatasaray, İkinci Başkan Metin Öztürk ve Yönetim Kurulu Üyesi Abdullah Kavukcu'nun yönetim kurulundan istifalarının kabul edildiğini açıkladı.",
       "date": "2026-11-13",
@@ -218,27 +236,15 @@
     },
     {
       "category": "Kulüp",
-      "text": "Habertürk'e göre milli arada yenilenen RAMS Park zemini tutmadı; kısa vadede kum ve hibrit çim çalışması yapılacak, yıl sonunda zeminin yeniden serilmesi planlanıyor; kulüpten resmi açıklama yok.",
+      "text": "Habertürk'e göre milli arada yenilenen RAMS Park zemini tutmadı; kısa vadede kum ve hibrit çim çalışması, yıl sonunda ise zeminin yeniden serilmesi planlanıyor; kulüpten resmi açıklama yok.",
       "date": "2026-11-13",
       "source_url": "https://www.sporx.com/galatasaray-dan-rams-park-icin-yeni-karar-SXHBQ1182709SXQ"
     },
     {
       "category": "Transfer",
-      "text": "İtalyan basınına göre Napoli ve Roma, Gabriel Sara ile ilgileniyor; Galatasaray'ın en az 30 milyon Euro istediği yazılıyor, resmi bir teklif açıklanmadı.",
+      "text": "İtalyan basınına göre Napoli ve Roma, Gabriel Sara ile ilgileniyor ve Galatasaray'ın en az 30 milyon Euro istediği yazılıyor; resmi teklif açıklanmadı.",
       "date": "2026-11-13",
       "source_url": "https://www.sporx.com/galatasaray-dan-sara-icin-30-milyon-euro-luk-karar-SXHBQ1182724SXQ"
-    },
-    {
-      "category": "Transfer",
-      "text": "Basına göre Aleksey Batrakov'un menajeriyle görüşmeler için temsilcinin 15 gün içinde İstanbul'a gelmesi bekleniyor; kulüp bir görüşme doğrulamadı.",
-      "date": "2026-11-13",
-      "source_url": "https://www.sporx.com/galatasaray-da-batrakov-la-imza-karari-SXHBQ1182692SXQ"
-    },
-    {
-      "category": "Sakatlık",
-      "text": "Kulübün açıkladığı MR sonucuna göre Rafael Leao'nun sağ arka üst kas grubunda sakatlık var ve basına göre yaklaşık bir ay sahalardan uzak kalması bekleniyor.",
-      "date": "2026-11-09",
-      "source_url": "https://www.cnnturk.com/spor/futbol/galatasarayda-rafael-leaonun-donusu-uzun-surecek-3490762"
     }
   ]
 }
