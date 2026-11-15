@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T22:27Z",
+  "updated": "2026-11-15T14:18Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -206,33 +206,33 @@
   "gs_news": [
     {
       "category": "Yönetim",
-      "text": "Galatasaray, İkinci Başkan Metin Öztürk ve Yönetim Kurulu Üyesi Abdullah Kavukcu'nun istifalarının kabul edildiğini açıkladı.",
+      "text": "Galatasaray, İkinci Başkan Metin Öztürk ve Yönetim Kurulu Üyesi Abdullah Kavukcu'nun yönetim kurulundan istifalarının kabul edildiğini açıkladı.",
       "date": "2026-11-13",
-      "source_url": "https://www.timeturk.com/galatasarayda-metin-ozturk-ve-abdullah-kavukcunun-istifalari-kabul-edildi"
+      "source_url": "https://www.sporx.com/galatasaray-da-iki-istifa-kabul-edildi-metin-ozturk-abdullah-kavukcu-SXHBQ1182775SXQ"
     },
     {
       "category": "Transfer",
-      "text": "Leroy Sane'nin menajeri Pini Zahavi, oyuncunun devre arasında Galatasaray'dan ayrılacağı haberlerinin doğru olmadığını söyledi.",
+      "text": "Leroy Sane'nin menajeri Pini Zahavi, oyuncunun devre arasında Galatasaray'dan ayrılacağı haberlerini yalanladı.",
       "date": "2026-11-14",
       "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/14/leroy-sane-galatasarayda-kalacak-mi-menajeri-acikladi"
     },
     {
-      "category": "Transfer",
-      "text": "Fotomaç'a göre yönetim, Gabriel Sara için 30 milyon Euro'luk teklif gelirse satışa onay verecek; kulüpten resmi açıklama yok.",
-      "date": "2026-11-14",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/14/galatasarayda-transferde-olay-karar-yildiz-isme-30-milyon-euro-teklif-gelirse"
-    },
-    {
       "category": "Kulüp",
-      "text": "Başkan yardımcısı Mehmet Cibara, divan kurulunda Osimhen ve Leao'nun sakatlıklarının RAMS Park zeminiyle ilgisi olmadığını söyledi.",
-      "date": "2026-11-11",
-      "source_url": "https://www.cnnturk.com/spor/futbol/galatasarayli-yoneticiden-flas-aciklama-victor-osimhenin-sakatligi-3492090"
+      "text": "Habertürk'e göre milli arada yenilenen RAMS Park zemini tutmadı; kısa vadede kum ve hibrit çim çalışması yapılacak, yıl sonunda zeminin yeniden serilmesi planlanıyor; kulüpten resmi açıklama yok.",
+      "date": "2026-11-13",
+      "source_url": "https://www.sporx.com/galatasaray-dan-rams-park-icin-yeni-karar-SXHBQ1182709SXQ"
     },
     {
       "category": "Transfer",
-      "text": "CSKA Moskova'nın oyuncusu Aleksey Batrakov'un menajeri, iki hafta içinde İstanbul'a gelip Galatasaray yönetimiyle görüşmeyi beklediğini söyledi; kulüp bir görüşme doğrulamadı.",
-      "date": "2026-11-09",
-      "source_url": "https://www.cnnturk.com/spor/futbol/batrakovun-menajeri-istanbula-geliyor-galatasaray-yonetimiyle-gorusecek-3490905"
+      "text": "İtalyan basınına göre Napoli ve Roma, Gabriel Sara ile ilgileniyor; Galatasaray'ın en az 30 milyon Euro istediği yazılıyor, resmi bir teklif açıklanmadı.",
+      "date": "2026-11-13",
+      "source_url": "https://www.sporx.com/galatasaray-dan-sara-icin-30-milyon-euro-luk-karar-SXHBQ1182724SXQ"
+    },
+    {
+      "category": "Transfer",
+      "text": "Basına göre Aleksey Batrakov'un menajeriyle görüşmeler için temsilcinin 15 gün içinde İstanbul'a gelmesi bekleniyor; kulüp bir görüşme doğrulamadı.",
+      "date": "2026-11-13",
+      "source_url": "https://www.sporx.com/galatasaray-da-batrakov-la-imza-karari-SXHBQ1182692SXQ"
     },
     {
       "category": "Sakatlık",
