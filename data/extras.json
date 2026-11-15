@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T14:21Z",
+  "updated": "2026-11-15T15:05Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -194,16 +194,22 @@
       "pt": ""
     },
     "401915506": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915803": {
-      "tr": "",
+      "tr": "TRT 1",
       "pt": ""
     }
   },
   "cup": [],
   "gs_news": [
+    {
+      "category": "Sakatlık",
+      "text": "Uğurcan Çakır, omuz sakatlığı nedeniyle A Milli Takım'ın Fransa maçı kadrosundan çıkarıldı; durumu yapılacak kontrollerin ardından netleşecek.",
+      "date": "2026-11-15",
+      "source_url": "https://sporx.com/futbol/millitakim/a-milli-takim-da-ugurcan-cakir-soku-SXHBQ1182906SXQ"
+    },
     {
       "category": "Transfer",
       "text": "Sabah'ın haberine göre Galatasaray, Gabriel Sara'nın ayrılması halinde devre arasında Juventus'tan Teun Koopmeiners'ı kiralamayı hedefliyor; kulüpten resmi açıklama yok.",
@@ -215,6 +221,12 @@
       "text": "Fotomaç'a göre kiralık oyuncu Lesley Ugochukwu ile ocakta yollar ayrılacak ve oyuncuya yaklaşık 2,5 milyon Euro tazminat ödenecek; kulüp henüz doğrulamadı.",
       "date": "2026-11-15",
       "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/15/galatasarayda-ilk-yolcu-belli-oldu-iste-odenecek-tazminat-bedeli"
+    },
+    {
+      "category": "Transfer",
+      "text": "Leroy Sane'nin menajeri Pini Zahavi, oyuncunun devre arasında Galatasaray'dan ayrılacağı haberlerini yalanladı.",
+      "date": "2026-11-14",
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/14/leroy-sane-galatasarayda-kalacak-mi-menajeri-acikladi"
     },
     {
       "category": "Sakatlık",
@@ -229,22 +241,10 @@
       "source_url": "https://www.sporx.com/galatasaray-da-iki-istifa-kabul-edildi-metin-ozturk-abdullah-kavukcu-SXHBQ1182775SXQ"
     },
     {
-      "category": "Transfer",
-      "text": "Leroy Sane'nin menajeri Pini Zahavi, oyuncunun devre arasında Galatasaray'dan ayrılacağı haberlerini yalanladı.",
-      "date": "2026-11-14",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/14/leroy-sane-galatasarayda-kalacak-mi-menajeri-acikladi"
-    },
-    {
       "category": "Kulüp",
       "text": "Habertürk'e göre milli arada yenilenen RAMS Park zemini tutmadı; kısa vadede kum ve hibrit çim çalışması, yıl sonunda ise zeminin yeniden serilmesi planlanıyor; kulüpten resmi açıklama yok.",
       "date": "2026-11-13",
       "source_url": "https://www.sporx.com/galatasaray-dan-rams-park-icin-yeni-karar-SXHBQ1182709SXQ"
-    },
-    {
-      "category": "Transfer",
-      "text": "İtalyan basınına göre Napoli ve Roma, Gabriel Sara ile ilgileniyor ve Galatasaray'ın en az 30 milyon Euro istediği yazılıyor; resmi teklif açıklanmadı.",
-      "date": "2026-11-13",
-      "source_url": "https://www.sporx.com/galatasaray-dan-sara-icin-30-milyon-euro-luk-karar-SXHBQ1182724SXQ"
     }
   ]
 }
