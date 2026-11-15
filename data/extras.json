@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T15:05Z",
+  "updated": "2026-11-15T21:19Z",
   "channels": {
     "401888263": {
       "tr": "beIN SPORTS 1",
@@ -200,49 +200,53 @@
     "401915803": {
       "tr": "TRT 1",
       "pt": ""
+    },
+    "401888238": {
+      "tr": "beIN SPORTS",
+      "pt": ""
     }
   },
   "cup": [],
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "Uğurcan Çakır, omuz sakatlığı nedeniyle A Milli Takım'ın Fransa maçı kadrosundan çıkarıldı; durumu yapılacak kontrollerin ardından netleşecek.",
+      "text": "TFF'nin açıklamasına göre Uğurcan Çakır'ın sağ omzunda MR'da hafif eklem kapsülü gerilmesi saptandı ve kaleci önlem amacıyla Fransa maçı kadrosundan çıkarıldı.",
       "date": "2026-11-15",
-      "source_url": "https://sporx.com/futbol/millitakim/a-milli-takim-da-ugurcan-cakir-soku-SXHBQ1182906SXQ"
-    },
-    {
-      "category": "Transfer",
-      "text": "Sabah'ın haberine göre Galatasaray, Gabriel Sara'nın ayrılması halinde devre arasında Juventus'tan Teun Koopmeiners'ı kiralamayı hedefliyor; kulüpten resmi açıklama yok.",
-      "date": "2026-11-15",
-      "source_url": "https://www.sporx.com/futbol/superlig/galatasaray/galatasaray-in-orta-sahada-ilk-hedefi-koopmeiners-SXHBQ1182887SXQ"
-    },
-    {
-      "category": "Transfer",
-      "text": "Fotomaç'a göre kiralık oyuncu Lesley Ugochukwu ile ocakta yollar ayrılacak ve oyuncuya yaklaşık 2,5 milyon Euro tazminat ödenecek; kulüp henüz doğrulamadı.",
-      "date": "2026-11-15",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/15/galatasarayda-ilk-yolcu-belli-oldu-iste-odenecek-tazminat-bedeli"
-    },
-    {
-      "category": "Transfer",
-      "text": "Leroy Sane'nin menajeri Pini Zahavi, oyuncunun devre arasında Galatasaray'dan ayrılacağı haberlerini yalanladı.",
-      "date": "2026-11-14",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/14/leroy-sane-galatasarayda-kalacak-mi-menajeri-acikladi"
-    },
-    {
-      "category": "Sakatlık",
-      "text": "Sakatlıkları süren Victor Osimhen ve Rafael Leao'nun 21 Kasım'daki Samsunspor maçında forma giymesi beklenmiyor.",
-      "date": "2026-11-13",
-      "source_url": "https://www.gzt.com/spor/galatasaray-samsunspor-maci-hazirliklarini-surdurdu-osimhen-ve-leao-samsunspor-macinda-oynamayacak-4278417"
+      "source_url": "https://www.hurriyet.com.tr/sporarena/ugurcan-cakir-icin-sakatlik-aciklamasi-fransa-macinin-kadrosundan-cikarildi-43379490"
     },
     {
       "category": "Yönetim",
-      "text": "Galatasaray, İkinci Başkan Metin Öztürk ve Yönetim Kurulu Üyesi Abdullah Kavukcu'nun yönetim kurulundan istifalarının kabul edildiğini açıkladı.",
-      "date": "2026-11-13",
-      "source_url": "https://www.sporx.com/galatasaray-da-iki-istifa-kabul-edildi-metin-ozturk-abdullah-kavukcu-SXHBQ1182775SXQ"
+      "text": "İkinci Başkan Metin Öztürk ve yönetici Abdullah Kavukcu'nun istifalarının kabulünün ardından Başkan Dursun Özbek'in transfer dönemi çalışmalarını Okan Buruk ile bizzat yöneteceği bildirildi.",
+      "date": "2026-11-15",
+      "source_url": "https://www.sporx.com/galatasaray-da-istifalarin-ardindan-yeni-duzen-SXHBQ1182889SXQ"
+    },
+    {
+      "category": "Transfer",
+      "text": "Galatasaray'ın, devre arasında yolların ayrılması gündemde olan kiralık oyuncu Lesley Ugochukwu'nun menajeriyle görüşeceği bildirildi.",
+      "date": "2026-11-15",
+      "source_url": "https://www.sporx.com/galatasaray-da-ugochukwu-icin-ayrilik-gorusmesi-SXHBQ1182908SXQ"
+    },
+    {
+      "category": "Transfer",
+      "text": "Basında çıkan haberlere göre Galatasaray, Roma ve Napoli ile adı geçen Gabriel Sara için 30 milyon euronun altındaki teklifleri değerlendirmeyecek ve Sara giderse Teun Koopmeiners'ı hedefliyor; kulüpten resmi açıklama yok.",
+      "date": "2026-11-15",
+      "source_url": "https://www.sporx.com/galatasaray-in-orta-sahada-ilk-hedefi-koopmeiners-SXHBQ1182887SXQ"
+    },
+    {
+      "category": "Transfer",
+      "text": "İtalyan basınına göre Napoli ile Noa Lang'in yolları ayrılmak üzere ve Galatasaray'ın oyuncuyu yeniden kadrosuna katmak için harekete geçtiği iddia ediliyor.",
+      "date": "2026-11-15",
+      "source_url": "https://www.sporx.com/napoli-de-noa-lang-krizi-galatasaray-a-firsat-dogdu-SXHBQ1182916SXQ"
+    },
+    {
+      "category": "Transfer",
+      "text": "Galatasaray'ın, yazın yüksek maliyet nedeniyle vazgeçtiği stoper Alexsandro için yeniden devreye girdiği iddia edildi.",
+      "date": "2026-11-15",
+      "source_url": "https://www.sporx.com/galatasaray-dan-stoper-operasyonu-alexsandro-SXHBQ1182893SXQ"
     },
     {
       "category": "Kulüp",
-      "text": "Habertürk'e göre milli arada yenilenen RAMS Park zemini tutmadı; kısa vadede kum ve hibrit çim çalışması, yıl sonunda ise zeminin yeniden serilmesi planlanıyor; kulüpten resmi açıklama yok.",
+      "text": "Habertürk'e göre milli arada yenilenen RAMS Park zemini tutmadı; kısa vadede kum ve hibrit çim çalışması, yıl sonunda zeminin yeniden serilmesi planlanıyor; kulüpten resmi açıklama yok.",
       "date": "2026-11-13",
       "source_url": "https://www.sporx.com/galatasaray-dan-rams-park-icin-yeni-karar-SXHBQ1182709SXQ"
     }
