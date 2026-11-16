@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T09:15Z",
+  "updated": "2026-11-16T15:13Z",
   "channels": {
     "401888245": {
       "tr": "beIN SPORTS 1",
@@ -106,9 +106,33 @@
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "Milli takımda sağ omzunda hafif eklem kapsülü gerilmesi saptanan Uğurcan Çakır'ın cumartesi günkü Samsunspor maçında forma giyip giyemeyeceği şüpheli; sağlık ekibi kaleciyi maça yetiştirmeye çalışıyor.",
+      "text": "Milli takımda sağ omzunda hafif eklem kapsülü gerilmesi saptanan Uğurcan Çakır'ın Samsunspor maçında oynaması şüpheli; sağlık ekibi kaleciyi maça yetiştirmeye çalışıyor, risk görülürse dinlendirilmesi planlanıyor.",
       "date": "2026-11-16",
-      "source_url": "https://www.sporx.com/futbol/superlig/galatasaray/galatasaray-da-kirmizi-alarm-ugurcan-cakir-SXHBQ1182985SXQ"
+      "source_url": "https://www.trtv.net/2026/11/16/galatasaray-ugurcan-cakir-sakatligi-samsunspor-maci/"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Dizinden ameliyat edilen Victor Osimhen'in basına göre Aston Villa maçında kadroya dönebileceği, Beşiktaş derbisinde ise ilk 11'de başlayabileceği bildirildi.",
+      "date": "2026-11-15",
+      "source_url": "https://sozcu.com.tr/ve-osimhenin-donus-maci-belli-oldu-galatasaraylilari-sevindiren-haber-p381573"
+    },
+    {
+      "category": "Transfer",
+      "text": "Sky Sports kaynaklı haberlere göre Aston Villa, Gabriel Sara için toplamda 40 milyon euroya ulaşabilecek bir teklif üzerinde Galatasaray ile anlaşmaya yakın; kulüpten resmi açıklama yok.",
+      "date": "2026-11-14",
+      "source_url": "https://www.turkiyetoday.com/sports/aston-villa-reportedly-agrees-40m-deal-with-galatasaray-for-gabriel-sara-3232357"
+    },
+    {
+      "category": "Yönetim",
+      "text": "İkinci Başkan Metin Öztürk ve Abdullah Kavukcu'nun istifalarının ardından Başkan Dursun Özbek'in transfer dönemi çalışmalarını Okan Buruk ile bizzat yöneteceği bildirildi.",
+      "date": "2026-11-15",
+      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-tek-yetkili-dursun-ozbek-7700891"
+    },
+    {
+      "category": "Transfer",
+      "text": "Galatasaray'ın, devre arasında kiralık sözleşmesinden çıkılması planlanan Lesley Ugochukwu'nun menajeriyle görüşeceği bildirildi.",
+      "date": "2026-11-15",
+      "source_url": "https://www.sporx.com/galatasaray-da-ugochukwu-icin-ayrilik-gorusmesi-SXHBQ1182908SXQ"
     },
     {
       "category": "Sakatlık",
@@ -117,32 +141,8 @@
       "source_url": "https://www.sporx.com/galatasaray-da-wilfried-singo-sevinci-SXHBQ1182977SXQ"
     },
     {
-      "category": "Sakatlık",
-      "text": "Dizinden ameliyat edilen Victor Osimhen ve sağ kalça kasında zorlanma yaşayan Rafael Leão'nun Samsunspor maçında oynamayacağı, Aston Villa ve Beşiktaş maçlarını da kaçırmalarının beklendiği bildirildi.",
-      "date": "2026-11-09",
-      "source_url": "https://www.trtv.net/2026/11/09/galatasaray-osimhen-leao-sakatlik-besiktas-derbisi/"
-    },
-    {
-      "category": "Yönetim",
-      "text": "İkinci Başkan Metin Öztürk ve yönetici Abdullah Kavukcu'nun istifalarının kabulünün ardından Başkan Dursun Özbek'in transfer dönemi çalışmalarını Okan Buruk ile bizzat yöneteceği bildirildi.",
-      "date": "2026-11-15",
-      "source_url": "https://www.sporx.com/galatasaray-da-istifalarin-ardindan-yeni-duzen-SXHBQ1182889SXQ"
-    },
-    {
-      "category": "Transfer",
-      "text": "Basında çıkan haberlere göre Aston Villa, Brighton ve Roma, Gabriel Sara'nın menajeriyle temas kurdu; kulüpten resmi açıklama yok.",
-      "date": "2026-11-16",
-      "source_url": "https://www.sporx.com/gabriel-sara-ya-uclu-kiskac-galatasaray-in-bonservis-beklentisi-belli-oldu-SXHBQ1182982SXQ"
-    },
-    {
-      "category": "Transfer",
-      "text": "Galatasaray'ın, devre arasında yolların ayrılması gündemde olan kiralık oyuncu Lesley Ugochukwu'nun menajeriyle görüşeceği bildirildi.",
-      "date": "2026-11-15",
-      "source_url": "https://www.sporx.com/galatasaray-da-ugochukwu-icin-ayrilik-gorusmesi-SXHBQ1182908SXQ"
-    },
-    {
       "category": "Kulüp",
-      "text": "Habertürk'e göre milli arada yenilenen RAMS Park zemini tutmadı; kısa vadede kum ve hibrit çim çalışması, yıl sonunda zeminin yeniden serilmesi planlanıyor; kulüpten resmi açıklama yok.",
+      "text": "Basında çıkan haberlere göre milli arada yenilenen RAMS Park zemini tutmadı; kısa vadede kum ve hibrit çim çalışması, yıl sonunda zeminin yeniden serilmesi planlanıyor; kulüpten resmi açıklama yok.",
       "date": "2026-11-13",
       "source_url": "https://www.sporx.com/galatasaray-dan-rams-park-icin-yeni-karar-SXHBQ1182709SXQ"
     }
