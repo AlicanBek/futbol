@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T15:13Z",
+  "updated": "2026-11-16T21:15Z",
   "channels": {
     "401888245": {
       "tr": "beIN SPORTS 1",
@@ -100,51 +100,53 @@
     "401888238": {
       "tr": "beIN SPORTS",
       "pt": ""
+    },
+    "401888239": {
+      "tr": "",
+      "pt": ""
+    },
+    "401888237": {
+      "tr": "",
+      "pt": ""
     }
   },
   "cup": [],
   "gs_news": [
     {
-      "category": "Sakatlık",
-      "text": "Milli takımda sağ omzunda hafif eklem kapsülü gerilmesi saptanan Uğurcan Çakır'ın Samsunspor maçında oynaması şüpheli; sağlık ekibi kaleciyi maça yetiştirmeye çalışıyor, risk görülürse dinlendirilmesi planlanıyor.",
+      "category": "Kulüp",
+      "text": "Kulüp, 21 Kasım'daki Samsunspor maçının RAMS Park zeminindeki bakım çalışmaları nedeniyle Başakşehir Fatih Terim Stadyumu'nda oynanacağını resmen duyurdu.",
       "date": "2026-11-16",
-      "source_url": "https://www.trtv.net/2026/11/16/galatasaray-ugurcan-cakir-sakatligi-samsunspor-maci/"
+      "source_url": "https://www.galatasaray.org/haber/kulup/kamuoyuna-duyuru/61387"
     },
     {
       "category": "Sakatlık",
-      "text": "Dizinden ameliyat edilen Victor Osimhen'in basına göre Aston Villa maçında kadroya dönebileceği, Beşiktaş derbisinde ise ilk 11'de başlayabileceği bildirildi.",
-      "date": "2026-11-15",
-      "source_url": "https://sozcu.com.tr/ve-osimhenin-donus-maci-belli-oldu-galatasaraylilari-sevindiren-haber-p381573"
+      "text": "Milli takımda sağ omzunda hafif eklem kapsülü gerilmesi saptanan Uğurcan Çakır'ın Samsunspor maçında oynaması zor görünüyor, kalede Jankat'ın görev alması bekleniyor.",
+      "date": "2026-11-16",
+      "source_url": "https://www.sozcu.com.tr/galatasarayi-yikan-sakatlik-haberi-kritik-mac-oncesi-ugurcan-cakir-belirsizligi-p381811"
     },
     {
       "category": "Transfer",
-      "text": "Sky Sports kaynaklı haberlere göre Aston Villa, Gabriel Sara için toplamda 40 milyon euroya ulaşabilecek bir teklif üzerinde Galatasaray ile anlaşmaya yakın; kulüpten resmi açıklama yok.",
-      "date": "2026-11-14",
-      "source_url": "https://www.turkiyetoday.com/sports/aston-villa-reportedly-agrees-40m-deal-with-galatasaray-for-gabriel-sara-3232357"
+      "text": "Sky Sports kaynaklı haberlere göre Aston Villa, Gabriel Sara için 35 milyon euro artı 3 milyon euro bonus teklif etmeye hazır ve görüşmeler sürüyor; kulüpten resmi açıklama yok.",
+      "date": "2026-11-16",
+      "source_url": "https://www.milliyet.com.tr/skorer/galeri/aston-villa-gabriel-sara-icin-kesenin-agzini-acti-sarta-bagli-bonus-teklifi-7702022"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Basına göre dizinden ameliyat edilen Osimhen Aston Villa maçında dönmeyi hedeflerken, sırt kasında sakatlığı bulunan Rafael Leao'nun Samsunspor, Aston Villa ve Beşiktaş maçlarını kaçırması bekleniyor.",
+      "date": "2026-11-15",
+      "source_url": "https://www.aksam.com.tr/spor/ne-zaman-donecekler-iste-victor-osimhen-ve-rafael-leaoda-son-durum/haber-1714852"
     },
     {
       "category": "Yönetim",
-      "text": "İkinci Başkan Metin Öztürk ve Abdullah Kavukcu'nun istifalarının ardından Başkan Dursun Özbek'in transfer dönemi çalışmalarını Okan Buruk ile bizzat yöneteceği bildirildi.",
+      "text": "İkinci Başkan Metin Öztürk ve Abdullah Kavukcu'nun istifalarının ardından Başkan Dursun Özbek'in transfer çalışmalarını Okan Buruk ile bizzat yöneteceği bildirildi.",
       "date": "2026-11-15",
       "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-tek-yetkili-dursun-ozbek-7700891"
     },
     {
       "category": "Transfer",
-      "text": "Galatasaray'ın, devre arasında kiralık sözleşmesinden çıkılması planlanan Lesley Ugochukwu'nun menajeriyle görüşeceği bildirildi.",
+      "text": "Galatasaray'ın, ayrılığı gündemde olan Lesley Ugochukwu için oyuncunun menajeriyle görüşeceği bildirildi.",
       "date": "2026-11-15",
       "source_url": "https://www.sporx.com/galatasaray-da-ugochukwu-icin-ayrilik-gorusmesi-SXHBQ1182908SXQ"
-    },
-    {
-      "category": "Sakatlık",
-      "text": "Milli arada övgü alan Wilfried Singo'nun maçlara hazır olduğu bildirildi.",
-      "date": "2026-11-16",
-      "source_url": "https://www.sporx.com/galatasaray-da-wilfried-singo-sevinci-SXHBQ1182977SXQ"
-    },
-    {
-      "category": "Kulüp",
-      "text": "Basında çıkan haberlere göre milli arada yenilenen RAMS Park zemini tutmadı; kısa vadede kum ve hibrit çim çalışması, yıl sonunda zeminin yeniden serilmesi planlanıyor; kulüpten resmi açıklama yok.",
-      "date": "2026-11-13",
-      "source_url": "https://www.sporx.com/galatasaray-dan-rams-park-icin-yeni-karar-SXHBQ1182709SXQ"
     }
   ]
 }
