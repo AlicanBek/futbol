@@ -1,110 +1,6 @@
 {
-  "updated": "2026-11-15T21:19Z",
+  "updated": "2026-11-16T09:15Z",
   "channels": {
-    "401888263": {
-      "tr": "beIN SPORTS 1",
-      "pt": ""
-    },
-    "401888262": {
-      "tr": "beIN SPORTS 1",
-      "pt": ""
-    },
-    "401915311": {
-      "tr": "TRT 1",
-      "pt": "DAZN"
-    },
-    "401915310": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915386": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915387": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915384": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915307": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915385": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915308": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915309": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915383": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915382": {
-      "tr": "TRT 1",
-      "pt": "DAZN"
-    },
-    "401915304": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915301": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915305": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915303": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915306": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915381": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915302": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915825": {
-      "tr": "TRT 1",
-      "pt": ""
-    },
-    "401915522": {
-      "tr": "TRT 1",
-      "pt": ""
-    },
-    "401888371": {
-      "tr": "beIN SPORTS 1",
-      "pt": ""
-    },
-    "401888372": {
-      "tr": "beIN SPORTS 1",
-      "pt": ""
-    },
-    "401888254": {
-      "tr": "beIN SPORTS 1",
-      "pt": ""
-    },
-    "401888251": {
-      "tr": "beIN SPORTS 1",
-      "pt": ""
-    },
     "401888245": {
       "tr": "beIN SPORTS 1",
       "pt": ""
@@ -121,13 +17,13 @@
       "tr": "beIN SPORTS 1",
       "pt": ""
     },
-    "401915300": {
-      "tr": "TRT 1",
-      "pt": "DAZN"
-    },
     "401915380": {
       "tr": "tabii Spor",
       "pt": ""
+    },
+    "401915300": {
+      "tr": "TRT 1",
+      "pt": "DAZN"
     },
     "401915295": {
       "tr": "tabii Spor",
@@ -185,17 +81,17 @@
       "tr": "tabii Spor",
       "pt": ""
     },
+    "401915375": {
+      "tr": "TRT 1",
+      "pt": "DAZN"
+    },
     "401915373": {
       "tr": "tabii Spor",
       "pt": ""
     },
-    "401915375": {
-      "tr": "TRT 1",
-      "pt": ""
-    },
     "401915506": {
       "tr": "tabii Spor",
-      "pt": ""
+      "pt": "DAZN"
     },
     "401915803": {
       "tr": "TRT 1",
@@ -210,9 +106,21 @@
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "TFF'nin açıklamasına göre Uğurcan Çakır'ın sağ omzunda MR'da hafif eklem kapsülü gerilmesi saptandı ve kaleci önlem amacıyla Fransa maçı kadrosundan çıkarıldı.",
-      "date": "2026-11-15",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/ugurcan-cakir-icin-sakatlik-aciklamasi-fransa-macinin-kadrosundan-cikarildi-43379490"
+      "text": "Milli takımda sağ omzunda hafif eklem kapsülü gerilmesi saptanan Uğurcan Çakır'ın cumartesi günkü Samsunspor maçında forma giyip giyemeyeceği şüpheli; sağlık ekibi kaleciyi maça yetiştirmeye çalışıyor.",
+      "date": "2026-11-16",
+      "source_url": "https://www.sporx.com/futbol/superlig/galatasaray/galatasaray-da-kirmizi-alarm-ugurcan-cakir-SXHBQ1182985SXQ"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Milli arada övgü alan Wilfried Singo'nun maçlara hazır olduğu bildirildi.",
+      "date": "2026-11-16",
+      "source_url": "https://www.sporx.com/galatasaray-da-wilfried-singo-sevinci-SXHBQ1182977SXQ"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Dizinden ameliyat edilen Victor Osimhen ve sağ kalça kasında zorlanma yaşayan Rafael Leão'nun Samsunspor maçında oynamayacağı, Aston Villa ve Beşiktaş maçlarını da kaçırmalarının beklendiği bildirildi.",
+      "date": "2026-11-09",
+      "source_url": "https://www.trtv.net/2026/11/09/galatasaray-osimhen-leao-sakatlik-besiktas-derbisi/"
     },
     {
       "category": "Yönetim",
@@ -222,27 +130,15 @@
     },
     {
       "category": "Transfer",
+      "text": "Basında çıkan haberlere göre Aston Villa, Brighton ve Roma, Gabriel Sara'nın menajeriyle temas kurdu; kulüpten resmi açıklama yok.",
+      "date": "2026-11-16",
+      "source_url": "https://www.sporx.com/gabriel-sara-ya-uclu-kiskac-galatasaray-in-bonservis-beklentisi-belli-oldu-SXHBQ1182982SXQ"
+    },
+    {
+      "category": "Transfer",
       "text": "Galatasaray'ın, devre arasında yolların ayrılması gündemde olan kiralık oyuncu Lesley Ugochukwu'nun menajeriyle görüşeceği bildirildi.",
       "date": "2026-11-15",
       "source_url": "https://www.sporx.com/galatasaray-da-ugochukwu-icin-ayrilik-gorusmesi-SXHBQ1182908SXQ"
-    },
-    {
-      "category": "Transfer",
-      "text": "Basında çıkan haberlere göre Galatasaray, Roma ve Napoli ile adı geçen Gabriel Sara için 30 milyon euronun altındaki teklifleri değerlendirmeyecek ve Sara giderse Teun Koopmeiners'ı hedefliyor; kulüpten resmi açıklama yok.",
-      "date": "2026-11-15",
-      "source_url": "https://www.sporx.com/galatasaray-in-orta-sahada-ilk-hedefi-koopmeiners-SXHBQ1182887SXQ"
-    },
-    {
-      "category": "Transfer",
-      "text": "İtalyan basınına göre Napoli ile Noa Lang'in yolları ayrılmak üzere ve Galatasaray'ın oyuncuyu yeniden kadrosuna katmak için harekete geçtiği iddia ediliyor.",
-      "date": "2026-11-15",
-      "source_url": "https://www.sporx.com/napoli-de-noa-lang-krizi-galatasaray-a-firsat-dogdu-SXHBQ1182916SXQ"
-    },
-    {
-      "category": "Transfer",
-      "text": "Galatasaray'ın, yazın yüksek maliyet nedeniyle vazgeçtiği stoper Alexsandro için yeniden devreye girdiği iddia edildi.",
-      "date": "2026-11-15",
-      "source_url": "https://www.sporx.com/galatasaray-dan-stoper-operasyonu-alexsandro-SXHBQ1182893SXQ"
     },
     {
       "category": "Kulüp",
