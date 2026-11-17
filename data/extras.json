@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T09:14Z",
+  "updated": "2026-11-17T15:57Z",
   "channels": {
     "401888245": {
       "tr": "beIN SPORTS 1",
@@ -137,16 +137,22 @@
       "source_url": "https://www.turkiyetoday.com/sports/aston-villa-reportedly-agrees-40m-deal-with-galatasaray-for-gabriel-sara-3232357"
     },
     {
+      "category": "Transfer",
+      "text": "beIN SPORTS'a göre kulüp, Fiorentina'nın orta saha oyuncusu Christ Oulai için devre arasında opsiyonlu kiralama formülüyle görüşmelere başladı; resmi açıklama yok.",
+      "date": "2026-11-15",
+      "source_url": "https://beinsports.com.tr/haber/oulai-galatasaraya-dogru-gorusmeler-basladi"
+    },
+    {
       "category": "Yönetim",
       "text": "İkinci Başkan Metin Öztürk ve Abdullah Kavukcu'nun istifalarının ardından Başkan Dursun Özbek'in transfer çalışmalarını Okan Buruk ile bizzat yöneteceği bildirildi.",
       "date": "2026-11-15",
       "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-tek-yetkili-dursun-ozbek-7700891"
     },
     {
-      "category": "Transfer",
-      "text": "Basına göre kulüp, az forma şansı bulan Lesley Ugochukwu ile devre arasında yollarını ayırmak istiyor ve ayrılık şartları için oyuncunun menajeriyle görüşecek; resmi açıklama yapılmadı.",
-      "date": "2026-11-15",
-      "source_url": "https://www.sporx.com/galatasaray-da-ugochukwu-icin-ayrilik-gorusmesi-SXHBQ1182908SXQ"
+      "category": "Ceza",
+      "text": "PFDK, Amedspor maçındaki kötü tezahüratlar nedeniyle Galatasaray'a belirli tribün blokları için elektronik bilet blokajı cezası verdi.",
+      "date": "2026-11-13",
+      "source_url": "https://www.evrensel.net/haber/6009289/"
     }
   ]
 }
