@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T15:57Z",
+  "updated": "2026-11-17T21:14Z",
   "channels": {
     "401888245": {
       "tr": "beIN SPORTS 1",
@@ -113,46 +113,46 @@
   "cup": [],
   "gs_news": [
     {
+      "category": "Sakatlık",
+      "text": "HT Spor'a göre dizinden ameliyat olan Osimhen Samsunspor maçında oynamayacak, Aston Villa ve Beşiktaş maçları için durumu önümüzdeki günlerde netleşecek; Leao da yok ve Okan Buruk forvette Deniz Gül'ü hazırlıyor.",
+      "date": "2026-11-17",
+      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-deniz-gul-karari-osimhenin-durumu-ortaya-cikti-7702632"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Sağ omuz eklem kapsülünde hafif gerilme tespit edilen Uğurcan Çakır'ın Samsunspor maçına yetişmesi zor görünüyor; hedef Aston Villa maçı ve kalede Jankat Yılmaz'ın oynaması planlanıyor.",
+      "date": "2026-11-17",
+      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-ugurcan-cakir-endisesi-donus-maci-belli-oldu-7702055"
+    },
+    {
       "category": "Kulüp",
-      "text": "Kulüp, 21 Kasım'daki Samsunspor maçının RAMS Park zeminindeki bakım çalışmaları nedeniyle Başakşehir Fatih Terim Stadyumu'nda oynanacağını resmen duyurdu.",
-      "date": "2026-11-16",
-      "source_url": "https://www.galatasaray.org/haber/kulup/kamuoyuna-duyuru/61387"
-    },
-    {
-      "category": "Sakatlık",
-      "text": "Sağ omuz eklem kapsülünde hafif gerilme bulunan Uğurcan Çakır'ın Samsunspor maçında riske edilmemesi ve kalede Jankat Yılmaz'ın görev alması bekleniyor, hedef Aston Villa maçında dönmesi.",
-      "date": "2026-11-16",
-      "source_url": "https://www.ntv.com.tr/sporskor/galatasarayda-ugurcan-cakir-victor-osimhen-ve-rafael-leao-karari-1751209"
-    },
-    {
-      "category": "Sakatlık",
-      "text": "Basına göre Osimhen ve Leao Samsunspor maçında forma giymeyecek; Osimhen'in Beşiktaş derbisinde dönmesi öngörülürken Leao'nun en az iki hafta daha sahalardan uzak kalması bekleniyor.",
-      "date": "2026-11-16",
-      "source_url": "https://www.ntv.com.tr/sporskor/galatasarayda-samsunspor-maci-oncesi-sakatlarda-son-durum-1751166"
-    },
-    {
-      "category": "Transfer",
-      "text": "Sky Sports kaynaklı haberlere göre Aston Villa, Gabriel Sara için 37 milyon euro garanti artı 3 milyon euro bonusluk bir paket üzerinde anlaşmaya vardı ve oyuncunun menajeri İngiltere'ye gidiyor; kulüpten resmi açıklama yok.",
-      "date": "2026-11-16",
-      "source_url": "https://www.turkiyetoday.com/sports/aston-villa-reportedly-agrees-40m-deal-with-galatasaray-for-gabriel-sara-3232357"
-    },
-    {
-      "category": "Transfer",
-      "text": "beIN SPORTS'a göre kulüp, Fiorentina'nın orta saha oyuncusu Christ Oulai için devre arasında opsiyonlu kiralama formülüyle görüşmelere başladı; resmi açıklama yok.",
-      "date": "2026-11-15",
-      "source_url": "https://beinsports.com.tr/haber/oulai-galatasaraya-dogru-gorusmeler-basladi"
+      "text": "Samsunspor maçı Başakşehir Fatih Terim Stadyumu'na alınırken, RAMS Park zeminini 24 Kasım'daki Aston Villa maçına yetiştirmek için çim yenileme çalışmaları aralıksız sürüyor.",
+      "date": "2026-11-17",
+      "source_url": "https://www.milliyet.com.tr/skorer/galatasaraydan-aston-villa-maci-oncesi-uefaya-basvuru-stadyum-karari-7702482"
     },
     {
       "category": "Yönetim",
-      "text": "İkinci Başkan Metin Öztürk ve Abdullah Kavukcu'nun istifalarının ardından Başkan Dursun Özbek'in transfer çalışmalarını Okan Buruk ile bizzat yöneteceği bildirildi.",
-      "date": "2026-11-15",
-      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-tek-yetkili-dursun-ozbek-7700891"
+      "text": "Görevlerinden istifa eden Abdullah Kavukcu, yayımladığı istifa mektubunda Başkan Dursun Özbek'in yönetim anlayışını eleştirdi ve kendisine kumpas kurulduğunu öne sürdü.",
+      "date": "2026-11-16",
+      "source_url": "https://www.evrensel.net/haber/6009804/abdullah-kavukcu-dan-istifa-mektubu-dursun-ozbek-e-elestiri-ve-kumpas-iddiasi"
     },
     {
-      "category": "Ceza",
-      "text": "PFDK, Amedspor maçındaki kötü tezahüratlar nedeniyle Galatasaray'a belirli tribün blokları için elektronik bilet blokajı cezası verdi.",
-      "date": "2026-11-13",
-      "source_url": "https://www.evrensel.net/haber/6009289/"
+      "category": "Transfer",
+      "text": "Sky Sports kaynaklı haberlere göre Aston Villa, Gabriel Sara için 35 milyon euro bonservis artı 3 milyon euro bonus içeren bir teklif hazırlıyor ve görüşmeler sürüyor; kulüplerden resmi açıklama yok.",
+      "date": "2026-11-16",
+      "source_url": "https://www.milliyet.com.tr/skorer/galeri/aston-villa-gabriel-sara-icin-kesenin-agzini-acti-sarta-bagli-bonus-teklifi-7702022"
+    },
+    {
+      "category": "Transfer",
+      "text": "Vasco da Gama, sakatlanıp sezonu kapatan Carlos Cuesta'nın 6 milyon euroluk satın alma opsiyonunu kullanmama kararı aldı; kalçasından ameliyat olacak oyuncu İstanbul'a döndü.",
+      "date": "2026-11-16",
+      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-carlos-cuesta-krizi-istanbula-dondu-7701960"
+    },
+    {
+      "category": "Transfer",
+      "text": "Fanatik'e göre kulüp, Leipzig'den 28 milyon euro opsiyonla kiralanan stoper El Chadaille Bitshiabu ile devre arasında yolları ayırmayı değerlendiriyor.",
+      "date": "2026-11-16",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/galatasaray-28-milyon-euro-aciklamisti-okan-buruk-begenmedi-yollar-ayriliyor-43379642"
     }
   ]
 }
