@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T09:14Z",
+  "updated": "2026-11-18T15:14Z",
   "channels": {
     "401888245": {
       "tr": "beIN SPORTS 1",
@@ -113,10 +113,16 @@
   "cup": [],
   "gs_news": [
     {
-      "category": "Sakatlık",
-      "text": "Davinson Sanchez, Kolombiya'nın Şili ile oynadığı hazırlık maçında 24. dakikada oyundan çıktı; oyuncu değişikliğin tedbir amaçlı olduğunu söyledi, kulüpten henüz açıklama yok.",
+      "category": "Kulüp",
+      "text": "Kulüp, Başakşehir Fatih Terim Stadyumu'na alınan Samsunspor maçı için kombine sahiplerine 19 Kasım 11.00 ile 20 Kasım 15.00 arasında öncelikli bilet hakkı tanındığını, fiyat farkının gelecek sezon kombine yenilemesinde indirim olarak yansıtılacağını ve GSStore hediye çeki verileceğini açıkladı.",
       "date": "2026-11-18",
-      "source_url": "https://beinsports.com.tr/haber/oyuna-devam-edememisti-davinson-sanchezden-sakatlik-aciklamasi-geldi"
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaraydan-samsunspor-maci-oncesi-bilet-aciklamasi-oncelikli-bilet-alim-hakki-2644975"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Fanatik'e göre omzundan sakat olan Uğurcan Çakır Samsunspor maçında riske edilmeyecek ve Aston Villa maçında dönmesi bekleniyor; milli maçlarda oyundan çıkan Batrakov ile Davinson Sanchez ise durumlarının ciddi olmadığını söyledi.",
+      "date": "2026-11-18",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasaray-revire-dondu-kotu-haberler-pes-pese-sallai-batrakov-davinson-sanchez-resmi-aciklama-2644899"
     },
     {
       "category": "Transfer",
@@ -126,21 +132,15 @@
     },
     {
       "category": "Sakatlık",
-      "text": "Macaristan Futbol Federasyonu, Roland Sallai'nin Kuzey İrlanda maçı öncesi ısınmada arka adalesinde ağrı hissettiğini ve kadrodan çıkarıldığını açıkladı.",
+      "text": "Roland Sallai, Macaristan'ın Kuzey İrlanda maçı öncesi ısınmada sakatlanarak ilk 11'den çıkarıldı; teknik direktör Marco Rossi adale zorlanması olduğunu ve MR çekilmesi gerektiğini söyledi.",
       "date": "2026-11-17",
-      "source_url": "https://beinsports.com.tr/haber/galatasarayin-yildizi-milli-takimda-sakatlandi"
-    },
-    {
-      "category": "Sakatlık",
-      "text": "beIN SPORTS'a göre dizinden ameliyat olan Osimhen ile en az iki hafta yok olan Leao'nun Samsunspor maçında oynaması beklenmiyor; omzundan sakatlanan Uğurcan Çakır'ın riske edilip edilmeyeceği maça yakın belli olacak.",
-      "date": "2026-11-16",
-      "source_url": "https://beinsports.com.tr/haber/galatasarayda-sakat-isimlerden-haber-var-osimhen-leao-ugurcan"
+      "source_url": "https://www.fanatik.com.tr/galatasaray/isinmada-sakatlandi-galatasaraya-roland-sallaiden-kotu-haber-2644883"
     },
     {
       "category": "Kulüp",
-      "text": "Kulüp, RAMS Park zeminindeki bakım ve iyileştirme çalışmalarına zaman tanımak için 21 Kasım'daki Samsunspor maçının Başakşehir Fatih Terim Stadyumu'nda oynanacağını duyurdu.",
-      "date": "2026-11-16",
-      "source_url": "https://beinsports.com.tr/haber/resmi-aciklama-galatasaray-samsunspor-macinin-stadi-degisti"
+      "text": "Fanatik'e göre Galatasaray, zemin nedeniyle Aston Villa'nın maç öncesi antrenmanını RAMS Park'ta yapmaması için UEFA'ya yazılı başvuruda bulundu; UEFA ve Aston Villa talebi kabul etti.",
+      "date": "2026-11-17",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaraydan-uefaya-rams-park-basvurusu-aston-villa-da-kabul-etti-2644832"
     },
     {
       "category": "Yönetim",
