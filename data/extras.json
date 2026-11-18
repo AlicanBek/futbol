@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T15:14Z",
+  "updated": "2026-11-18T21:33Z",
   "channels": {
     "401888245": {
       "tr": "beIN SPORTS 1",
@@ -114,21 +114,33 @@
   "gs_news": [
     {
       "category": "Kulüp",
-      "text": "Kulüp, Başakşehir Fatih Terim Stadyumu'na alınan Samsunspor maçı için kombine sahiplerine 19 Kasım 11.00 ile 20 Kasım 15.00 arasında öncelikli bilet hakkı tanındığını, fiyat farkının gelecek sezon kombine yenilemesinde indirim olarak yansıtılacağını ve GSStore hediye çeki verileceğini açıkladı.",
+      "text": "Kulüp, Başakşehir Fatih Terim Stadyumu'na alınan Samsunspor maçı için kombine sahiplerine 19 Kasım 11.00 ile 20 Kasım 15.00 arasında öncelikli bilet hakkı tanındığını, bilet bedelinin gelecek sezon kombine yenilemesinde indirim olarak uygulanacağını ve GSStore hediye çeki verileceğini açıkladı.",
       "date": "2026-11-18",
       "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaraydan-samsunspor-maci-oncesi-bilet-aciklamasi-oncelikli-bilet-alim-hakki-2644975"
     },
     {
       "category": "Sakatlık",
-      "text": "Fanatik'e göre omzundan sakat olan Uğurcan Çakır Samsunspor maçında riske edilmeyecek ve Aston Villa maçında dönmesi bekleniyor; milli maçlarda oyundan çıkan Batrakov ile Davinson Sanchez ise durumlarının ciddi olmadığını söyledi.",
+      "text": "Fanatik'e göre milli takım kampında sakatlanan Uğurcan Çakır'ın Samsunspor maçında riske edilmeyip Aston Villa maçına yetiştirilmesi, kaleye Jankat Yılmaz'ın geçmesi bekleniyor.",
       "date": "2026-11-18",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasaray-revire-dondu-kotu-haberler-pes-pese-sallai-batrakov-davinson-sanchez-resmi-aciklama-2644899"
+      "source_url": "https://www.fanatik.com.tr/galatasaray/eldivenler-jankata-yakin-galatasarayda-ugurcan-cakir-belirsizligi-2644893"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Rusya maçında tedavi gören Aleksey Batrakov sakatlığının ciddi olmadığını söyledi; Krasnodar'da uçuşların durdurulması nedeniyle İstanbul'a dönüşünün gecikebileceği belirtiliyor.",
+      "date": "2026-11-18",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-batrakov-istanbula-gelemiyor-galatasarayda-krasnodar-telasi-tren-ya-da-karayolu-2644949"
     },
     {
       "category": "Transfer",
-      "text": "BILD'e göre yönetim, Leipzig'den kiralanan El Chadaille Bitshiabu'nun sözleşmesini ocak ayında sonlandırmayı değerlendiriyor; kulüpler arasında henüz doğrudan görüşme yapılmadı.",
+      "text": "Fanatik'e göre devre arasında Lesley Ugochukwu ile yollarını ayırmak isteyen Galatasaray'a Burnley, oyuncuya kulüp bulunmasını ya da 3 milyon euro fesih bedeli ödenmesini şart koştu.",
       "date": "2026-11-18",
-      "source_url": "https://beinsports.com.tr/haber/galatasaraydan-el-chadaille-bitshiabu-karari-devre-arasinda"
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-3-milyon-euro-daha-verin-lesley-ugochukwu-icin-galatasaraya-sok-yanit-isler-cikmaza-girdi-2644900"
+    },
+    {
+      "category": "Transfer",
+      "text": "BILD'e göre Galatasaray, Leipzig'den kiralanan El Chadaille Bitshiabu'nun sözleşmesini feshetmeye hazırlanıyor; kulüpler arasında erken fesih için henüz görüşme yapılmadı.",
+      "date": "2026-11-18",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-sezon-basinda-gelmisti-galatasarayda-ayrilacak-ilk-isim-belli-oldu-2644915"
     },
     {
       "category": "Sakatlık",
@@ -137,22 +149,10 @@
       "source_url": "https://www.fanatik.com.tr/galatasaray/isinmada-sakatlandi-galatasaraya-roland-sallaiden-kotu-haber-2644883"
     },
     {
-      "category": "Kulüp",
-      "text": "Fanatik'e göre Galatasaray, zemin nedeniyle Aston Villa'nın maç öncesi antrenmanını RAMS Park'ta yapmaması için UEFA'ya yazılı başvuruda bulundu; UEFA ve Aston Villa talebi kabul etti.",
-      "date": "2026-11-17",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaraydan-uefaya-rams-park-basvurusu-aston-villa-da-kabul-etti-2644832"
-    },
-    {
       "category": "Yönetim",
       "text": "İstifası KAP'a bildirilen Abdullah Kavukcu, yayımladığı istifa mektubunda Başkan Dursun Özbek'in yönetim anlayışını eleştirdi ve kendisine kumpas kurulduğunu öne sürdü.",
       "date": "2026-11-16",
       "source_url": "https://www.evrensel.net/haber/6009804/abdullah-kavukcu-dan-istifa-mektubu-dursun-ozbek-e-elestiri-ve-kumpas-iddiasi"
-    },
-    {
-      "category": "Transfer",
-      "text": "Sky Sports'a göre Aston Villa, Gabriel Sara için 35 milyon euro bonservis artı 3 milyon euro bonus içeren bir teklif hazırlıyor; Brighton, Roma ve Napoli de ilgileniyor, kulüplerden resmi açıklama yok.",
-      "date": "2026-11-16",
-      "source_url": "https://beinsports.com.tr/haber/sara-icin-avrupa-kulupleri-siraya-girdi-35-milyon-euro"
     }
   ]
 }
