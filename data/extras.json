@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T21:14Z",
+  "updated": "2026-11-18T09:14Z",
   "channels": {
     "401888245": {
       "tr": "beIN SPORTS 1",
@@ -114,45 +114,45 @@
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "HT Spor'a göre dizinden ameliyat olan Osimhen Samsunspor maçında oynamayacak, Aston Villa ve Beşiktaş maçları için durumu önümüzdeki günlerde netleşecek; Leao da yok ve Okan Buruk forvette Deniz Gül'ü hazırlıyor.",
-      "date": "2026-11-17",
-      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-deniz-gul-karari-osimhenin-durumu-ortaya-cikti-7702632"
+      "text": "Davinson Sanchez, Kolombiya'nın Şili ile oynadığı hazırlık maçında 24. dakikada oyundan çıktı; oyuncu değişikliğin tedbir amaçlı olduğunu söyledi, kulüpten henüz açıklama yok.",
+      "date": "2026-11-18",
+      "source_url": "https://beinsports.com.tr/haber/oyuna-devam-edememisti-davinson-sanchezden-sakatlik-aciklamasi-geldi"
+    },
+    {
+      "category": "Transfer",
+      "text": "BILD'e göre yönetim, Leipzig'den kiralanan El Chadaille Bitshiabu'nun sözleşmesini ocak ayında sonlandırmayı değerlendiriyor; kulüpler arasında henüz doğrudan görüşme yapılmadı.",
+      "date": "2026-11-18",
+      "source_url": "https://beinsports.com.tr/haber/galatasaraydan-el-chadaille-bitshiabu-karari-devre-arasinda"
     },
     {
       "category": "Sakatlık",
-      "text": "Sağ omuz eklem kapsülünde hafif gerilme tespit edilen Uğurcan Çakır'ın Samsunspor maçına yetişmesi zor görünüyor; hedef Aston Villa maçı ve kalede Jankat Yılmaz'ın oynaması planlanıyor.",
+      "text": "Macaristan Futbol Federasyonu, Roland Sallai'nin Kuzey İrlanda maçı öncesi ısınmada arka adalesinde ağrı hissettiğini ve kadrodan çıkarıldığını açıkladı.",
       "date": "2026-11-17",
-      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-ugurcan-cakir-endisesi-donus-maci-belli-oldu-7702055"
+      "source_url": "https://beinsports.com.tr/haber/galatasarayin-yildizi-milli-takimda-sakatlandi"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "beIN SPORTS'a göre dizinden ameliyat olan Osimhen ile en az iki hafta yok olan Leao'nun Samsunspor maçında oynaması beklenmiyor; omzundan sakatlanan Uğurcan Çakır'ın riske edilip edilmeyeceği maça yakın belli olacak.",
+      "date": "2026-11-16",
+      "source_url": "https://beinsports.com.tr/haber/galatasarayda-sakat-isimlerden-haber-var-osimhen-leao-ugurcan"
     },
     {
       "category": "Kulüp",
-      "text": "Samsunspor maçı Başakşehir Fatih Terim Stadyumu'na alınırken, RAMS Park zeminini 24 Kasım'daki Aston Villa maçına yetiştirmek için çim yenileme çalışmaları aralıksız sürüyor.",
-      "date": "2026-11-17",
-      "source_url": "https://www.milliyet.com.tr/skorer/galatasaraydan-aston-villa-maci-oncesi-uefaya-basvuru-stadyum-karari-7702482"
+      "text": "Kulüp, RAMS Park zeminindeki bakım ve iyileştirme çalışmalarına zaman tanımak için 21 Kasım'daki Samsunspor maçının Başakşehir Fatih Terim Stadyumu'nda oynanacağını duyurdu.",
+      "date": "2026-11-16",
+      "source_url": "https://beinsports.com.tr/haber/resmi-aciklama-galatasaray-samsunspor-macinin-stadi-degisti"
     },
     {
       "category": "Yönetim",
-      "text": "Görevlerinden istifa eden Abdullah Kavukcu, yayımladığı istifa mektubunda Başkan Dursun Özbek'in yönetim anlayışını eleştirdi ve kendisine kumpas kurulduğunu öne sürdü.",
+      "text": "İstifası KAP'a bildirilen Abdullah Kavukcu, yayımladığı istifa mektubunda Başkan Dursun Özbek'in yönetim anlayışını eleştirdi ve kendisine kumpas kurulduğunu öne sürdü.",
       "date": "2026-11-16",
       "source_url": "https://www.evrensel.net/haber/6009804/abdullah-kavukcu-dan-istifa-mektubu-dursun-ozbek-e-elestiri-ve-kumpas-iddiasi"
     },
     {
       "category": "Transfer",
-      "text": "Sky Sports kaynaklı haberlere göre Aston Villa, Gabriel Sara için 35 milyon euro bonservis artı 3 milyon euro bonus içeren bir teklif hazırlıyor ve görüşmeler sürüyor; kulüplerden resmi açıklama yok.",
+      "text": "Sky Sports'a göre Aston Villa, Gabriel Sara için 35 milyon euro bonservis artı 3 milyon euro bonus içeren bir teklif hazırlıyor; Brighton, Roma ve Napoli de ilgileniyor, kulüplerden resmi açıklama yok.",
       "date": "2026-11-16",
-      "source_url": "https://www.milliyet.com.tr/skorer/galeri/aston-villa-gabriel-sara-icin-kesenin-agzini-acti-sarta-bagli-bonus-teklifi-7702022"
-    },
-    {
-      "category": "Transfer",
-      "text": "Vasco da Gama, sakatlanıp sezonu kapatan Carlos Cuesta'nın 6 milyon euroluk satın alma opsiyonunu kullanmama kararı aldı; kalçasından ameliyat olacak oyuncu İstanbul'a döndü.",
-      "date": "2026-11-16",
-      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-carlos-cuesta-krizi-istanbula-dondu-7701960"
-    },
-    {
-      "category": "Transfer",
-      "text": "Fanatik'e göre kulüp, Leipzig'den 28 milyon euro opsiyonla kiralanan stoper El Chadaille Bitshiabu ile devre arasında yolları ayırmayı değerlendiriyor.",
-      "date": "2026-11-16",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/galatasaray-28-milyon-euro-aciklamisti-okan-buruk-begenmedi-yollar-ayriliyor-43379642"
+      "source_url": "https://beinsports.com.tr/haber/sara-icin-avrupa-kulupleri-siraya-girdi-35-milyon-euro"
     }
   ]
 }
