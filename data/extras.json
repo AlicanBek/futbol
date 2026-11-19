@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T21:33Z",
+  "updated": "2026-11-19T09:15Z",
   "channels": {
     "401888245": {
       "tr": "beIN SPORTS 1",
@@ -98,7 +98,7 @@
       "pt": ""
     },
     "401888238": {
-      "tr": "beIN SPORTS",
+      "tr": "beIN SPORTS 1",
       "pt": ""
     },
     "401888239": {
@@ -113,46 +113,46 @@
   "cup": [],
   "gs_news": [
     {
-      "category": "Kulüp",
-      "text": "Kulüp, Başakşehir Fatih Terim Stadyumu'na alınan Samsunspor maçı için kombine sahiplerine 19 Kasım 11.00 ile 20 Kasım 15.00 arasında öncelikli bilet hakkı tanındığını, bilet bedelinin gelecek sezon kombine yenilemesinde indirim olarak uygulanacağını ve GSStore hediye çeki verileceğini açıkladı.",
-      "date": "2026-11-18",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaraydan-samsunspor-maci-oncesi-bilet-aciklamasi-oncelikli-bilet-alim-hakki-2644975"
-    },
-    {
       "category": "Sakatlık",
-      "text": "Fanatik'e göre milli takım kampında sakatlanan Uğurcan Çakır'ın Samsunspor maçında riske edilmeyip Aston Villa maçına yetiştirilmesi, kaleye Jankat Yılmaz'ın geçmesi bekleniyor.",
-      "date": "2026-11-18",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/eldivenler-jankata-yakin-galatasarayda-ugurcan-cakir-belirsizligi-2644893"
+      "text": "Hürriyet'e göre son 14 günde 5 oyuncusu sakatlanan Galatasaray'da Osimhen ile Leao'nun aralık başında, Uğurcan Çakır'ın 22 Kasım'da dönmesi bekleniyor; Davinson Sanchez ciddi bir şeyi olmadığını söyledi, Roland Sallai'nin durumu ise henüz belirsiz.",
+      "date": "2026-11-19",
+      "source_url": "https://hurriyet.com.tr/sporarena/kabus-geri-dondu-14-gunde-5-sakat-43383161"
     },
     {
       "category": "Sakatlık",
       "text": "Rusya maçında tedavi gören Aleksey Batrakov sakatlığının ciddi olmadığını söyledi; Krasnodar'da uçuşların durdurulması nedeniyle İstanbul'a dönüşünün gecikebileceği belirtiliyor.",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-batrakov-istanbula-gelemiyor-galatasarayda-krasnodar-telasi-tren-ya-da-karayolu-2644949"
     },
     {
       "category": "Transfer",
-      "text": "Fanatik'e göre devre arasında Lesley Ugochukwu ile yollarını ayırmak isteyen Galatasaray'a Burnley, oyuncuya kulüp bulunmasını ya da 3 milyon euro fesih bedeli ödenmesini şart koştu.",
-      "date": "2026-11-18",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-3-milyon-euro-daha-verin-lesley-ugochukwu-icin-galatasaraya-sok-yanit-isler-cikmaza-girdi-2644900"
+      "text": "Fanatik'e göre Galatasaray, Fiorentina'da forma giyen Christ Oulai için ocak ayında şarta bağlı satın alma opsiyonlu kiralama teklifi yapmayı planlıyor.",
+      "date": "2026-11-19",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasarayda-christ-oulai-operasyonu-formul-netlesti-gorusmeler-basliyor-2645005"
     },
     {
       "category": "Transfer",
-      "text": "BILD'e göre Galatasaray, Leipzig'den kiralanan El Chadaille Bitshiabu'nun sözleşmesini feshetmeye hazırlanıyor; kulüpler arasında erken fesih için henüz görüşme yapılmadı.",
-      "date": "2026-11-18",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-sezon-basinda-gelmisti-galatasarayda-ayrilacak-ilk-isim-belli-oldu-2644915"
+      "text": "Fanatik'e göre devre arasında kiralık Ugochukwu ve Bitshiabu ile yolların ayrılması hedefleniyor (Burnley'nin Ugochukwu için 3 milyon euro fesih bedeli istediği öne sürülüyor), İlkay Gündoğan ve Kaan Ayhan'a da uygun teklif gelirse kolaylık sağlanacak.",
+      "date": "2026-11-19",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasarayda-yaprak-dokumu-ocak-ayinda-4-yildiza-veda-2645008"
     },
     {
-      "category": "Sakatlık",
-      "text": "Roland Sallai, Macaristan'ın Kuzey İrlanda maçı öncesi ısınmada sakatlanarak ilk 11'den çıkarıldı; teknik direktör Marco Rossi adale zorlanması olduğunu ve MR çekilmesi gerektiğini söyledi.",
-      "date": "2026-11-17",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/isinmada-sakatlandi-galatasaraya-roland-sallaiden-kotu-haber-2644883"
+      "category": "Kulüp",
+      "text": "RAMS Park'taki zemin çalışmaları nedeniyle Samsunspor maçı Başakşehir Fatih Terim Stadyumu'nda oynanacak; kulüp kombine sahiplerine 19 Kasım 11.00 ile 20 Kasım 15.00 arasında öncelikli bilet hakkı tanındığını, bilet bedelinin gelecek sezon kombine yenilemesinde indirim olarak uygulanacağını açıkladı.",
+      "date": "2026-11-18",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaraydan-samsunspor-maci-oncesi-bilet-aciklamasi-oncelikli-bilet-alim-hakki-2644975"
     },
     {
       "category": "Yönetim",
-      "text": "İstifası KAP'a bildirilen Abdullah Kavukcu, yayımladığı istifa mektubunda Başkan Dursun Özbek'in yönetim anlayışını eleştirdi ve kendisine kumpas kurulduğunu öne sürdü.",
+      "text": "Başkan Dursun Özbek, Metin Öztürk ve Abdullah Kavukcu'nun istifalarını kabul etti; ikinci başkanlığa Mehmet Cibara getirildi, Eray Yazgan'ın görevleri artırıldı.",
       "date": "2026-11-16",
-      "source_url": "https://www.evrensel.net/haber/6009804/abdullah-kavukcu-dan-istifa-mektubu-dursun-ozbek-e-elestiri-ve-kumpas-iddiasi"
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/16/aslanda-gorev-dagilimi-yapildi"
+    },
+    {
+      "category": "Ceza",
+      "text": "PFDK, Amedspor maçındaki kötü tezahürat nedeniyle Galatasaray'a Kuzey ve Güney tribünlerindeki belirli bloklar için bir sonraki iç saha maçında geçerli elektronik bilet blokajı cezası verdi.",
+      "date": "2026-11-13",
+      "source_url": "https://www.evrensel.net/haber/6009289/"
     }
   ]
 }
