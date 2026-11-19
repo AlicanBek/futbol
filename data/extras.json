@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T15:10Z",
+  "updated": "2026-11-19T21:04Z",
   "channels": {
     "401888245": {
       "tr": "beIN SPORTS 1",
@@ -114,45 +114,45 @@
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "Hürriyet'e göre son 14 günde 5 oyuncusu sakatlanan Galatasaray'da Osimhen ile Leao'nun aralık başında, Uğurcan Çakır'ın 22 Kasım'da dönmesi bekleniyor; Davinson Sanchez ciddi bir şeyi olmadığını söyledi, Roland Sallai'nin durumu ise henüz belirsiz.",
+      "text": "Belçika maçında omzundan sakatlanan ve tedavisi süren Uğurcan Çakır, Samsunspor maçı hazırlıklarında takımla birlikte çalıştı.",
+      "date": "2026-11-19",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasarayda-samsun-maci-hazirliklari-surdu-2645113"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Hürriyet'e göre son 14 günde 5 oyuncusu sakatlanan Galatasaray'da Osimhen ile Leao'nun aralık başında dönmesi bekleniyor; Davinson Sanchez Şili maçından tedbir amaçlı çıktığını ve ciddi bir şeyi olmadığını söyledi, Roland Sallai'nin durumu ise belirsiz.",
       "date": "2026-11-19",
       "source_url": "https://hurriyet.com.tr/sporarena/kabus-geri-dondu-14-gunde-5-sakat-43383161"
     },
     {
       "category": "Sakatlık",
-      "text": "Rusya maçında tedavi gören Aleksey Batrakov sakatlığının ciddi olmadığını söyledi; Krasnodar'da uçuşların durdurulması nedeniyle İstanbul'a dönüşünün gecikebileceği belirtiliyor.",
+      "text": "Rusya maçında yerde kalan Aleksey Batrakov ciddi bir sakatlığı olmadığını söyledi; Krasnodar'da uçuşların durdurulması nedeniyle İstanbul'a dönüşünün gecikebileceği belirtiliyor.",
       "date": "2026-11-19",
       "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-batrakov-istanbula-gelemiyor-galatasarayda-krasnodar-telasi-tren-ya-da-karayolu-2644949"
     },
     {
       "category": "Transfer",
-      "text": "Fanatik'e göre Galatasaray, Fiorentina'da forma giyen Christ Oulai için ocak ayında şarta bağlı satın alma opsiyonlu kiralama teklifi yapmayı planlıyor.",
+      "text": "Fanatik'e göre Galatasaray ocakta 2 kiralık yabancı (Ugochukwu, Bitshiabu) ve 2 yerli oyuncuyla (İlkay Gündoğan, Kaan Ayhan) yollarını ayırmayı planlıyor; resmi bir açıklama yok.",
+      "date": "2026-11-19",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasarayda-yaprak-dokumu-ocak-ayinda-4-yildiza-veda-2645008"
+    },
+    {
+      "category": "Transfer",
+      "text": "Fanatik'e göre Galatasaray, Fiorentina'da forma giyen Christ Oulai için ocak ayında şarta bağlı satın alma opsiyonlu kiralama teklifi hazırlıyor; oyuncunun da sıcak baktığı belirtiliyor.",
       "date": "2026-11-19",
       "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasarayda-christ-oulai-operasyonu-formul-netlesti-gorusmeler-basliyor-2645005"
     },
     {
-      "category": "Transfer",
-      "text": "Takvim'e dayanan habere göre Borussia Dortmund devre arasında Yunus Akgün için girişimde bulunmayı planlıyor; yönetim ve teknik heyet ayrılığa sıcak bakmıyor, oyuncunun da kalmak istediği belirtiliyor.",
-      "date": "2026-11-19",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-yunus-akgune-avrupa-devi-talip-oldu-ayrilik-icin-tek-sart-2645028"
-    },
-    {
       "category": "Kulüp",
-      "text": "RAMS Park'taki zemin çalışmaları nedeniyle Samsunspor maçı Başakşehir Fatih Terim Stadyumu'nda oynanacak; kulüp kombine sahiplerine 19 Kasım 11.00 ile 20 Kasım 15.00 arasında öncelikli bilet hakkı tanındığını, bilet bedelinin gelecek sezon kombine yenilemesinde indirim olarak uygulanacağını açıkladı.",
+      "text": "RAMS Park'taki çim yenileme çalışmaları nedeniyle Samsunspor maçı Başakşehir Fatih Terim Stadyumu'nda oynanacak; kulüp kombine sahiplerine 20 Kasım 15.00'e kadar öncelikli bilet hakkı, gelecek sezon kombinesinde indirim ve GSStore hediye çeki verileceğini açıkladı.",
       "date": "2026-11-18",
       "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaraydan-samsunspor-maci-oncesi-bilet-aciklamasi-oncelikli-bilet-alim-hakki-2644975"
     },
     {
       "category": "Yönetim",
-      "text": "Başkan Dursun Özbek, Metin Öztürk ve Abdullah Kavukcu'nun istifalarını kabul etti; ikinci başkanlığa Mehmet Cibara getirildi, Eray Yazgan'ın görevleri artırıldı.",
+      "text": "Yönetim kurulu toplantısındaki tartışmanın ardından Metin Öztürk ve Abdullah Kavukcu istifa etti; Başkan Dursun Özbek istifaları kabul etti, ikinci başkanlığa Mehmet Cibara getirildi ve Eray Yazgan'ın görevleri artırıldı.",
       "date": "2026-11-16",
       "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/16/aslanda-gorev-dagilimi-yapildi"
-    },
-    {
-      "category": "Ceza",
-      "text": "PFDK, Amedspor maçındaki kötü tezahürat nedeniyle Galatasaray'a Kuzey ve Güney tribünlerindeki belirli bloklar için bir sonraki iç saha maçında geçerli elektronik bilet blokajı cezası verdi.",
-      "date": "2026-11-13",
-      "source_url": "https://www.evrensel.net/haber/6009289/"
     }
   ]
 }
