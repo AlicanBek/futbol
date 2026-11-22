@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T09:47Z",
+  "updated": "2026-11-22T17:19Z",
   "channels": {
     "401888246": {
       "tr": "beIN SPORTS 1",
@@ -108,10 +108,20 @@
     "401888234": {
       "tr": "beIN SPORTS",
       "pt": ""
+    },
+    "401888230": {
+      "tr": "",
+      "pt": ""
     }
   },
   "cup": [],
   "gs_news": [
+    {
+      "category": "Ceza",
+      "text": "Samsunspor maçının bitiş düdüğünden sonra kırmızı kart gören ve 30 Kasım'daki Beşiktaş derbisinde kulübede olamayacak Okan Buruk, hakeme saygısızlık yapmadığını savunarak kararın geri alınmasını beklediğini söyledi; kulüp kartın kaldırılması için PFDK ve Tahkim Kurulu'na başvuracak.",
+      "date": "2026-11-22",
+      "source_url": "https://www.sporx.com/futbol/okan-buruk-tan-kirmizi-kart-aciklamasi-icim-cok-rahat-SXHBQ1183671SXQ"
+    },
     {
       "category": "Transfer",
       "text": "Fanatik'in aktardığı iddiaya göre Manchester United, Victor Osimhen için 120 milyon euroluk bir teklif hazırlığında; kulüpten konuyla ilgili resmi bir açıklama yok.",
@@ -119,16 +129,16 @@
       "source_url": "https://www.fanatik.com.tr/galatasaray/osimhen-galatasaraydan-ayriliyor-mu-manchester-uniteddan-120-milyon-euro-2645347"
     },
     {
-      "category": "Ceza",
-      "text": "Samsunspor maçının bitiş düdüğünden sonra kırmızı kart gören Okan Buruk 30 Kasım'daki Beşiktaş derbisinde kulübede olamayacak; Sportif A.Ş. başkan vekili Maruf Güneş kartın kaldırılması için PFDK ve Tahkim Kurulu'na başvuracaklarını açıkladı.",
-      "date": "2026-11-21",
-      "source_url": "https://www.haberturk.com/spor/galatasaray-baskan-vekili-maruf-gunes-okan-buruk-un-kirmizi-kartinin-kaldirilmasini-isteyecegiz-3929097"
-    },
-    {
       "category": "Sakatlık",
       "text": "Sabah'ın haberine göre salon çalışmalarına başlayan Victor Osimhen'in pazartesi günü takımla antrenmana çıkması bekleniyor; Aston Villa maçında oynamayacak olan golcünün Beşiktaş derbisine yetişmesi hedefleniyor, Leao, Sallai ve Jakobs da Villa maçında yok.",
       "date": "2026-11-21",
       "source_url": "https://www.sabah.com.tr/spor/futbol/2026/11/21/osimhenden-haber-var"
+    },
+    {
+      "category": "Kulüp",
+      "text": "Milliyet'e dayanan habere göre Başkan Dursun Özbek'in 40 milyon dolarlık kredinin ertelenmesi için TMSF yetkilileriyle yaptığı görüşmeden sonuç çıkmadı; kulüpten ve TMSF'den resmi bir açıklama yok.",
+      "date": "2026-11-21",
+      "source_url": "https://ajansspor.com/haber/galatasarayda-mali-cikmaz-dursun-ozbek-cozum-bulamadi-739055"
     },
     {
       "category": "Transfer",
