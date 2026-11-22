@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T21:10Z",
+  "updated": "2026-11-22T09:47Z",
   "channels": {
     "401888246": {
       "tr": "beIN SPORTS 1",
@@ -102,7 +102,7 @@
       "pt": ""
     },
     "401888231": {
-      "tr": "",
+      "tr": "beIN SPORTS 1",
       "pt": ""
     },
     "401888234": {
@@ -113,46 +113,40 @@
   "cup": [],
   "gs_news": [
     {
+      "category": "Transfer",
+      "text": "Fanatik'in aktardığı iddiaya göre Manchester United, Victor Osimhen için 120 milyon euroluk bir teklif hazırlığında; kulüpten konuyla ilgili resmi bir açıklama yok.",
+      "date": "2026-11-22",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/osimhen-galatasaraydan-ayriliyor-mu-manchester-uniteddan-120-milyon-euro-2645347"
+    },
+    {
       "category": "Ceza",
-      "text": "Okan Buruk, 2-1 kazanılan Samsunspor maçının bitiş düdüğünden sonra hakem Ali Şansalan'dan ikinci sarı karttan kırmızı kart gördü ve 30 Kasım'daki Beşiktaş derbisinde yedek kulübesinde olamayacak.",
+      "text": "Samsunspor maçının bitiş düdüğünden sonra kırmızı kart gören Okan Buruk 30 Kasım'daki Beşiktaş derbisinde kulübede olamayacak; Sportif A.Ş. başkan vekili Maruf Güneş kartın kaldırılması için PFDK ve Tahkim Kurulu'na başvuracaklarını açıkladı.",
       "date": "2026-11-21",
-      "source_url": "https://www.sporx.com/okan-buruk-besiktas-derbisinde-yok-SXHBQ1183547SXQ"
+      "source_url": "https://www.haberturk.com/spor/galatasaray-baskan-vekili-maruf-gunes-okan-buruk-un-kirmizi-kartinin-kaldirilmasini-isteyecegiz-3929097"
     },
     {
-      "category": "Yönetim",
-      "text": "Kulüp, Okan Buruk'un kırmızı kartının ardından TFF'ye gideceğini açıkladı; Sportif A.Ş. başkan vekili Maruf Güneş de karara tepki gösterdi.",
+      "category": "Sakatlık",
+      "text": "Sabah'ın haberine göre salon çalışmalarına başlayan Victor Osimhen'in pazartesi günü takımla antrenmana çıkması bekleniyor; Aston Villa maçında oynamayacak olan golcünün Beşiktaş derbisine yetişmesi hedefleniyor, Leao, Sallai ve Jakobs da Villa maçında yok.",
       "date": "2026-11-21",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/21/galatasaraydan-mac-sonu-aciklama-tffye-gidecegiz"
-    },
-    {
-      "category": "Kulüp",
-      "text": "Fanatik'in haberine göre kulüp, Destek Finans Faktoring ve Destek Yatırım Bankası'ndan aldığı 40 milyon dolarlık kredinin geri ödemesinde sıkıntı yaşıyor; Dursun Özbek'in borcu ötelemek için TMSF'ye yaptığı başvurunun olumlu karşılanmadığı öne sürüldü.",
-      "date": "2026-11-21",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasarayda-buyuk-endise-40-milyon-dolar-cikmazi-bu-para-nasil-odenecek-2645262"
+      "source_url": "https://www.sabah.com.tr/spor/futbol/2026/11/21/osimhenden-haber-var"
     },
     {
       "category": "Transfer",
-      "text": "İtalyan basınına dayanan habere göre Galatasaray, Juventus'un stoperi Federico Gatti için 20 milyon euro bonservis düşünüyor; Juventus'un ocakta ayrılığa kolay izin vermek istemediği belirtiliyor.",
+      "text": "İtalyan basınına dayanan habere göre Galatasaray'ın ilgilendiği Juventuslu stoper Federico Gatti için bonservis 20 milyon euro; Juventus'un ocakta ayrılığa kolay izin vermek istemediği belirtiliyor.",
       "date": "2026-11-21",
       "source_url": "https://www.hurriyet.com.tr/sporarena/galatasaray-juventustan-istiyor-20-milyon-euro-43386129"
     },
     {
       "category": "Transfer",
-      "text": "Fanatik'in iddiasına göre yönetim, Aleksey Batrakov'un sözleşmesini iyileştirmek için önümüzdeki hafta İstanbul'a gelecek menajeriyle görüşecek.",
+      "text": "L'Equipe'e dayanan habere göre Galatasaray ve Trabzonspor, Reims'in 22 yaşındaki orta saha oyuncusu Yaya Fofana'yı takip ediyor.",
       "date": "2026-11-21",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasarayda-batrakov-icin-rekor-hamle-menajeri-istanbula-geliyor-2645250"
-    },
-    {
-      "category": "Sakatlık",
-      "text": "Kulübün açıklamasına göre sol dizinden artroskopik ameliyat olan Victor Osimhen salon çalışmalarına başladı, Rafael Leao Doha'daki Aspetar'da 10 günlük programını sürdürüyor, Roland Sallai (sırt kası) ve Ismail Jakobs'un (kasık) tedavisi devam ediyor.",
-      "date": "2026-11-20",
-      "source_url": "https://www.sporx.com/galatasaray-dan-sakatlik-aciklamasi-SXHBQ1183452SXQ"
+      "source_url": "https://ahaber.com.tr/spor/galatasaray/2026/11/21/galatasaray-ve-trabzonspor-transferde-karsi-karsiya-25-milyon-euroluk-yildizin-pesindeler"
     },
     {
       "category": "Yönetim",
-      "text": "Başkan Dursun Özbek gündemlerinde erken seçim olmadığını, Mayıs 2028'de dolacak görev süresi boyunca teknik direktörün Okan Buruk olacağını ve Buruk'un sözleşmesinde +1 yıl opsiyon maddesi bulunduğunu söyledi.",
-      "date": "2026-11-20",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-dursun-ozbek-okan-burukla-ilgili-kimsenin-bilmedigi-gercegi-acikladi-2645137"
+      "text": "Galatasaray Sportif A.Ş., yönetim kurulu üyesi Abdullah Kavukcu'nun görevinden istifa ettiğini KAP'a bildirdi.",
+      "date": "2026-11-16",
+      "source_url": "https://www.galatasaray.org/haber/gs-sportif-a-s/ozel-durum-aciklamalari/yonetim-kurulu-istifasi-hakkinda/61388"
     }
   ]
 }
