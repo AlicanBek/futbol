@@ -1,14 +1,6 @@
 {
-  "updated": "2026-11-22T17:19Z",
+  "updated": "2026-11-22T21:20Z",
   "channels": {
-    "401888246": {
-      "tr": "beIN SPORTS 1",
-      "pt": ""
-    },
-    "401888249": {
-      "tr": "beIN SPORTS 1",
-      "pt": ""
-    },
     "401915380": {
       "tr": "tabii Spor",
       "pt": ""
@@ -112,25 +104,41 @@
     "401888230": {
       "tr": "",
       "pt": ""
+    },
+    "401888366": {
+      "tr": "",
+      "pt": ""
     }
   },
   "cup": [],
   "gs_news": [
     {
       "category": "Ceza",
-      "text": "Samsunspor maçının bitiş düdüğünden sonra kırmızı kart gören ve 30 Kasım'daki Beşiktaş derbisinde kulübede olamayacak Okan Buruk, hakeme saygısızlık yapmadığını savunarak kararın geri alınmasını beklediğini söyledi; kulüp kartın kaldırılması için PFDK ve Tahkim Kurulu'na başvuracak.",
+      "text": "Samsunspor maçının bitiş düdüğünden sonra ikinci sarıdan kırmızı kart gören Okan Buruk, karar değişmezse 30 Kasım'daki Beşiktaş derbisinde kulübede olamayacak; kulüp karara itiraz edeceğini duyurdu.",
       "date": "2026-11-22",
-      "source_url": "https://www.sporx.com/futbol/okan-buruk-tan-kirmizi-kart-aciklamasi-icim-cok-rahat-SXHBQ1183671SXQ"
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/22/okan-buruk-besiktas-macinda-cezali-mi-derbide-yok-mu"
     },
     {
       "category": "Transfer",
-      "text": "Fanatik'in aktardığı iddiaya göre Manchester United, Victor Osimhen için 120 milyon euroluk bir teklif hazırlığında; kulüpten konuyla ilgili resmi bir açıklama yok.",
+      "text": "A Spor'un haberine göre yönetim, sezon sonunda sözleşmeleri bitecek Abdülkerim Bardakcı ve Ismail Jakobs ile ocak ayında yeni sözleşme imzalamayı planlıyor.",
       "date": "2026-11-22",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/osimhen-galatasaraydan-ayriliyor-mu-manchester-uniteddan-120-milyon-euro-2645347"
+      "source_url": "https://www.ahaber.com.tr/spor/galatasaray/2026/11/22/okan-buruk-onay-verdi-galatasarayda-ocak-ayinda-cifte-imza"
+    },
+    {
+      "category": "Transfer",
+      "text": "Fotomaç'ın haberine göre Galatasaray, yabancı kontenjanında yer açmak için Leipzig'den kiraladığı ve yalnızca bir maçta 21 dakika oynayan genç stoperle devre arasında yollarını ayırmayı planlıyor.",
+      "date": "2026-11-22",
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/22/galatasarayda-ilk-ayrilik-belli-oldu-ara-transfer-doneminde"
+    },
+    {
+      "category": "Transfer",
+      "text": "Adı Galatasaray'la anılan Bruno Fernandes, Sky Sports'a Manchester United'la yeni sözleşme görüşmelerini durdurduğunu ve kulüp ayrılmasını isterse karşı çıkmayacağını söyledi; Galatasaray'la ilgili resmi bir gelişme yok.",
+      "date": "2026-11-22",
+      "source_url": "https://takvim.com.tr/spor/galatasaray/2026/11/22/galatasarayin-istedigi-bruno-fernandesten-transfer-aciklamasi"
     },
     {
       "category": "Sakatlık",
-      "text": "Sabah'ın haberine göre salon çalışmalarına başlayan Victor Osimhen'in pazartesi günü takımla antrenmana çıkması bekleniyor; Aston Villa maçında oynamayacak olan golcünün Beşiktaş derbisine yetişmesi hedefleniyor, Leao, Sallai ve Jakobs da Villa maçında yok.",
+      "text": "Sabah'ın haberine göre salon çalışmalarına başlayan Victor Osimhen'in pazartesi günü takımla antrenmana çıkması bekleniyor; golcünün Aston Villa maçında oynamayacağı, Beşiktaş derbisine yetişmesinin hedeflendiği belirtiliyor.",
       "date": "2026-11-21",
       "source_url": "https://www.sabah.com.tr/spor/futbol/2026/11/21/osimhenden-haber-var"
     },
@@ -141,22 +149,10 @@
       "source_url": "https://ajansspor.com/haber/galatasarayda-mali-cikmaz-dursun-ozbek-cozum-bulamadi-739055"
     },
     {
-      "category": "Transfer",
-      "text": "İtalyan basınına dayanan habere göre Galatasaray'ın ilgilendiği Juventuslu stoper Federico Gatti için bonservis 20 milyon euro; Juventus'un ocakta ayrılığa kolay izin vermek istemediği belirtiliyor.",
-      "date": "2026-11-21",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/galatasaray-juventustan-istiyor-20-milyon-euro-43386129"
-    },
-    {
-      "category": "Transfer",
-      "text": "L'Equipe'e dayanan habere göre Galatasaray ve Trabzonspor, Reims'in 22 yaşındaki orta saha oyuncusu Yaya Fofana'yı takip ediyor.",
-      "date": "2026-11-21",
-      "source_url": "https://ahaber.com.tr/spor/galatasaray/2026/11/21/galatasaray-ve-trabzonspor-transferde-karsi-karsiya-25-milyon-euroluk-yildizin-pesindeler"
-    },
-    {
       "category": "Yönetim",
-      "text": "Galatasaray Sportif A.Ş., yönetim kurulu üyesi Abdullah Kavukcu'nun görevinden istifa ettiğini KAP'a bildirdi.",
-      "date": "2026-11-16",
-      "source_url": "https://www.galatasaray.org/haber/gs-sportif-a-s/ozel-durum-aciklamalari/yonetim-kurulu-istifasi-hakkinda/61388"
+      "text": "Galatasaray Sportif A.Ş. Başkan Vekili Maruf Güneş, Samsunspor maçına VAR hakemi olarak Erkan Ergin'in atanmasına tepki göstererek adil ve eşit bir yönetim istediklerini söyledi.",
+      "date": "2026-11-21",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/galatasaraydan-erkan-engin-tepkisi-43386096"
     }
   ]
 }
