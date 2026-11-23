@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T09:15Z",
+  "updated": "2026-11-23T15:15Z",
   "channels": {
     "401915380": {
       "tr": "tabii Spor",
@@ -113,22 +113,22 @@
   "cup": [],
   "gs_news": [
     {
+      "category": "Sakatlık",
+      "text": "Okan Buruk, Victor Osimhen'in yarınki Aston Villa maçında oynamayacağını açıkladı; Ismail Jakobs için son kontrol yapılacak, Osimhen ve Roland Sallai'nin Beşiktaş derbisine yetişip yetişmeyeceği gidişata göre belli olacak.",
+      "date": "2026-11-23",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/osimhen-aston-villa-macinda-oynayacak-mi-okan-buruk-acikladi-43387974"
+    },
+    {
       "category": "Ceza",
-      "text": "Ajansspor'un haberine göre yönetim, Okan Buruk'un Samsunspor maçı sonunda gördüğü kırmızı kartın iptali için TFF'ye itiraz etme kararı aldı; karar değişmezse Buruk 30 Kasım'daki Beşiktaş derbisinde kulübede olamayacak.",
+      "text": "Sabah'a dayanan habere göre yönetim, Okan Buruk'un Samsunspor maçında gördüğü kırmızı kartın iptali için TFF'ye itiraz edecek; Buruk da kararın yeniden değerlendirileceğine inandığını söyledi, karar değişmezse Beşiktaş derbisinde kulübede olamayacak.",
       "date": "2026-11-23",
       "source_url": "https://ajansspor.com/haber/galatasaraydan-besiktas-derbisi-oncesi-flas-hamle-tffye-itiraz-yapilacak-739228"
     },
     {
-      "category": "Sakatlık",
-      "text": "Tedavileri süren Roland Sallai, Ismail Jakobs ve Rafael Leao yarınki Aston Villa maçında oynayamayacak; dizinden ameliyat olan Victor Osimhen'in durumu maç günü netleşecek.",
+      "category": "Transfer",
+      "text": "İngiliz basınından SunSport'un iddiasına göre Victor Osimhen, kendisiyle ilgilenen Manchester United'dan gelecek teklifi dinlemeye hazır; oyuncunun sözleşmesi 2029'a kadar sürüyor ve serbest kalma maddesi yok.",
       "date": "2026-11-23",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/galatasarayda-aston-villa-maci-oncesi-son-durum-3-eksik-var-1-ismin-durumu-supheli-43387571"
-    },
-    {
-      "category": "Kulüp",
-      "text": "Zemin bakımı nedeniyle Samsunspor maçını Başakşehir Fatih Terim Stadı'nda oynayan Galatasaray, Aston Villa maçıyla RAMS Park'a dönüyor.",
-      "date": "2026-11-23",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/galatasarayda-aston-villa-maci-oncesi-son-durum-3-eksik-var-1-ismin-durumu-supheli-43387571"
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/23/osimhenden-ingiliz-devine-yesil-isik-devre-arasinda"
     },
     {
       "category": "Transfer",
@@ -138,21 +138,21 @@
     },
     {
       "category": "Transfer",
-      "text": "Fotomaç'ın haberine göre Galatasaray, 19 yaşındaki orta saha Renato Nhaga'yı daha fazla süre alması için ocak ayında kiralık göndermeyi planlıyor.",
-      "date": "2026-11-23",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/23/galatasarayda-ilk-ayrilik-yolda-transferi-cok-konusulmustu"
-    },
-    {
-      "category": "Transfer",
-      "text": "İngiliz basınından SunSport'un iddiasına göre Victor Osimhen, kendisiyle ilgilenen Manchester United'dan gelecek teklifi dinlemeye hazır; oyuncunun sözleşmesi 2029'a kadar sürüyor ve serbest kalma maddesi yok.",
-      "date": "2026-11-23",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/23/osimhenden-ingiliz-devine-yesil-isik-devre-arasinda"
+      "text": "İtalyan basınına dayanan habere göre Juventus, Galatasaray'ın da ilgilendiği öne sürülen stoper Federico Gatti için 20 milyon euro bonservis bedeli belirledi; Lazio, Napoli ve Everton da oyuncuyla ilgileniyor.",
+      "date": "2026-11-21",
+      "source_url": "https://hurriyet.com.tr/sporarena/galatasaray-juventustan-istiyor-20-milyon-euro-43386129"
     },
     {
       "category": "Kulüp",
       "text": "Milliyet'e dayanan habere göre Başkan Dursun Özbek'in 40 milyon dolarlık kredinin ertelenmesi için TMSF yetkilileriyle yaptığı görüşmeden sonuç çıkmadı; kulüpten ve TMSF'den resmi bir açıklama yok.",
       "date": "2026-11-21",
       "source_url": "https://ajansspor.com/haber/galatasarayda-mali-cikmaz-dursun-ozbek-cozum-bulamadi-739055"
+    },
+    {
+      "category": "Yönetim",
+      "text": "Başkan Dursun Özbek, gündemlerinde erken seçim olmadığını, yetki sürelerinin Mayıs 2028'de dolduğunu ve görev süresi boyunca Okan Buruk'la devam edeceklerini söyledi.",
+      "date": "2026-11-20",
+      "source_url": "https://www.karar.com/spor-haberleri/dursun-ozbek-resmen-acikladi-galatasaray-erken-secime-mi-gidecek-2085313"
     }
   ]
 }
