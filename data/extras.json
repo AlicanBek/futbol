@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T21:15Z",
+  "updated": "2026-11-24T09:04Z",
   "channels": {
     "401915380": {
       "tr": "tabii Spor",
@@ -114,45 +114,45 @@
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "Okan Buruk, Victor Osimhen'in Aston Villa maçında oynamayacağını açıkladı; son antrenmanda Osimhen, Roland Sallai ve Rafael Leao takımla çalışmazken Ismail Jakobs idmana döndü, Osimhen ile Sallai'nin Beşiktaş derbisine yetiştirilmesi hedefleniyor.",
-      "date": "2026-11-23",
-      "source_url": "https://www.milliyet.com.tr/skorer/aston-villa-oncesi-galatasarayda-ismail-jakobs-gelismesi-7706283"
+      "text": "A Spor yorumcusu Savaş Çorlu'ya göre dizinden ameliyat edilen Victor Osimhen büyük ihtimalle 30 Kasım'daki Beşiktaş derbisinde de forma giyemeyecek; kulüpten dönüş tarihiyle ilgili resmi bir açıklama yok.",
+      "date": "2026-11-24",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/24/galatasaray-haberi-osimhen-besiktas-derbisinde-oynayacak-mi-canli-yayinda-acikladi"
     },
     {
-      "category": "Ceza",
-      "text": "Okan Buruk'un Samsunspor maçında gördüğü kırmızı kartın iptali için kulübün başvuru yapacağı belirtiliyor; henüz resmi bir PFDK sevki ya da kararı açıklanmadı, ceza çıkarsa Buruk Beşiktaş derbisinde kulübede olamayacak.",
-      "date": "2026-11-23",
-      "source_url": "https://www.haberler.com/haber/okan-buruk-kirmizi-karti-iptal-olacak-mi-20454513-haberi/"
+      "category": "Transfer",
+      "text": "Aleksey Batrakov'un menajeri Vladimir Kuzmichev İstanbul'a geldi ve Sport-Express'e yönetimle görüşmenin mümkün olduğunu söyledi; 55 milyon euroluk serbest kalma bedelinin 70 milyona çıkarılacağı iddiası hakkında yorum yapmadı.",
+      "date": "2026-11-24",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-vladimir-kuzmichev-galatasaray-ile-gorusmeye-geldi-aleksey-batrakovun-55-milyonluk-serbest-kalma-maddesi-2645633"
+    },
+    {
+      "category": "Transfer",
+      "text": "Fotomaç'a dayanan habere göre Eyüpspor devre arasında Renato Nhaga, Arda Ünyay, Eyüp Aydın ve Kazımcan Karataş'ı istiyor; Galatasaray'ın kararını teknik heyetin raporuna göre vereceği belirtiliyor.",
+      "date": "2026-11-24",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/24/transfer-haberi-galatasarayda-4-ayrilik-birden-hepsi-ayni-takima-gidiyor"
     },
     {
       "category": "Kulüp",
-      "text": "DHA'nın haberine göre RAMS Park'ın zemini için İtalya'dan gelecek üç hibrit çim seçeneği değerlendiriliyor; denetmen raporunun ardından karar verilecek ve serildikten üç gün sonra oynanabilen 'ser-oyna' yöntemi esas alınacak.",
+      "text": "RAMS Park'ın zemini için Aston Villa maçının ardından üç hibrit çim seçeneğinin değerlendirileceği ve serildikten kısa süre sonra oynanabilen 'ser-oyna' yönteminin gündemde olduğu bildirildi.",
       "date": "2026-11-23",
       "source_url": "https://www.milliyet.com.tr/skorer/galatasarayin-zemin-plani-ortaya-cikti-ser-oyna-formulu-gundemde-7706473"
     },
     {
-      "category": "Transfer",
-      "text": "TEAMtalk'a dayanan habere göre yönetim Victor Osimhen'i ocak ayında bırakmayı düşünmüyor; Manchester United'ın oyuncu için en geç yaz transfer döneminde harekete geçeceği öne sürülüyor.",
-      "date": "2026-11-23",
-      "source_url": "https://www.haberturk.com/spor/foto/galatasaray-dan-victor-osimhen-e-vize-cikmadi-manchester-united-a-transferi-yaza-kaldi-3929517"
-    },
-    {
-      "category": "Transfer",
-      "text": "Gençlerbirliği Başkanı Ali Osman Avşar, 19 yaşındaki Renato Nhaga için Galatasaray ile irtibata geçeceklerini söyledi; Galatasaray'ın da genç oyuncuyu kiralık göndermeyi düşündüğü belirtiliyor.",
-      "date": "2026-11-23",
-      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-renato-nhagaya-super-ligden-surpriz-talip-7706434"
-    },
-    {
-      "category": "Transfer",
-      "text": "Fotomaç'ın haberine göre 16 maçta skor katkısı veremeyen Leroy Sane ile devre arasında yolların ayrılması gündemde; kulüpten resmi bir açıklama yok.",
-      "date": "2026-11-23",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/23/galatasarayda-flas-leroy-sane-karari-devre-arasinda"
+      "category": "Ceza",
+      "text": "Samsunspor maçının bitiminde ikinci sarıdan kırmızı kart gören Okan Buruk için kulüp itiraz edeceğini duyurdu; karar değişmezse Buruk Beşiktaş derbisinde kulübede olamayacak, PFDK kararı henüz açıklanmadı.",
+      "date": "2026-11-22",
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/22/okan-buruk-besiktas-macinda-cezali-mi-derbide-yok-mu"
     },
     {
       "category": "Kulüp",
-      "text": "Milliyet'e dayanan habere göre Başkan Dursun Özbek'in 40 milyon dolarlık kredinin ertelenmesi için TMSF yetkilileriyle yaptığı görüşmeden sonuç çıkmadı; kulüpten ve TMSF'den resmi bir açıklama yok.",
+      "text": "Milliyet'in haberine göre Başkan Dursun Özbek'in 40 milyon dolarlık kredinin ötelenmesi için TMSF yetkilileriyle yaptığı toplantıdan sonuç çıkmadı; kulüpten ve TMSF'den resmi bir açıklama yok.",
       "date": "2026-11-21",
-      "source_url": "https://ajansspor.com/haber/galatasarayda-mali-cikmaz-dursun-ozbek-cozum-bulamadi-739055"
+      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-40-milyon-dolar-cikmazi-bu-para-nasil-odenecek-7704807"
+    },
+    {
+      "category": "Yönetim",
+      "text": "Milliyet'in haberine göre Dursun Özbek camiadan gelen erken seçim çağrılarına rağmen olağanüstü bir durum olmadıkça seçimi gündemine almıyor; Abdullah Kavukcu'nun istifasının ardından futbol şubesi için Ali Dürüst ismi tavsiye ediliyor.",
+      "date": "2026-11-20",
+      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-secim-gundemde-degil-7704145"
     }
   ]
 }
