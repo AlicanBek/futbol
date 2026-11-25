@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T10:02Z",
+  "updated": "2026-11-25T19:00Z",
   "channels": {
     "401915378": {
       "tr": "tabii Spor",
@@ -108,15 +108,29 @@
     "401915287": {
       "tr": "",
       "pt": ""
+    },
+    "401915283": {
+      "tr": "",
+      "pt": ""
+    },
+    "401915282": {
+      "tr": "",
+      "pt": ""
     }
   },
   "cup": [],
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "Aston Villa maçında gol atarken burnuna darbe alan Deniz Gül ameliyat oldu; basına göre Beşiktaş derbisinde forma giyebilecek.",
+      "text": "Aston Villa maçında gol atarken yüzüne darbe alan Deniz Gül'ün burnunda kırık tespit edildi ve oyuncu ameliyat oldu; kulüp sahalara dönüş tarihi vermedi.",
       "date": "2026-11-25",
-      "source_url": "https://www.haberturk.com/spor/galatasarayli-deniz-gul-aston-villa-maci-sonrasi-ameliyat-oldu-3929929"
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaraydan-deniz-gul-aciklamasi-kirik-olustu-2645761"
+    },
+    {
+      "category": "Ceza",
+      "text": "Samsunspor maçında kırmızı kart gören Okan Buruk Beşiktaş derbisi için cezalı durumda; Fanatik'e göre kulüp hakem Ali Şansalan'ı Etik Kurul'a şikayet etme kararı aldı ve TFF'den hakem raporu ile VAR kayıtlarını istedi.",
+      "date": "2026-11-25",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaray-kollari-sivadi-ali-sansalan-hamlesi-etik-kurula-sikayet-edilecek-2645763"
     },
     {
       "category": "Transfer",
@@ -147,12 +161,6 @@
       "text": "Aston Villa maçında sakatlanarak oyundan çıkan Mario Lemina ve Lucas Torreira maçtan sonra durumlarının iyi olduğunu söyledi.",
       "date": "2026-11-24",
       "source_url": "https://www.sporx.com/galatasaray-da-lemina-ve-torreira-dan-sakatlik-yaniti-SXHBQ1183946SXQ"
-    },
-    {
-      "category": "Ceza",
-      "text": "Samsunspor maçında kırmızı kart gören Okan Buruk Beşiktaş derbisi için cezalı durumda; kulüp kartın iptali için TFF'ye itiraz kararı aldı, henüz bir sonuç açıklanmadı.",
-      "date": "2026-11-23",
-      "source_url": "https://www.milligazete.com.tr/galatasaraydan-derbi-oncesi-tff-hamlesi-itiraz-edildi"
     }
   ]
 }
