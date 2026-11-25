@@ -1,42 +1,6 @@
 {
-  "updated": "2026-11-24T21:29Z",
+  "updated": "2026-11-25T10:02Z",
   "channels": {
-    "401915380": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915300": {
-      "tr": "TRT 1",
-      "pt": "DAZN"
-    },
-    "401915295": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915296": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915294": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915379": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915299": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915298": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915297": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
     "401915378": {
       "tr": "tabii Spor",
       "pt": ""
@@ -150,15 +114,27 @@
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "Aston Villa maçının tek golünü atan Deniz Gül'ün burnunda kırık şüphesi var ve takım doktoru Yener İnce oyuncunun operasyon geçireceğini açıkladı.",
+      "text": "Aston Villa maçında gol atarken burnuna darbe alan Deniz Gül ameliyat oldu; basına göre Beşiktaş derbisinde forma giyebilecek.",
       "date": "2026-11-25",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/24/deniz-gulun-saglik-durumu-aciklandi"
+      "source_url": "https://www.haberturk.com/spor/galatasarayli-deniz-gul-aston-villa-maci-sonrasi-ameliyat-oldu-3929929"
+    },
+    {
+      "category": "Transfer",
+      "text": "Ayrılacağı konuşulan Lesley Ugochukwu'nun Aston Villa maçındaki performansının ardından takımda kalabileceği iddia edildi; kulüpten bir karar açıklanmadı.",
+      "date": "2026-11-25",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/25/galatasarayda-o-ayrilik-iptal-olabilir-aston-villa-maci-sonrasi-her-sey-degisti"
     },
     {
       "category": "Sakatlık",
-      "text": "Aston Villa maçında sakatlanarak oyundan çıkan Mario Lemina ve Lucas Torreira maçtan sonra durumlarının iyi olduğunu söyledi.",
+      "text": "7 Kasım'da sol dizinden ameliyat edilen Victor Osimhen'in Beşiktaş derbisinde oynayıp oynamayacağına dair kulüpten resmi açıklama gelmedi; A Spor yorumcusu Savaş Çorlu oynamasının beklenmediğini söyledi.",
       "date": "2026-11-24",
-      "source_url": "https://www.sporx.com/galatasaray-da-lemina-ve-torreira-dan-sakatlik-yaniti-SXHBQ1183946SXQ"
+      "source_url": "https://www.fotomac.com.tr/superlig/2026/11/25/osimhen-besiktas-macinda-yok-mu-osimhen-derbide-oynayacak-mi"
+    },
+    {
+      "category": "Yönetim",
+      "text": "Başkan Dursun Özbek, İsrail hükümetinin taraftarların Filistin'e destek pankartları nedeniyle kulübü UEFA'ya şikayet ettiğini duyduklarını söyledi ve UEFA'dan bu şikayete itibar etmemesini istedi.",
+      "date": "2026-11-24",
+      "source_url": "https://www.sporx.com/galatasaray-uefa-tehdidine-aldiris-etmedi-SXHBQ1183914SXQ"
     },
     {
       "category": "Kulüp",
@@ -167,28 +143,16 @@
       "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/24/aston-villayi-deviren-galatasarayin-kasasi-dolup-tasiyor-iste-aslanin-devler-liginden-toplam-kazanci"
     },
     {
-      "category": "Yönetim",
-      "text": "Başkan Dursun Özbek, İsrail hükümetinin taraftarların Filistin'e destek pankartları nedeniyle kulübü UEFA'ya şikayet ettiğini duyduklarını söyledi ve UEFA'dan bu şikayete itibar etmemesini istedi; pankartlar Aston Villa maçında da açıldı.",
-      "date": "2026-11-24",
-      "source_url": "https://www.sporx.com/galatasaray-uefa-tehdidine-aldiris-etmedi-SXHBQ1183914SXQ"
-    },
-    {
       "category": "Sakatlık",
-      "text": "Okan Buruk, dizinden ameliyat edilen Victor Osimhen ile Roland Sallai'nin Beşiktaş derbisinde oynayıp oynamayacağına gidişata göre karar verileceğini söyledi.",
+      "text": "Aston Villa maçında sakatlanarak oyundan çıkan Mario Lemina ve Lucas Torreira maçtan sonra durumlarının iyi olduğunu söyledi.",
       "date": "2026-11-24",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/24/galatasarayda-osimhenin-son-durumu-belli-oldu-besiktas-derbisinde"
-    },
-    {
-      "category": "Transfer",
-      "text": "Aleksey Batrakov'un menajeri Vladimir Kuzmichev İstanbul'a geldiğini doğruladı ve kulüp yönetimiyle görüşmenin mümkün olduğunu söyledi; yeni sözleşme ve serbest kalma maddesi hakkında yorum yapmadı.",
-      "date": "2026-11-24",
-      "source_url": "https://www.milliyet.com.tr/skorer/aleksey-batrakovun-menajerinden-sozlesme-ve-galatasaray-aciklamasi-istanbula-geldi-7706945"
+      "source_url": "https://www.sporx.com/galatasaray-da-lemina-ve-torreira-dan-sakatlik-yaniti-SXHBQ1183946SXQ"
     },
     {
       "category": "Ceza",
-      "text": "Samsunspor maçında kırmızı kart gören Okan Buruk Beşiktaş derbisi için cezalı durumda; kulüp kararı haksız bulduğunu ve itiraz edeceğini açıkladı.",
-      "date": "2026-11-22",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/22/okan-buruk-besiktas-macinda-cezali-mi-derbide-yok-mu"
+      "text": "Samsunspor maçında kırmızı kart gören Okan Buruk Beşiktaş derbisi için cezalı durumda; kulüp kartın iptali için TFF'ye itiraz kararı aldı, henüz bir sonuç açıklanmadı.",
+      "date": "2026-11-23",
+      "source_url": "https://www.milligazete.com.tr/galatasaraydan-derbi-oncesi-tff-hamlesi-itiraz-edildi"
     }
   ]
 }
