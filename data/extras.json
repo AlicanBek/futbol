@@ -1,14 +1,6 @@
 {
-  "updated": "2026-11-25T19:00Z",
+  "updated": "2026-11-25T21:15Z",
   "channels": {
-    "401915378": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
-    "401915293": {
-      "tr": "tabii Spor",
-      "pt": ""
-    },
     "401915291": {
       "tr": "tabii Spor",
       "pt": ""
@@ -116,6 +108,34 @@
     "401915282": {
       "tr": "",
       "pt": ""
+    },
+    "401915367": {
+      "tr": "",
+      "pt": ""
+    },
+    "401915368": {
+      "tr": "",
+      "pt": ""
+    },
+    "401915281": {
+      "tr": "",
+      "pt": ""
+    },
+    "401915370": {
+      "tr": "",
+      "pt": ""
+    },
+    "401915369": {
+      "tr": "",
+      "pt": ""
+    },
+    "401915366": {
+      "tr": "",
+      "pt": ""
+    },
+    "401915365": {
+      "tr": "",
+      "pt": ""
     }
   },
   "cup": [],
@@ -133,6 +153,18 @@
       "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaray-kollari-sivadi-ali-sansalan-hamlesi-etik-kurula-sikayet-edilecek-2645763"
     },
     {
+      "category": "Yönetim",
+      "text": "Başkan Dursun Özbek'in İsrail hükümetinin Filistin pankartları nedeniyle kulübü UEFA'ya şikayet ettiğini açıklamasının ardından, The Athletic'e konuşan UEFA yetkilileri Filistin bayrak ve sembollerinin kışkırtıcı sayılmadığını ve disiplin cezası uygulanmadığını söyledi.",
+      "date": "2026-11-25",
+      "source_url": "https://spor.haber7.com/galatasaray/haber/3679682-israilin-sikayeti-sonrasi-uefa-konustu-filistin-pankartlari-icin-karar-belli-oldu"
+    },
+    {
+      "category": "Transfer",
+      "text": "Ismail Jakobs, sezon başında Galatasaray ile adı anılan Villarreal'li milli takım arkadaşı Pape Gueye'ye sosyal medyada \"Welcome to Gala\" mesajı gönderdi; kulüpler arasında bir görüşme bildirilmedi.",
+      "date": "2026-11-25",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasarayli-jakobstan-gueyeye-transfer-cagrisi-2645824"
+    },
+    {
       "category": "Transfer",
       "text": "Ayrılacağı konuşulan Lesley Ugochukwu'nun Aston Villa maçındaki performansının ardından takımda kalabileceği iddia edildi; kulüpten bir karar açıklanmadı.",
       "date": "2026-11-25",
@@ -145,22 +177,10 @@
       "source_url": "https://www.fotomac.com.tr/superlig/2026/11/25/osimhen-besiktas-macinda-yok-mu-osimhen-derbide-oynayacak-mi"
     },
     {
-      "category": "Yönetim",
-      "text": "Başkan Dursun Özbek, İsrail hükümetinin taraftarların Filistin'e destek pankartları nedeniyle kulübü UEFA'ya şikayet ettiğini duyduklarını söyledi ve UEFA'dan bu şikayete itibar etmemesini istedi.",
-      "date": "2026-11-24",
-      "source_url": "https://www.sporx.com/galatasaray-uefa-tehdidine-aldiris-etmedi-SXHBQ1183914SXQ"
-    },
-    {
       "category": "Kulüp",
       "text": "Aston Villa galibiyetiyle 2,1 milyon euro daha kazanan Galatasaray'ın bu sezon Şampiyonlar Ligi'ndeki galibiyet primi 6,3 milyon euroya ulaştı; katılım bedeli olarak da 18,62 milyon euro almıştı.",
       "date": "2026-11-24",
       "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/24/aston-villayi-deviren-galatasarayin-kasasi-dolup-tasiyor-iste-aslanin-devler-liginden-toplam-kazanci"
-    },
-    {
-      "category": "Sakatlık",
-      "text": "Aston Villa maçında sakatlanarak oyundan çıkan Mario Lemina ve Lucas Torreira maçtan sonra durumlarının iyi olduğunu söyledi.",
-      "date": "2026-11-24",
-      "source_url": "https://www.sporx.com/galatasaray-da-lemina-ve-torreira-dan-sakatlik-yaniti-SXHBQ1183946SXQ"
     }
   ]
 }
