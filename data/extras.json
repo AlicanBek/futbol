@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T21:15Z",
+  "updated": "2026-11-26T10:01Z",
   "channels": {
     "401915291": {
       "tr": "tabii Spor",
@@ -142,9 +142,27 @@
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "Aston Villa maçında gol atarken yüzüne darbe alan Deniz Gül'ün burnunda kırık tespit edildi ve oyuncu ameliyat oldu; kulüp sahalara dönüş tarihi vermedi.",
-      "date": "2026-11-25",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaraydan-deniz-gul-aciklamasi-kirik-olustu-2645761"
+      "text": "Fanatik'e göre Victor Osimhen derbi öncesi takımla çalışmalara katılırsa alacağı süreyi teknik ekip ve sağlık heyeti belirleyecek, katılamazsa riske edilmeyecek; kulüpten resmi açıklama yok.",
+      "date": "2026-11-26",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-ocak-ayina-kadar-yok-galatasarayda-osimhen-leao-ve-sallainin-son-durumu-belli-oldu-2645863"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Burnu kırılan Deniz Gül'ün koruyucu maskeyle Beşiktaş derbisinde oynayabileceği, Roland Sallai'nin yetişme ihtimalinin düşük olduğu ve Rafael Leão'nun resmi maçlara ocak ayında dönmesinin beklendiği bildirildi; Lemina ve Torreira'da ciddi bir sakatlık çıkmadı.",
+      "date": "2026-11-26",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-ocak-ayina-kadar-yok-galatasarayda-osimhen-leao-ve-sallainin-son-durumu-belli-oldu-2645863"
+    },
+    {
+      "category": "Yönetim",
+      "text": "Fanatik'in Skorer'den aktardığına göre yönetim Aston Villa galibiyeti için takıma toplam 700 bin euro prim belirledi; yarısının cuma gününe kadar ödeneceği, kalanının prim havuzunda tutulacağı yazıldı.",
+      "date": "2026-11-26",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasarayda-devler-ligi-plani-degisti-psg-maci-oncesi-kesenin-agzi-acildi-2645887"
+    },
+    {
+      "category": "Transfer",
+      "text": "L'Équipe'e göre Galatasaray, Reims'in 22 yaşındaki orta sahası Yaya Fofana'yı izleyen kulüpler arasında; Trabzonspor, Stuttgart ve Tottenham'ın da oyuncuyu takip ettiği belirtildi, resmi bir girişim bildirilmedi.",
+      "date": "2026-11-26",
+      "source_url": "https://www.fanatik.com.tr/trabzonspor/galeri-galatasaray-ve-trabzonspor-transferde-karsi-karsiya-fransizlar-duyurdu-2645873"
     },
     {
       "category": "Ceza",
@@ -157,24 +175,6 @@
       "text": "Başkan Dursun Özbek'in İsrail hükümetinin Filistin pankartları nedeniyle kulübü UEFA'ya şikayet ettiğini açıklamasının ardından, The Athletic'e konuşan UEFA yetkilileri Filistin bayrak ve sembollerinin kışkırtıcı sayılmadığını ve disiplin cezası uygulanmadığını söyledi.",
       "date": "2026-11-25",
       "source_url": "https://spor.haber7.com/galatasaray/haber/3679682-israilin-sikayeti-sonrasi-uefa-konustu-filistin-pankartlari-icin-karar-belli-oldu"
-    },
-    {
-      "category": "Transfer",
-      "text": "Ismail Jakobs, sezon başında Galatasaray ile adı anılan Villarreal'li milli takım arkadaşı Pape Gueye'ye sosyal medyada \"Welcome to Gala\" mesajı gönderdi; kulüpler arasında bir görüşme bildirilmedi.",
-      "date": "2026-11-25",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasarayli-jakobstan-gueyeye-transfer-cagrisi-2645824"
-    },
-    {
-      "category": "Transfer",
-      "text": "Ayrılacağı konuşulan Lesley Ugochukwu'nun Aston Villa maçındaki performansının ardından takımda kalabileceği iddia edildi; kulüpten bir karar açıklanmadı.",
-      "date": "2026-11-25",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/25/galatasarayda-o-ayrilik-iptal-olabilir-aston-villa-maci-sonrasi-her-sey-degisti"
-    },
-    {
-      "category": "Sakatlık",
-      "text": "7 Kasım'da sol dizinden ameliyat edilen Victor Osimhen'in Beşiktaş derbisinde oynayıp oynamayacağına dair kulüpten resmi açıklama gelmedi; A Spor yorumcusu Savaş Çorlu oynamasının beklenmediğini söyledi.",
-      "date": "2026-11-24",
-      "source_url": "https://www.fotomac.com.tr/superlig/2026/11/25/osimhen-besiktas-macinda-yok-mu-osimhen-derbide-oynayacak-mi"
     },
     {
       "category": "Kulüp",
