@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T10:01Z",
+  "updated": "2026-11-26T17:57Z",
   "channels": {
     "401915291": {
       "tr": "tabii Spor",
@@ -136,51 +136,55 @@
     "401915365": {
       "tr": "",
       "pt": ""
+    },
+    "401915796": {
+      "tr": "",
+      "pt": ""
     }
   },
   "cup": [],
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "Fanatik'e göre Victor Osimhen derbi öncesi takımla çalışmalara katılırsa alacağı süreyi teknik ekip ve sağlık heyeti belirleyecek, katılamazsa riske edilmeyecek; kulüpten resmi açıklama yok.",
+      "text": "Fanatik'in TRT Spor'dan aktardığına göre Victor Osimhen'in Beşiktaş derbisinin geniş kadrosunda yer alması ve ikinci yarıda süre alması bekleniyor; kulüpten resmi açıklama yok.",
       "date": "2026-11-26",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-ocak-ayina-kadar-yok-galatasarayda-osimhen-leao-ve-sallainin-son-durumu-belli-oldu-2645863"
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-victor-osimhenin-besiktas-macinda-oynayip-oynamayacagi-belli-oldu-galatasarayda-sicak-gelisme-2645915"
     },
     {
       "category": "Sakatlık",
-      "text": "Burnu kırılan Deniz Gül'ün koruyucu maskeyle Beşiktaş derbisinde oynayabileceği, Roland Sallai'nin yetişme ihtimalinin düşük olduğu ve Rafael Leão'nun resmi maçlara ocak ayında dönmesinin beklendiği bildirildi; Lemina ve Torreira'da ciddi bir sakatlık çıkmadı.",
+      "text": "Burnundan ameliyat edilen Deniz Gül'ün derbide koruyucu maskeyle oynayabileceği, Roland Sallai'nin yetişme ihtimalinin düşük olduğu ve Rafael Leão'nun resmi maçlara ocak ayında dönmesinin beklendiği bildirildi.",
       "date": "2026-11-26",
       "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-ocak-ayina-kadar-yok-galatasarayda-osimhen-leao-ve-sallainin-son-durumu-belli-oldu-2645863"
     },
     {
-      "category": "Yönetim",
-      "text": "Fanatik'in Skorer'den aktardığına göre yönetim Aston Villa galibiyeti için takıma toplam 700 bin euro prim belirledi; yarısının cuma gününe kadar ödeneceği, kalanının prim havuzunda tutulacağı yazıldı.",
+      "category": "Ceza",
+      "text": "Samsunspor maçının bitiminde Okan Buruk'a gösterilen kırmızı kart sonrası kulübün hakem Ali Şansalan'ı Etik Kurul'a şikayet etmeyi planladığı ve TFF'den raporları, VAR ile telsiz kayıtlarını istediği yazıldı; Sabah'a göre MHK Başkanı Anthony Taylor da karta şaşırdı.",
       "date": "2026-11-26",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasarayda-devler-ligi-plani-degisti-psg-maci-oncesi-kesenin-agzi-acildi-2645887"
+      "source_url": "https://www.fanatik.com.tr/galatasaray/mhk-baskani-anthony-taylor-okan-burukun-kirmizi-kartina-sasirdi-bu-nasil-kirmizi-kart-2645914"
     },
     {
       "category": "Transfer",
-      "text": "L'Équipe'e göre Galatasaray, Reims'in 22 yaşındaki orta sahası Yaya Fofana'yı izleyen kulüpler arasında; Trabzonspor, Stuttgart ve Tottenham'ın da oyuncuyu takip ettiği belirtildi, resmi bir girişim bildirilmedi.",
+      "text": "Fanatik'in aktardığı habere göre Galatasaray, Burnley'den kiralık Lesley Ugochukwu'yu tutmak için 22,5 milyon euroluk satın alma opsiyonunu devreye sokan 18 maç şartının yükseltilmesini önerdi; resmi açıklama yok.",
       "date": "2026-11-26",
-      "source_url": "https://www.fanatik.com.tr/trabzonspor/galeri-galatasaray-ve-trabzonspor-transferde-karsi-karsiya-fransizlar-duyurdu-2645873"
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-kesin-gidiyor-derken-surpriz-karar-galatasaray-yildiz-oyuncu-ile-gorusecek-2645961"
     },
     {
-      "category": "Ceza",
-      "text": "Samsunspor maçında kırmızı kart gören Okan Buruk Beşiktaş derbisi için cezalı durumda; Fanatik'e göre kulüp hakem Ali Şansalan'ı Etik Kurul'a şikayet etme kararı aldı ve TFF'den hakem raporu ile VAR kayıtlarını istedi.",
-      "date": "2026-11-25",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galatasaray-kollari-sivadi-ali-sansalan-hamlesi-etik-kurula-sikayet-edilecek-2645763"
+      "category": "Transfer",
+      "text": "A Spor'un Yeni Asır ve İspanyol basınına dayandırdığı habere göre Galatasaray devre arası için Racing Santander'de oynayan 21 yaşındaki Faslı forvet Yassir Zabiri'yi araştırıyor, Barcelona'nın da devreye girebileceği öne sürüldü.",
+      "date": "2026-11-26",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/26/galatasaraydan-devre-arasi-golcu-operasyonu-transferde-rakip-barcelona"
     },
     {
       "category": "Yönetim",
-      "text": "Başkan Dursun Özbek'in İsrail hükümetinin Filistin pankartları nedeniyle kulübü UEFA'ya şikayet ettiğini açıklamasının ardından, The Athletic'e konuşan UEFA yetkilileri Filistin bayrak ve sembollerinin kışkırtıcı sayılmadığını ve disiplin cezası uygulanmadığını söyledi.",
-      "date": "2026-11-25",
-      "source_url": "https://spor.haber7.com/galatasaray/haber/3679682-israilin-sikayeti-sonrasi-uefa-konustu-filistin-pankartlari-icin-karar-belli-oldu"
+      "text": "Fotomaç'a göre Başkan Dursun Özbek, Aston Villa galibiyetinden sonra soyunma odasında galibiyet primini 700 bin eurodan 1 milyon euroya çıkardı ve primin iki taksitte ödeneceği belirtildi.",
+      "date": "2026-11-26",
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/26/galatasaraydan-prim-karari-dursun-ozbek-aston-villa-maci-sonrasi"
     },
     {
       "category": "Kulüp",
-      "text": "Aston Villa galibiyetiyle 2,1 milyon euro daha kazanan Galatasaray'ın bu sezon Şampiyonlar Ligi'ndeki galibiyet primi 6,3 milyon euroya ulaştı; katılım bedeli olarak da 18,62 milyon euro almıştı.",
-      "date": "2026-11-24",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/24/aston-villayi-deviren-galatasarayin-kasasi-dolup-tasiyor-iste-aslanin-devler-liginden-toplam-kazanci"
+      "text": "Kulübün resmi sitesine göre Başkan Dursun Özbek, RAMS Park'ta Como Başkanı Mirwan Suwarso'yu ağırladı ve iki kulübün özellikle İtalya ile Endonezya'da ilişkilerini geliştireceğini söyledi.",
+      "date": "2026-11-26",
+      "source_url": "https://www.galatasaray.org/haber/kulup/baskan-dursun-aydin-ozbek-como-baskani-mirwan-suwarso-yu-agirladi/61479"
     }
   ]
 }
