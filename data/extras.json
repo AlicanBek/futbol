@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T17:57Z",
+  "updated": "2026-11-26T22:18Z",
   "channels": {
     "401915291": {
       "tr": "tabii Spor",
@@ -140,51 +140,55 @@
     "401915796": {
       "tr": "",
       "pt": ""
+    },
+    "401915492": {
+      "tr": "",
+      "pt": ""
     }
   },
   "cup": [],
   "gs_news": [
     {
-      "category": "Sakatlık",
-      "text": "Fanatik'in TRT Spor'dan aktardığına göre Victor Osimhen'in Beşiktaş derbisinin geniş kadrosunda yer alması ve ikinci yarıda süre alması bekleniyor; kulüpten resmi açıklama yok.",
+      "category": "Yönetim",
+      "text": "Galatasaray Kulübü, Beşiktaş'ın Batum'da oynadığı Hapoel Beer Sheva maçında taraftarlara yapılan müdahalenin ardından yayımladığı açıklamada Türk takımlarının kendi sahasında oynama hakkından mahrum bırakılmasını kabul etmediğini belirterek UEFA'yı eleştirdi ve Beşiktaş'a destek verdi.",
       "date": "2026-11-26",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-victor-osimhenin-besiktas-macinda-oynayip-oynamayacagi-belli-oldu-galatasarayda-sicak-gelisme-2645915"
+      "source_url": "https://www.fanatik.com.tr/besiktas/kuluplerden-besiktasa-destek-aciklamasi-galatasaray-fenerbahce-trabzonspor-2645968"
     },
     {
       "category": "Sakatlık",
-      "text": "Burnundan ameliyat edilen Deniz Gül'ün derbide koruyucu maskeyle oynayabileceği, Roland Sallai'nin yetişme ihtimalinin düşük olduğu ve Rafael Leão'nun resmi maçlara ocak ayında dönmesinin beklendiği bildirildi.",
+      "text": "Sporx'e göre Victor Osimhen'in Beşiktaş derbisinin geniş kadrosunda yer alması bekleniyor, ne kadar süre alacağına teknik ekip ve sağlık heyetinin değerlendirmesinden sonra karar verilecek.",
+      "date": "2026-11-26",
+      "source_url": "https://www.sporx.com/galatasaray-a-derbi-oncesi-osimhen-mujdesi-SXHBQ1184166SXQ"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Aston Villa maçında burnu kırılan ve ameliyat edilen Deniz Gül'ün, Sabah'ın haberine göre derbide koruyucu maskeyle forma giyebileceği belirtildi.",
+      "date": "2026-11-26",
+      "source_url": "https://www.sporx.com/deniz-gul-icin-besiktas-derbisi-karari-verildi-SXHBQ1184136SXQ"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Fanatik'e göre Roland Sallai'nin derbiye yetişme ihtimali düşük, Rafael Leão'nun resmi maçlara ocak ayında dönmesi bekleniyor; Mario Lemina ve Lucas Torreira'da ise ciddi bir sakatlık bulgusuna rastlanmadı.",
       "date": "2026-11-26",
       "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-ocak-ayina-kadar-yok-galatasarayda-osimhen-leao-ve-sallainin-son-durumu-belli-oldu-2645863"
     },
     {
       "category": "Ceza",
-      "text": "Samsunspor maçının bitiminde Okan Buruk'a gösterilen kırmızı kart sonrası kulübün hakem Ali Şansalan'ı Etik Kurul'a şikayet etmeyi planladığı ve TFF'den raporları, VAR ile telsiz kayıtlarını istediği yazıldı; Sabah'a göre MHK Başkanı Anthony Taylor da karta şaşırdı.",
+      "text": "Okan Buruk'un Samsunspor maçı sonunda gördüğü kırmızı kart nedeniyle kulübün hakem Ali Şansalan'ı Etik Kurul'a şikayet etmeye hazırlandığı ve TFF'den raporlarla VAR ve telsiz kayıtlarını istediği yazılırken, Sabah'a göre MHK Başkanı Anthony Taylor da karta şaşırdı.",
       "date": "2026-11-26",
       "source_url": "https://www.fanatik.com.tr/galatasaray/mhk-baskani-anthony-taylor-okan-burukun-kirmizi-kartina-sasirdi-bu-nasil-kirmizi-kart-2645914"
     },
     {
       "category": "Transfer",
-      "text": "Fanatik'in aktardığı habere göre Galatasaray, Burnley'den kiralık Lesley Ugochukwu'yu tutmak için 22,5 milyon euroluk satın alma opsiyonunu devreye sokan 18 maç şartının yükseltilmesini önerdi; resmi açıklama yok.",
+      "text": "Fanatik'in HT'den aktardığına göre Galatasaray, Burnley'den kiralık Lesley Ugochukwu'nun 22,5 milyon euroluk satın alma opsiyonunu devreye sokan 18 maç sınırının yükseltilmesini oyuncu tarafına önerdi ve oyuncu cephesinin olumlu yaklaştığı öne sürüldü; resmi açıklama yok.",
       "date": "2026-11-26",
       "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-kesin-gidiyor-derken-surpriz-karar-galatasaray-yildiz-oyuncu-ile-gorusecek-2645961"
     },
     {
-      "category": "Transfer",
-      "text": "A Spor'un Yeni Asır ve İspanyol basınına dayandırdığı habere göre Galatasaray devre arası için Racing Santander'de oynayan 21 yaşındaki Faslı forvet Yassir Zabiri'yi araştırıyor, Barcelona'nın da devreye girebileceği öne sürüldü.",
-      "date": "2026-11-26",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/26/galatasaraydan-devre-arasi-golcu-operasyonu-transferde-rakip-barcelona"
-    },
-    {
-      "category": "Yönetim",
-      "text": "Fotomaç'a göre Başkan Dursun Özbek, Aston Villa galibiyetinden sonra soyunma odasında galibiyet primini 700 bin eurodan 1 milyon euroya çıkardı ve primin iki taksitte ödeneceği belirtildi.",
-      "date": "2026-11-26",
-      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/26/galatasaraydan-prim-karari-dursun-ozbek-aston-villa-maci-sonrasi"
-    },
-    {
       "category": "Kulüp",
-      "text": "Kulübün resmi sitesine göre Başkan Dursun Özbek, RAMS Park'ta Como Başkanı Mirwan Suwarso'yu ağırladı ve iki kulübün özellikle İtalya ile Endonezya'da ilişkilerini geliştireceğini söyledi.",
+      "text": "Aston Villa maçının ardından RAMS Park'ın çimleri yeniden bakıma alındı ve zemin iyileştirme çalışmalarının 4 Aralık'taki Çaykur Rizespor maçına kadar süreceği bildirildi.",
       "date": "2026-11-26",
-      "source_url": "https://www.galatasaray.org/haber/kulup/baskan-dursun-aydin-ozbek-como-baskani-mirwan-suwarso-yu-agirladi/61479"
+      "source_url": "https://www.sporx.com/rams-park-ta-rizespor-macina-kadar-zemin-mesaisi-SXHBQ1184134SXQ"
     }
   ]
 }
