@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T12:21Z",
+  "updated": "2026-11-27T15:32Z",
   "channels": {
     "401915291": {
       "tr": "tabii Spor",
@@ -66,11 +66,11 @@
       "pt": ""
     },
     "401915290": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915372": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915289": {
@@ -78,63 +78,63 @@
       "pt": ""
     },
     "401915288": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915286": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915285": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915284": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915371": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915287": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915283": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915282": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915367": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915368": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915281": {
-      "tr": "",
+      "tr": "TRT 1",
       "pt": ""
     },
     "401915370": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915369": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915366": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915365": {
-      "tr": "",
+      "tr": "tabii Spor",
       "pt": ""
     },
     "401915796": {
@@ -150,7 +150,7 @@
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "Milliyet'in haberine göre Victor Osimhen'e bugün ve yarın yapılacak testlerin ardından Beşiktaş derbisinde forma giyip giyemeyeceğine karar verilecek; henüz saha çalışmalarına başlamayan oyuncunun en azından yedek kulübesinde yer alması için çaba harcanıyor.",
+      "text": "Milliyet'in haberine göre Victor Osimhen'e bugün ve yarın yapılacak testlerin ardından Beşiktaş derbisinde forma giyip giyemeyeceğine karar verilecek; TRT Spor ise oyuncunun geniş kadroda yer alıp ikinci yarıda süre almasının beklendiğini bildirdi.",
       "date": "2026-11-27",
       "source_url": "https://www.sporx.com/osimhen-seferberligi-derbi-oncesi-kritik-48-saat-SXHBQ1184261SXQ"
     },
@@ -161,22 +161,10 @@
       "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasarayda-besiktas-derbisi-oncesi-mujdeli-haber-okan-burukun-gozu-iki-yildiz-oyuncuda-2646049"
     },
     {
-      "category": "Transfer",
-      "text": "Türkiye gazetesinin iddiasına göre CSKA Moskova ve Zenit, Yunus Akgün için 30 milyon euroluk teklif hazırlığında; oyuncunun ocak ayında ayrılmaya niyeti olmadığı ve kararı yönetime bıraktığı belirtildi.",
-      "date": "2026-11-27",
-      "source_url": "https://www.sporx.com/yunus-akgun-e-rus-kancasi-30-milyon-euro-SXHBQ1184257SXQ"
-    },
-    {
       "category": "Yönetim",
       "text": "Başkan Dursun Özbek, bu sezon üst üste 5. şampiyonluk ve Şampiyonlar Ligi'nde başarı için ellerinden gelen her şeyi yapacaklarını söyledi ve son maçlarda oyuncuların aidiyet duygusunun ne kadar yüksek olduğunun görüldüğünü belirtti.",
       "date": "2026-11-27",
       "source_url": "https://www.fanatik.com.tr/galatasaray/dursun-ozbekten-takima-ovgu-nasil-bir-kulup-oldugumuzu-gorduk-2645989"
-    },
-    {
-      "category": "Kulüp",
-      "text": "Dursun Özbek, Como Başkanı Mirwan Suwarso ve heyetini RAMS Park'ta ağırladı; görüşmenin ardından iki kulüp arasındaki ilişkilerin geliştirilmesi yönünde karar alındığı açıklandı.",
-      "date": "2026-11-26",
-      "source_url": "https://www.sporx.com/galatasaray-ile-como-arasinda-is-birligi-karari-SXHBQ1184215SXQ"
     },
     {
       "category": "Transfer",
@@ -186,9 +174,21 @@
     },
     {
       "category": "Ceza",
-      "text": "Okan Buruk'un Samsunspor maçı sonunda gördüğü kırmızı kart nedeniyle kulübün hakem Ali Şansalan'ı Etik Kurul'a şikayet etmeye hazırlandığı yazılırken, Sabah'a göre MHK Başkanı Anthony Taylor da karta şaşırdı.",
+      "text": "Okan Buruk'un Samsunspor maçı sonunda gördüğü kırmızı kart nedeniyle kulübün hakem Ali Şansalan'ı Etik Kurul'a şikayet etmeye hazırlandığı yazılırken, MHK aynı maçın değerlendirmesinde Galatasaray'ın 4. dakikadaki golünün ofsayt nedeniyle iptal edilmesi gerektiğini açıkladı.",
       "date": "2026-11-26",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/mhk-baskani-anthony-taylor-okan-burukun-kirmizi-kartina-sasirdi-bu-nasil-kirmizi-kart-2645914"
+      "source_url": "https://www.fanatik.com.tr/galatasaray/mhk-baskani-anthony-taylordan-galatasarayin-goluyle-ilgili-olay-aciklama-iptal-edilmeliydi-2645919"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Sabah'a göre Aston Villa maçında burnu kırılan ve ameliyat edilen Deniz Gül, Beşiktaş derbisinde koruyucu maskeyle forma giyebilecek.",
+      "date": "2026-11-26",
+      "source_url": "https://www.sporx.com/deniz-gul-icin-besiktas-derbisi-karari-verildi-SXHBQ1184136SXQ"
+    },
+    {
+      "category": "Kulüp",
+      "text": "Dursun Özbek, Como Başkanı Mirwan Suwarso ve heyetini RAMS Park'ta ağırladı; görüşmenin ardından iki kulüp arasındaki ilişkilerin geliştirilmesi yönünde karar alındığı açıklandı.",
+      "date": "2026-11-26",
+      "source_url": "https://www.sporx.com/galatasaray-ile-como-arasinda-is-birligi-karari-SXHBQ1184215SXQ"
     }
   ]
 }
