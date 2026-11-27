@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T22:18Z",
+  "updated": "2026-11-27T12:21Z",
   "channels": {
     "401915291": {
       "tr": "tabii Spor",
@@ -42,7 +42,7 @@
       "pt": ""
     },
     "401888239": {
-      "tr": "beIN SPORTS 1",
+      "tr": "beIN SPORTS 2",
       "pt": ""
     },
     "401888237": {
@@ -74,7 +74,7 @@
       "pt": ""
     },
     "401915289": {
-      "tr": "",
+      "tr": "TRT 1",
       "pt": ""
     },
     "401915288": {
@@ -149,34 +149,34 @@
   "cup": [],
   "gs_news": [
     {
+      "category": "Sakatlık",
+      "text": "Milliyet'in haberine göre Victor Osimhen'e bugün ve yarın yapılacak testlerin ardından Beşiktaş derbisinde forma giyip giyemeyeceğine karar verilecek; henüz saha çalışmalarına başlamayan oyuncunun en azından yedek kulübesinde yer alması için çaba harcanıyor.",
+      "date": "2026-11-27",
+      "source_url": "https://www.sporx.com/osimhen-seferberligi-derbi-oncesi-kritik-48-saat-SXHBQ1184261SXQ"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Fanatik'e göre son testlerde risk görülmezse Roland Sallai'nin de derbi kadrosunda yer alması bekleniyor, Rafael Leão'nun ise aralıkta saha çalışmalarına başlayıp ocak ayından itibaren resmi maçlarda forma giymesi öngörülüyor.",
+      "date": "2026-11-27",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-galatasarayda-besiktas-derbisi-oncesi-mujdeli-haber-okan-burukun-gozu-iki-yildiz-oyuncuda-2646049"
+    },
+    {
+      "category": "Transfer",
+      "text": "Türkiye gazetesinin iddiasına göre CSKA Moskova ve Zenit, Yunus Akgün için 30 milyon euroluk teklif hazırlığında; oyuncunun ocak ayında ayrılmaya niyeti olmadığı ve kararı yönetime bıraktığı belirtildi.",
+      "date": "2026-11-27",
+      "source_url": "https://www.sporx.com/yunus-akgun-e-rus-kancasi-30-milyon-euro-SXHBQ1184257SXQ"
+    },
+    {
       "category": "Yönetim",
-      "text": "Galatasaray Kulübü, Beşiktaş'ın Batum'da oynadığı Hapoel Beer Sheva maçında taraftarlara yapılan müdahalenin ardından yayımladığı açıklamada Türk takımlarının kendi sahasında oynama hakkından mahrum bırakılmasını kabul etmediğini belirterek UEFA'yı eleştirdi ve Beşiktaş'a destek verdi.",
-      "date": "2026-11-26",
-      "source_url": "https://www.fanatik.com.tr/besiktas/kuluplerden-besiktasa-destek-aciklamasi-galatasaray-fenerbahce-trabzonspor-2645968"
+      "text": "Başkan Dursun Özbek, bu sezon üst üste 5. şampiyonluk ve Şampiyonlar Ligi'nde başarı için ellerinden gelen her şeyi yapacaklarını söyledi ve son maçlarda oyuncuların aidiyet duygusunun ne kadar yüksek olduğunun görüldüğünü belirtti.",
+      "date": "2026-11-27",
+      "source_url": "https://www.fanatik.com.tr/galatasaray/dursun-ozbekten-takima-ovgu-nasil-bir-kulup-oldugumuzu-gorduk-2645989"
     },
     {
-      "category": "Sakatlık",
-      "text": "Sporx'e göre Victor Osimhen'in Beşiktaş derbisinin geniş kadrosunda yer alması bekleniyor, ne kadar süre alacağına teknik ekip ve sağlık heyetinin değerlendirmesinden sonra karar verilecek.",
+      "category": "Kulüp",
+      "text": "Dursun Özbek, Como Başkanı Mirwan Suwarso ve heyetini RAMS Park'ta ağırladı; görüşmenin ardından iki kulüp arasındaki ilişkilerin geliştirilmesi yönünde karar alındığı açıklandı.",
       "date": "2026-11-26",
-      "source_url": "https://www.sporx.com/galatasaray-a-derbi-oncesi-osimhen-mujdesi-SXHBQ1184166SXQ"
-    },
-    {
-      "category": "Sakatlık",
-      "text": "Aston Villa maçında burnu kırılan ve ameliyat edilen Deniz Gül'ün, Sabah'ın haberine göre derbide koruyucu maskeyle forma giyebileceği belirtildi.",
-      "date": "2026-11-26",
-      "source_url": "https://www.sporx.com/deniz-gul-icin-besiktas-derbisi-karari-verildi-SXHBQ1184136SXQ"
-    },
-    {
-      "category": "Sakatlık",
-      "text": "Fanatik'e göre Roland Sallai'nin derbiye yetişme ihtimali düşük, Rafael Leão'nun resmi maçlara ocak ayında dönmesi bekleniyor; Mario Lemina ve Lucas Torreira'da ise ciddi bir sakatlık bulgusuna rastlanmadı.",
-      "date": "2026-11-26",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-ocak-ayina-kadar-yok-galatasarayda-osimhen-leao-ve-sallainin-son-durumu-belli-oldu-2645863"
-    },
-    {
-      "category": "Ceza",
-      "text": "Okan Buruk'un Samsunspor maçı sonunda gördüğü kırmızı kart nedeniyle kulübün hakem Ali Şansalan'ı Etik Kurul'a şikayet etmeye hazırlandığı ve TFF'den raporlarla VAR ve telsiz kayıtlarını istediği yazılırken, Sabah'a göre MHK Başkanı Anthony Taylor da karta şaşırdı.",
-      "date": "2026-11-26",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/mhk-baskani-anthony-taylor-okan-burukun-kirmizi-kartina-sasirdi-bu-nasil-kirmizi-kart-2645914"
+      "source_url": "https://www.sporx.com/galatasaray-ile-como-arasinda-is-birligi-karari-SXHBQ1184215SXQ"
     },
     {
       "category": "Transfer",
@@ -185,10 +185,10 @@
       "source_url": "https://www.fanatik.com.tr/galatasaray/galeri-kesin-gidiyor-derken-surpriz-karar-galatasaray-yildiz-oyuncu-ile-gorusecek-2645961"
     },
     {
-      "category": "Kulüp",
-      "text": "Aston Villa maçının ardından RAMS Park'ın çimleri yeniden bakıma alındı ve zemin iyileştirme çalışmalarının 4 Aralık'taki Çaykur Rizespor maçına kadar süreceği bildirildi.",
+      "category": "Ceza",
+      "text": "Okan Buruk'un Samsunspor maçı sonunda gördüğü kırmızı kart nedeniyle kulübün hakem Ali Şansalan'ı Etik Kurul'a şikayet etmeye hazırlandığı yazılırken, Sabah'a göre MHK Başkanı Anthony Taylor da karta şaşırdı.",
       "date": "2026-11-26",
-      "source_url": "https://www.sporx.com/rams-park-ta-rizespor-macina-kadar-zemin-mesaisi-SXHBQ1184134SXQ"
+      "source_url": "https://www.fanatik.com.tr/galatasaray/mhk-baskani-anthony-taylor-okan-burukun-kirmizi-kartina-sasirdi-bu-nasil-kirmizi-kart-2645914"
     }
   ]
 }
