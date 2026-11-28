@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T21:49Z",
+  "updated": "2026-11-28T09:49Z",
   "channels": {
     "401915291": {
       "tr": "tabii Spor",
@@ -54,11 +54,11 @@
       "pt": ""
     },
     "401888234": {
-      "tr": "beIN SPORTS",
+      "tr": "beIN SPORTS 1",
       "pt": ""
     },
     "401888230": {
-      "tr": "beIN SPORTS",
+      "tr": "beIN SPORTS 1",
       "pt": ""
     },
     "401888366": {
@@ -142,7 +142,7 @@
       "pt": ""
     },
     "401915492": {
-      "tr": "",
+      "tr": "TRT 1",
       "pt": ""
     }
   },
@@ -150,45 +150,39 @@
   "gs_news": [
     {
       "category": "Sakatlık",
-      "text": "Fanatik kaynaklı habere göre sol dizinden ameliyat edilen Victor Osimhen saha çalışmalarına başladı; Beşiktaş derbisinin geniş kadrosunda yer alması ve iyi hissederse ikinci yarıda süre alması bekleniyor, resmi açıklama yok.",
-      "date": "2026-11-27",
-      "source_url": "https://www.karar.com/spor-haberleri/galatasarayda-osimhen-sevinci-2086571"
-    },
-    {
-      "category": "Transfer",
-      "text": "Türkiye Gazetesi'ne dayanan habere göre CSKA Moskova ve Zenit, Yunus Akgün için toplam 30 milyon euroluk bir paketle Galatasaray'ın kapısını çaldı; iddia resmi olarak doğrulanmadı.",
-      "date": "2026-11-27",
-      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/27/rus-devlerinden-galatasarayin-yildizina-transfer-kancasi-o-rakami-gozden-cikardilar"
-    },
-    {
-      "category": "Yönetim",
-      "text": "Başkan Dursun Özbek takıma övgüde bulundu ve son maçlarda nasıl bir kulüp olduklarının görüldüğünü söyledi.",
-      "date": "2026-11-27",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/dursun-ozbekten-takima-ovgu-nasil-bir-kulup-oldugumuzu-gorduk-2645989"
-    },
-    {
-      "category": "Sakatlık",
-      "text": "Fanatik'e dayanan habere göre Mario Lemina ve Lucas Torreira'da ciddi bir sakatlık çıkmadı, Deniz Gül derbide koruyucu maskeyle oynayabilecek, Roland Sallai'nin yetişmesi zor görünüyor, Rafael Leão'nun ise ocaktan itibaren resmi maçlarda forma giymesi öngörülüyor.",
-      "date": "2026-11-26",
-      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-besiktas-derbisi-oncesi-osimhen-ve-sallai-gelismesi-iste-sakatlarin-son-durumu-7708480"
-    },
-    {
-      "category": "Transfer",
-      "text": "TEAMtalk'a dayanan habere göre Manchester United, Victor Osimhen'i yeniden gündemine aldı; Galatasaray'ın sezon ortasında gelecek teklifleri reddetmesi bekleniyor ve konunun yaza kaldığı yazıldı.",
-      "date": "2026-11-26",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/osimhen-ve-transfer-karari-beklemeye-gecti-tarih-belli-oldu-43391675"
-    },
-    {
-      "category": "Ceza",
-      "text": "Okan Buruk'un Samsunspor maçında gördüğü kırmızı kartın ardından kulübün hakem Ali Şansalan'ı Etik Kurul'a şikayet etmeye hazırlandığı yazıldı; MHK değerlendirmesinde aynı maçta Galatasaray'ın 4. dakikadaki golünün iptal edilmesi gerektiği belirtildi.",
-      "date": "2026-11-26",
-      "source_url": "https://www.fanatik.com.tr/galatasaray/mhk-baskani-anthony-taylordan-galatasarayin-goluyle-ilgili-olay-aciklama-iptal-edilmeliydi-2645919"
+      "text": "Beşiktaş derbisi öncesi yapılan değerlendirmede Victor Osimhen'in kadroya girme ihtimalinin yüksek olduğu, kesin kararın son antrenmandan sonra verileceği ve Roland Sallai'nin durumunun belirsizliğini koruduğu yazıldı; resmi açıklama yok.",
+      "date": "2026-11-28",
+      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-osimhen-belirsizligi-besiktas-derbisi-oncesi-kritik-toplanti-7709811"
     },
     {
       "category": "Kulüp",
-      "text": "Dursun Özbek, Como Başkanı Mirwan Suwarso ve heyetini RAMS Park'ta ağırladı; iki kulüp arasındaki ilişkilerin geliştirilmesi yönünde karar alındığı açıklandı.",
+      "text": "TFF, Galatasaray'ın da dahil olacağı Ziraat Türkiye Kupası 5. eleme turu kurasının 4 Aralık'ta çekileceğini, maçların 22-24 Aralık'ta oynanacağını duyurdu.",
+      "date": "2026-11-27",
+      "source_url": "https://www.sabah.com.tr/spor/futbol/2026/11/27/turkiye-kupasinda-5-eleme-turu-kura-cekimi-tarihi-aciklandi"
+    },
+    {
+      "category": "Transfer",
+      "text": "Habere göre Galatasaray, Burnley'den kiraladığı Lesley Ugochukwu'nun satın alma opsiyonunu zorunlu kılan maç sayısı şartını değiştirmek için oyuncunun menajeri ve ailesiyle görüşmelere başladı; varılmış bir anlaşma yok.",
       "date": "2026-11-26",
-      "source_url": "https://www.sporx.com/galatasaray-ile-como-arasinda-is-birligi-karari-SXHBQ1184215SXQ"
+      "source_url": "https://www.milliyet.com.tr/skorer/galatasarayda-lesley-ugochukwu-karari-9-mac-kala-kritik-adim-7708752"
+    },
+    {
+      "category": "Yönetim",
+      "text": "Galatasaray, Avrupa Ligi'nde Hapoel Beer-Sheva ile oynayan Beşiktaş'a destek mesajı yayımladı.",
+      "date": "2026-11-26",
+      "source_url": "https://www.fotomac.com.tr/galatasaray/2026/11/26/galatasaraydan-da-besiktasa-destek-mesaji-geldi-iste-o-aciklama"
+    },
+    {
+      "category": "Sakatlık",
+      "text": "Kulüp, Aston Villa maçında burnunda kırık ve geniş cilt yaralanması oluşan Deniz Gül'ün ameliyat edildiğini ve durumunun günlük takip edileceğini açıkladı.",
+      "date": "2026-11-25",
+      "source_url": "https://www.aspor.com.tr/galatasaray/2026/11/25/son-dakika-galatasaraydan-deniz-gul-aciklamasi"
+    },
+    {
+      "category": "Ceza",
+      "text": "Samsunspor maçında kırmızı kart gören Okan Buruk, karar değişmezse Beşiktaş derbisinde kulübede olamayacak; kulüp karta itiraz edeceğini duyurdu, PFDK kararı henüz açıklanmadı.",
+      "date": "2026-11-23",
+      "source_url": "https://www.haberler.com/haber/okan-buruk-kirmizi-karti-iptal-olacak-mi-20454513-haberi/"
     }
   ]
 }
